@@ -1,3 +1,8 @@
+yaml---
+layout: default
+title: PIR Framework - Mathematical Foundations
+---
+
 # PIR Framework: Mathematical Foundations
 > *A rigorous formalization that connects theoretical principles to practical applications*
 
