@@ -2,7 +2,7 @@ yaml
 
 ---
 layout: default
-title: PIR Framework - Mathematical Foundations
+title: Mathematical Foundations - PIR Framework
 ---
 
 # PIR Framework: Mathematical Foundations
