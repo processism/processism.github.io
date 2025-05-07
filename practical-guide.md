@@ -1,3 +1,8 @@
+---
+layout: default
+title: PIR Framework - Practical Application Guide
+---
+
 # PIR Framework: Practical Application Guide
 
 ## Table of Contents
