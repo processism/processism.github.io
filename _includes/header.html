@@ -1,20 +1,28 @@
 <header class="site-header">
   <div class="sidebar">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="site-title-container">
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+    
     <nav class="site-nav">
       <ul class="nav-list">
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
         
         <!-- Introduction Section -->
         <li class="nav-section">
           <span class="nav-section-title">Introduction</span>
           <ul class="nav-subsection">
-            <li><a href="{{ site.baseurl }}/docs/01-introduction/01-simplest-explanation">Simplest Explanation</a></li>
-            <li><a href="{{ site.baseurl }}/docs/01-introduction/02-concise-overview">Concise Overview</a></li>
-            <li><a href="{{ site.baseurl }}/docs/01-introduction/03-comprehensive-guide">Comprehensive Guide</a></li>
-            <li><a href="{{ site.baseurl }}/docs/01-introduction/04-technical-foundation">Technical Foundation</a></li>
-            <li><a href="{{ site.baseurl }}/docs/01-introduction/05-quotes">Quotes</a></li>
-            <li><a href="{{ site.baseurl }}/docs/01-introduction/06-faq">FAQ</a></li>
+            <li><a href="{{ site.baseurl }}/docs/01-introduction/01-simplest-explanation" {% if page.url contains '/docs/01-introduction/01-simplest-explanation' %}class="active"{% endif %}>Simplest Explanation</a></li>
+            <li><a href="{{ site.baseurl }}/docs/01-introduction/02-concise-overview" {% if page.url contains '/docs/01-introduction/02-concise-overview' %}class="active"{% endif %}>Concise Overview</a></li>
+            <li><a href="{{ site.baseurl }}/docs/01-introduction/03-comprehensive-guide" {% if page.url contains '/docs/01-introduction/03-comprehensive-guide' %}class="active"{% endif %}>Comprehensive Guide</a></li>
+            <li><a href="{{ site.baseurl }}/docs/01-introduction/04-technical-foundation" {% if page.url contains '/docs/01-introduction/04-technical-foundation' %}class="active"{% endif %}>Technical Foundation</a></li>
+            <li><a href="{{ site.baseurl }}/docs/01-introduction/05-quotes" {% if page.url contains '/docs/01-introduction/05-quotes' %}class="active"{% endif %}>Quotes</a></li>
+            <li><a href="{{ site.baseurl }}/docs/01-introduction/06-faq" {% if page.url contains '/docs/01-introduction/06-faq' %}class="active"{% endif %}>FAQ</a></li>
           </ul>
         </li>
         
@@ -22,8 +30,8 @@
         <li class="nav-section">
           <span class="nav-section-title">Frameworks</span>
           <ul class="nav-subsection">
-            <li><a href="{{ site.baseurl }}/docs/02-frameworks/01-historical-roots">Historical Roots</a></li>
-            <li><a href="{{ site.baseurl }}/docs/02-frameworks/02-processism-vs-entity">Processism vs. Entity-Based</a></li>
+            <li><a href="{{ site.baseurl }}/docs/02-frameworks/01-historical-roots" {% if page.url contains '/docs/02-frameworks/01-historical-roots' %}class="active"{% endif %}>Historical Roots</a></li>
+            <li><a href="{{ site.baseurl }}/docs/02-frameworks/02-processism-vs-entity" {% if page.url contains '/docs/02-frameworks/02-processism-vs-entity' %}class="active"{% endif %}>Processism vs. Entity-Based</a></li>
           </ul>
         </li>
         
@@ -31,25 +39,43 @@
         <li class="nav-section">
           <span class="nav-section-title">Case Studies</span>
           <ul class="nav-subsection">
-            <li><a href="{{ site.baseurl }}/docs/03-case-studies/01-physics/01-quantum">Quantum Physics</a></li>
+            <li><a href="{{ site.baseurl }}/docs/03-case-studies/01-physics/01-quantum" {% if page.url contains '/docs/03-case-studies/01-physics/01-quantum' %}class="active"{% endif %}>Quantum Physics</a></li>
           </ul>
         </li>
         
-        <!-- Additional Sections -->
-        <li><a href="{{ site.baseurl }}/docs/04-predictions/01-predictions">Predictions</a></li>
-        <li><a href="{{ site.baseurl }}/docs/05-llms/01-llms-and-processes">LLMs and Processes</a></li>
+        <!-- Additional Sections - Fix folder structure -->
+        <!-- Predictions in its own section -->
+        <li class="nav-section">
+          <span class="nav-section-title">Predictions</span>
+          <ul class="nav-subsection">
+            <li><a href="{{ site.baseurl }}/docs/04-predictions/01-predictions" {% if page.url contains '/docs/04-predictions/01-predictions' %}class="active"{% endif %}>Testable Predictions</a></li>
+          </ul>
+        </li>
+        
+        <!-- LLMs Section -->
+        <li class="nav-section">
+          <span class="nav-section-title">LLMs</span>
+          <ul class="nav-subsection">
+            <li><a href="{{ site.baseurl }}/docs/05-llms/01-llms-and-processes" {% if page.url contains '/docs/05-llms/01-llms-and-processes' %}class="active"{% endif %}>LLMs and Processes</a></li>
+          </ul>
+        </li>
         
         <!-- Metaphysical Section -->
         <li class="nav-section">
           <span class="nav-section-title">Metaphysical</span>
           <ul class="nav-subsection">
-            <li><a href="{{ site.baseurl }}/docs/06-metaphysical/01-paradoxes">Paradox Resolution</a></li>
-            <li><a href="{{ site.baseurl }}/docs/06-metaphysical/02-what-is-mass">What is Mass?</a></li>
+            <li><a href="{{ site.baseurl }}/docs/06-metaphysical/01-paradoxes" {% if page.url contains '/docs/06-metaphysical/01-paradoxes' %}class="active"{% endif %}>Paradox Resolution</a></li>
+            <li><a href="{{ site.baseurl }}/docs/06-metaphysical/02-what-is-mass" {% if page.url contains '/docs/06-metaphysical/02-what-is-mass' %}class="active"{% endif %}>What is Mass?</a></li>
           </ul>
         </li>
         
         <!-- Formalization Section -->
-        <li><a href="{{ site.baseurl }}/docs/07-formalisation/formalization-mathematical">Mathematical Foundations</a></li>
+        <li class="nav-section">
+          <span class="nav-section-title">Formalization</span>
+          <ul class="nav-subsection">
+            <li><a href="{{ site.baseurl }}/docs/07-formalisation/formalization-mathematical" {% if page.url contains '/docs/07-formalisation/formalization-mathematical' %}class="active"{% endif %}>Mathematical Foundations</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </div>
