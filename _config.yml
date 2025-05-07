@@ -2,6 +2,7 @@
 title: Processism
 description: A framework focusing on processes, interactions, and recursion
 url: "https://processism.wiki"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
