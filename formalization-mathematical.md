@@ -1,5 +1,3 @@
-yaml
-
 ---
 layout: default
 title: Mathematical Foundations - PIR Framework
