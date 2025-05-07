@@ -1,41 +1,41 @@
 ---
 layout: default
-title: Processism - A Framework for Process-Based Understanding
+title: Processism
 ---
 
 # Processism
 
-## From Being to Becoming: A New Framework for Understanding Reality
+## A New Lens for Understanding Reality
 
-Processism is a philosophical framework that shifts our focus from static entities to dynamic processes. Rather than seeing the world as composed of fixed "things," this framework reveals reality as an ongoing flow of processes, interactions, and recursive patterns.
+Processism is a philosophical framework that fundamentally shifts understanding from static entities to dynamic processes. Rather than seeing the world as made of "things" that interact and change, Processism proposes a more fundamental perspective:
 
 ## Core Principles
 
-### Process
+1. **Process**: Reality is fundamentally dynamic - processes are primary, and "things" are stable patterns within ongoing processes.
 
-At the foundation of this framework is the recognition that what we perceive as stable objects are better understood as relatively stable patterns within ongoing processes. Like a whirlpool in a river, these patterns maintain their form despite constant change in their constituent elements.
+2. **Interaction**: Relationships precede and constitute the related - interactions come first, and what appear as separate "things" emerge from these interaction patterns.
 
-### Interaction
+3. **Recursion**: Systems modify themselves through feedback loops, enabling evolution and learning.
 
-No process exists in isolation. What anything "is" can only be understood through its interactions with other processes. These interactions don't merely connect pre-existing entities—they constitute the very nature of the processes themselves.
+## The River-Whirlpool Example
 
-### Recursion
+Imagine a river with a whirlpool. Traditional thinking sees the whirlpool as a "thing" in the river. Processism sees it differently:
+- The flowing water (process) creates and maintains the whirlpool pattern
+- The interaction between water flow and riverbed features generates the whirlpool
+- The whirlpool recursively modifies its own conditions (deepening its depression)
 
-Systems that can observe and modify themselves introduce a recursive dimension. Through this recursion, processes can evolve in ways that transcend simple cause-and-effect relationships, creating emergent properties and complex adaptive behaviors.
+If the water stops flowing, the whirlpool disappears—revealing it was never a separate "thing" but a pattern maintained by processes.
 
-## Beyond Traditional Frameworks
+## Framework Resources
 
-Processism represents a fundamental departure from traditional "entity-based" or "substance-based" ontologies that have dominated Western thought since Aristotle. Where traditional approaches ask "what things exist?", processism asks "what processes are occurring?"
+- [Bridge Document](bridge-document.html) - A comprehensive introduction to Processism and its foundational concepts
+- [Mathematical Foundations](formalization-mathematical.html) - Rigorous formalization connecting theoretical principles to practical applications
+- [Key Insights & Questions Resolved](insights-supplement.html) - How Processism resolves philosophical paradoxes and provides transformative perspectives
 
-This shift in perspective offers new approaches to persistent questions across multiple domains:
+## Practical Applications
 
-- **Metaphysics**: How can we understand identity through change?
-- **Epistemology**: How does knowledge emerge through dynamic processes?
-- **Ethics**: How should we act within constantly evolving systems?
-- **Science**: How can we better model complex adaptive systems?
+- [Practical Application Guide](practical-guide.html) - Comprehensive guide for applying Processism principles to real-world challenges
 
-## An Evolving Framework
+## Why Processism Matters
 
-This site serves as a collaborative knowledge base for exploring and developing processism. Like the processes it describes, this framework is not static—it evolves through application, critique, and recursive refinement.
-
-*This is version 0.1 of the framework, first published May 2025.*
+This shift in perspective resolves persistent paradoxes and reveals new possibilities for understanding and intervening in complex systems. Where traditional approaches get stuck, Processism often reveals hidden leverage points and unexpected solutions.
