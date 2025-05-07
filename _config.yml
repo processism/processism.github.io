@@ -1,2 +1,16 @@
+# Site settings
 title: Processism
-description: A philosophical framework focusing on processes, interactions, and recursion
+description: A framework focusing on processes, interactions, and recursion
+url: "https://processism.wiki"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Theme customization
+minima:
+  date_format: "%b %-d, %Y"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
