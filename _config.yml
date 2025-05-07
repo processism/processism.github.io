@@ -31,6 +31,10 @@ include:
   - _pages
   - docs
 
-# Plugins
+# Plugins 
 plugins:
   - jekyll-seo-tag
+
+# Ensure kramdown uses MathJax for math rendering
+kramdown:
+  math_engine: mathjax

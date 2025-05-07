@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <!-- Simple favicon setup -->
+    <link rel="icon" href="{{ site.baseurl }}/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+    {% if page.url contains 'mathematical' or page.url contains 'formalization' or page.use_math %}
+    <!-- MathJax only loaded on pages that need it -->
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['
     {% seo %}
 </head>
 <body>
@@ -12,13 +24,123 @@
         {% include header.html %}
         
         <main class="content">
-            <h1>{{ page.title }}</h1>
-            {{ content }}
+            <article>
+                <header class="content-header">
+                    <h1>{{ page.title }}</h1>
+                </header>
+                <div class="content-body">
+                    {{ content }}
+                </div>
+                <footer class="content-footer">
+                    {% if page.updated %}
+                    <p class="last-updated">Last updated: {{ page.updated | date: site.minima.date_format }}</p>
+                    {% endif %}
+                </footer>
+            </article>
+            
+            <!-- Simple Back to Home link instead of prev/next navigation -->
+            <div class="page-navigation">
+                <a href="{{ site.baseurl }}/" class="back-home">← Back to Home</a>
+            </div>
         </main>
     </div>
     
-    <footer>
-        <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+        </div>
+    </footer>
+    
+    <script src="{{ "/assets/js/navigation.js" | relative_url }}"></script>
+</body>
+</html>, '
+    {% seo %}
+</head>
+<body>
+    <div class="page-container">
+        {% include header.html %}
+        
+        <main class="content">
+            <article>
+                <header class="content-header">
+                    <h1>{{ page.title }}</h1>
+                </header>
+                <div class="content-body">
+                    {{ content }}
+                </div>
+                <footer class="content-footer">
+                    {% if page.updated %}
+                    <p class="last-updated">Last updated: {{ page.updated | date: site.minima.date_format }}</p>
+                    {% endif %}
+                </footer>
+            </article>
+            
+            <div class="page-navigation">
+                <!-- Show previous/next links when available -->
+                {% if page.previous %}
+                <a href="{{ page.previous.url | relative_url }}" class="prev-link">← {{ page.previous.title }}</a>
+                {% endif %}
+                
+                {% if page.next %}
+                <a href="{{ page.next.url | relative_url }}" class="next-link">{{ page.next.title }} →</a>
+                {% endif %}
+            </div>
+        </main>
+    </div>
+    
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+        </div>
+    </footer>
+    
+    <script src="{{ "/assets/js/navigation.js" | relative_url }}"></script>
+</body>
+</html>], ['\\(', '\\)']],
+          displayMath: [['$', '$'], ['\\[', '\\]']],
+          processEscapes: true
+        }
+      };
+    </script>
+    {% endif %}
+    {% seo %}
+</head>
+<body>
+    <div class="page-container">
+        {% include header.html %}
+        
+        <main class="content">
+            <article>
+                <header class="content-header">
+                    <h1>{{ page.title }}</h1>
+                </header>
+                <div class="content-body">
+                    {{ content }}
+                </div>
+                <footer class="content-footer">
+                    {% if page.updated %}
+                    <p class="last-updated">Last updated: {{ page.updated | date: site.minima.date_format }}</p>
+                    {% endif %}
+                </footer>
+            </article>
+            
+            <div class="page-navigation">
+                <!-- Show previous/next links when available -->
+                {% if page.previous %}
+                <a href="{{ page.previous.url | relative_url }}" class="prev-link">← {{ page.previous.title }}</a>
+                {% endif %}
+                
+                {% if page.next %}
+                <a href="{{ page.next.url | relative_url }}" class="next-link">{{ page.next.title }} →</a>
+                {% endif %}
+            </div>
+        </main>
+    </div>
+    
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+        </div>
     </footer>
     
     <script src="{{ "/assets/js/navigation.js" | relative_url }}"></script>
