@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Processism vs. Entity-Based Thinking: Bridging Two Worldviews"
+---
+
 # Processism vs. Entity-Based Thinking: Bridging Two Worldviews
 
 ## Two Ways of Seeing Reality

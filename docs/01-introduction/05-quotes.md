@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Processism: Wisdom in Motion"
+---
+
 # Processism: Wisdom in Motion
 
 ## On Process vs. Entity

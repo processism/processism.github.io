@@ -12,6 +12,25 @@ theme: minima
 minima:
   date_format: "%b %-d, %Y"
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Default frontmatter settings
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
+
+# Include all files from the docs directory
+include:
+  - _pages
+  - docs
+
 # Plugins
 plugins:
   - jekyll-seo-tag

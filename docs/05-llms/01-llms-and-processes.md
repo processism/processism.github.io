@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Why LLMs Naturally Model Processes"
+---
+
 # Why LLMs Naturally Model Processes
 
 ## Introduction: LLMs as Process Engines

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Processism & PIR Framework: Frequently Asked Questions"
+---
+
 # Processism & PIR Framework: Frequently Asked Questions
 
 ## Basic Questions

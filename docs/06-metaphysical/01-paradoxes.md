@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Paradox Resolution: How the PIR Framework Dissolves Classical Philosophical Puzzles"
+---
+
 # Paradox Resolution: How the PIR Framework Dissolves Classical Philosophical Puzzles
 
 ## Introduction: When Our Frameworks Break Down

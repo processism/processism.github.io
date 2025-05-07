@@ -1,3 +1,8 @@
+---
+layout: default
+title: "The PIR Framework: A Comprehensive Guide"
+---
+
 # The PIR Framework: A Comprehensive Guide
 
 ## Introduction: A New Way of Seeing Reality

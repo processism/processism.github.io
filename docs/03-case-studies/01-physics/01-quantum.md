@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Case Study: Quantum Physics Through the PIR Lens"
+---
+
 # Case Study: Quantum Physics Through the PIR Lens
 
 ## Introduction

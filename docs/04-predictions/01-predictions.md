@@ -1,3 +1,8 @@
+---
+layout: default
+title: "If PIR Is Right: Testable Predictions of the Process-Interaction-Recursion Framework"
+---
+
 # If PIR Is Right: Testable Predictions of the Process-Interaction-Recursion Framework
 
 ## Introduction: How Do We Test a Framework?

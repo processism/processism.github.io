@@ -1,3 +1,8 @@
+---
+layout: default
+title: "What is Mass? A Processist Perspective"
+---
+
 # What is Mass? A Processist Perspective
 
 ## The Traditional View of Mass

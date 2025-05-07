@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mathematical Foundations - PIR Framework
+title: "PIR Framework: Mathematical Foundations"
 ---
 
 # PIR Framework: Mathematical Foundations

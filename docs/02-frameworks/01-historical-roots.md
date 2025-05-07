@@ -1,3 +1,8 @@
+---
+layout: default
+title: "People Who Had Similar Ideas Throughout History"
+---
+
 # People Who Had Similar Ideas Throughout History
 
 ## Building on Great Thinkers from the Past

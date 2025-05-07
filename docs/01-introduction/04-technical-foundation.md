@@ -1,3 +1,8 @@
+---
+layout: default
+title: "PIR Framework: Technical Foundation"
+---
+
 # PIR Framework: Technical Foundation
 
 ## Table of Contents
