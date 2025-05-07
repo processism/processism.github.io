@@ -1,3 +1,8 @@
+---
+layout: default
+title: PIR Framework - Key Insights & Questions Resolved
+---
+
 # PIR Framework: Key Insights & Questions Resolved
 > *A guide to the transformative perspectives and resolved paradoxes of the Process-Interaction-Recursion framework*
 
