@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PIR Framework: A New Lens for Understanding Reality
+title: PIR Framework - A New Lens for Understanding Reality
 ---
 
 # PIR Framework: A New Lens for Understanding Reality
