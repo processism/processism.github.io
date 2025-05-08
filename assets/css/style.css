@@ -3,7 +3,7 @@
 /* CSS Variables with fallbacks for older browsers */
 html {
   /* Primary theme colors */
-  background-color: #f9f9f9;
+  background-color: #f4f6f8; /* Updated to a more readable background color */
   color: #333;
 }
 
@@ -13,7 +13,8 @@ html {
   --accent-color: #3498db;
   --text-color: #333;
   --text-light: #ecf0f1;
-  --background-color: #f9f9f9;
+  --background-color: #f4f6f8; /* Updated to match the html background */
+  --content-background: #ffffff; /* Added new variable for content background */
   --sidebar-width: 280px;
   --content-max-width: 800px;
   --transition-speed: 0.3s;
@@ -158,13 +159,14 @@ body {
   margin-bottom: 0.3rem;
 }
 
-/* Reduced content margin */
+/* Content area - UPDATED */
 .content {
   flex: 1;
-  padding: 1.5rem 1.5rem 1.5rem 0.75rem; /* Modified: Reduced left padding to 0.75rem */
+  padding: 1.5rem 1.5rem 1.5rem 0; /* Removed left padding entirely */
   margin-left: var(--sidebar-width);
   max-width: calc(100% - var(--sidebar-width));
   width: 100%;
+  background-color: var(--background-color);
 }
 
 .content-header {
@@ -173,7 +175,11 @@ body {
 
 .content-body {
   max-width: var(--content-max-width);
-  padding-left: 0; /* Added: Ensure no additional padding is added */
+  background-color: var(--content-background); /* Added white background */
+  padding: 2rem;  /* Added padding inside the content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Subtle shadow */
+  margin-left: 0.75rem; /* Added small margin to create separation from sidebar */
 }
 
 .page-navigation {
@@ -182,6 +188,7 @@ body {
   padding-top: 1.5rem;
   border-top: 1px solid #ddd;
   max-width: var(--content-max-width);
+  margin-left: 0.75rem; /* Match content-body margin */
 }
 
 .back-home {
@@ -254,6 +261,14 @@ body {
   .content, .site-footer {
     margin-left: 0;
     max-width: 100%;
+  }
+  
+  .content-body {
+    margin-left: 0;
+  }
+  
+  .page-navigation {
+    margin-left: 0;
   }
   
   .mobile-nav-toggle {
@@ -426,6 +441,12 @@ img {
   .content {
     margin-left: 0;
     max-width: 100%;
+    padding: 0;
+  }
+  
+  .content-body {
+    box-shadow: none;
+    margin-left: 0;
     padding: 0;
   }
   
