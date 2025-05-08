@@ -1,4 +1,4 @@
-# Site settings
+# Streamlined site settings
 title: Processism
 description: A framework focusing on processes, interactions, and recursion
 url: "https://processism.wiki"
@@ -8,7 +8,7 @@ baseurl: ""
 markdown: kramdown
 theme: minima
 
-# Theme customization
+# Date format
 minima:
   date_format: "%b %-d, %Y"
 
@@ -18,7 +18,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Default frontmatter settings
+# Default layouts
 defaults:
   - scope:
       path: "docs"
@@ -26,15 +26,15 @@ defaults:
     values:
       layout: "default"
 
-# Include all files from the docs directory
+# Include necessary files
 include:
   - _pages
   - docs
 
-# Plugins 
+# Essential plugins
 plugins:
   - jekyll-seo-tag
 
-# Ensure kramdown uses MathJax for math rendering
+# Math rendering
 kramdown:
   math_engine: mathjax

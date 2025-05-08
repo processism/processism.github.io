@@ -3,102 +3,80 @@ layout: default
 title: Processism
 ---
 
-# Processism: Seeing Reality as It Really Is
+# Processism: Reality as Process
 
 > "No man ever steps in the same river twice, for it's not the same river and he's not the same man." — Heraclitus
 
-## The Core Insight
+## The Fundamental Insight
 
-**What if our most basic assumption about reality is backward?**
+We naturally see the world as made of "things" that sometimes change. **Processism inverts this**: reality is made of processes (ongoing change), and "things" are stable patterns within these processes.
 
-We naturally see the world as made of "things" that sometimes change. Processism proposes the opposite: reality is made of processes (ongoing change), and "things" are just stable patterns within these processes.
+This single shift resolves paradoxes across science, philosophy, and everyday experience.
 
-This simple inversion resolves paradoxes that have troubled thinkers for centuries.
-
-![PIR Framework Diagram]({{ site.baseurl }}/assets/images/pir-diagram.png)
+![PIR Framework Diagram]({{ site.baseurl }}/assets/images/pir-diagram.svg)
 
 ## The PIR Framework
 
-Building on [process philosophy's](https://en.wikipedia.org/wiki/Process_philosophy) rich history, the **PIR Framework** offers a systematic approach through three interconnected principles:
+Three interconnected principles form the foundation of this approach:
 
-<div class="principle-card">
-  <div class="principle-header">Process</div>
-  <div class="principle-content">
-    "Things" are stable patterns maintained by ongoing processes—like a whirlpool persisting amid flowing water
-  </div>
-</div>
+| Principle | Core Idea | Example |
+|-----------|-----------|---------|
+| **Process** | "Things" are stable patterns maintained by ongoing processes | A whirlpool exists only because water keeps flowing |
+| **Interaction** | Properties emerge from relationships, not isolated entities | "Teacher" and "student" roles emerge through their relationship |
+| **Recursion** | Systems modify themselves through feedback loops | Your brain rewires itself as you learn new skills |
 
-<div class="principle-card">
-  <div class="principle-header">Interaction</div>
-  <div class="principle-content">
-    Properties emerge from relationships, not isolated entities—like how "teacher" and "student" roles emerge through educational interactions
-  </div>
-</div>
+## For Your Specific Interests
 
-<div class="principle-card">
-  <div class="principle-header">Recursion</div>
-  <div class="principle-content">
-    Systems modify themselves through feedback loops—like how your brain rewires itself as you learn new skills
-  </div>
-</div>
+### For Academics & Philosophers
 
-## Entry Points
+Explore how PIR builds on process philosophy while resolving traditional metaphysical problems.
 
-<div class="entry-paths">
-  <div class="entry-path">
-    <h3>New to Process Thinking?</h3>
-    <p>Start with our <a href="{{ site.baseurl }}/docs/01-introduction/01-simplest-explanation">Simplest Explanation</a> or explore the <a href="{{ site.baseurl }}/docs/01-introduction/02-concise-overview">Concise Overview</a>.</p>
-  </div>
-  
-  <div class="entry-path">
-    <h3>Familiar with Process Philosophy?</h3>
-    <p>See how PIR extends these ideas in the <a href="{{ site.baseurl }}/docs/01-introduction/04-technical-foundation">Technical Foundation</a> or examine <a href="{{ site.baseurl }}/docs/02-frameworks/02-processism-vs-entity">PIR vs. Entity-Based Thinking</a>.</p>
-  </div>
-  
-  <div class="entry-path">
-    <h3>Looking for Applications?</h3>
-    <p>Explore our <a href="{{ site.baseurl }}/docs/03-case-studies/01-physics/01-quantum">Case Studies</a> or see how PIR <a href="{{ site.baseurl }}/docs/06-metaphysical/01-paradoxes">Resolves Classical Paradoxes</a>.</p>
-  </div>
-</div>
+- [Historical Foundations]({{ site.baseurl }}/docs/02-frameworks/01-historical-roots)
+- [Mathematical Formalization]({{ site.baseurl }}/docs/07-formalisation/formalization-mathematical)
 
-## Why This Matters: The Fundamental Asymmetry
+### For Scientists & Researchers
 
-The most compelling reason to consider this framework:
+Discover how PIR addresses paradoxes in quantum physics and offers testable predictions.
 
-**Entity-based thinking struggles to explain change** (How do static things change?)  
-**Process-based thinking naturally explains both change AND stability** (Stable patterns within processes)
+- [Quantum Physics Case Study]({{ site.baseurl }}/docs/03-case-studies/01-physics/01-quantum)
+- [Testable Predictions]({{ site.baseurl }}/docs/04-predictions/01-predictions)
 
-This asymmetry creates explanatory power that extends from quantum physics to social systems.
+### For Practitioners & Change Agents
 
-## See For Yourself: The River and Whirlpool
+Apply process thinking to transform organizations, systems, and persistent challenges.
 
-Imagine a river with a whirlpool:
-- The flowing water (process) creates and maintains the whirlpool pattern
-- If the water stops flowing, the whirlpool disappears
-- The whirlpool was never a separate "thing" but a pattern in the flow
+- [Organizational Application]({{ site.baseurl }}/docs/01-introduction/06-faq#how-can-i-apply-pir-to-my-organization)
+- [Practice Methods]({{ site.baseurl }}/docs/01-introduction/01-simplest-explanation#five-simple-ways-to-practice-pir-thinking)
 
-**This simple shift in perspective changes everything.**
+### For Curious Minds
 
-## Explore the Framework
+Explore a perspective that transforms how you see everyday reality.
 
-<div class="explore-grid">
-  <a href="{{ site.baseurl }}/docs/01-introduction/01-simplest-explanation" class="explore-card">
-    <h3>Simplest Explanation</h3>
-    <p>The core ideas explained in straightforward language</p>
-  </a>
-  
-  <a href="{{ site.baseurl }}/docs/01-introduction/02-concise-overview" class="explore-card">
-    <h3>Concise Overview</h3>
-    <p>A more detailed introduction to the framework</p>
-  </a>
-  
-  <a href="{{ site.baseurl }}/docs/03-case-studies/01-physics/01-quantum" class="explore-card">
-    <h3>Case Studies</h3>
-    <p>See PIR applied to specific domains</p>
-  </a>
-  
-  <a href="{{ site.baseurl }}/docs/01-introduction/06-faq" class="explore-card">
-    <h3>FAQ</h3>
-    <p>Common questions and detailed answers</p>
-  </a>
-</div>
+- [Simplest Explanation]({{ site.baseurl }}/docs/01-introduction/01-simplest-explanation)
+- [Key Insights]({{ site.baseurl }}/docs/01-introduction/05-quotes)
+
+## Start Here: The River and Whirlpool
+
+To grasp the essence of processism, consider a river with a whirlpool:
+
+1. The flowing water (process) creates and maintains the whirlpool pattern
+2. The whirlpool looks like a "thing" but exists only because of ongoing flow
+3. If the water stops flowing, the whirlpool disappears entirely
+4. The whirlpool was never a separate "thing" but a pattern in the flow
+
+**Now consider**: What if everything we call a "thing"—your body, your organization, your identity—is actually like that whirlpool?
+
+## Why This Matters
+
+The PIR framework offers practical advantages across domains:
+
+- **More effective interventions** by focusing on processes that maintain patterns
+- **Natural explanation of emergence** without mysterious forces or properties
+- **Resolution of long-standing paradoxes** from identity to consciousness
+- **Integration of insights** across physics, biology, cognition, and social systems
+
+## Explore Further
+
+- [**Begin the Journey**]({{ site.baseurl }}/docs/01-introduction/01-simplest-explanation)
+- [Common Questions]({{ site.baseurl }}/docs/01-introduction/06-faq)
+- [Compare with Traditional Thinking]({{ site.baseurl }}/docs/02-frameworks/02-processism-vs-entity)

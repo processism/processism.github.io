@@ -1,21 +1,19 @@
-/* Basic styling for Processism site - Improved version */
+/* Streamlined styling for Processism site */
 
-/* CSS Variables with fallbacks for older browsers */
+/* CSS Variables with fallbacks */
 html {
-  /* Primary theme colors */
-  background-color: #f4f6f8; /* Updated to a more readable background color */
+  background-color: #f4f6f8;
   color: #333;
 }
 
-/* Modern browsers get variables */
 :root {
   --primary-color: #2c3e50;
   --accent-color: #3498db;
   --text-color: #333;
   --text-light: #ecf0f1;
-  --background-color: #f4f6f8; /* Updated to match the html background */
-  --content-background: #ffffff; /* Added new variable for content background */
-  --sidebar-width: 280px;
+  --background-color: #f4f6f8;
+  --content-background: #ffffff;
+  --sidebar-width: 260px;
   --content-max-width: 800px;
   --transition-speed: 0.3s;
 }
@@ -25,7 +23,8 @@ html {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   margin: 0;
@@ -39,12 +38,10 @@ body {
 }
 
 /* Header and navigation */
-/* Consistent header and sidebar alignment */
 .site-header {
   width: var(--sidebar-width);
   background-color: var(--primary-color);
   color: var(--text-light);
-  padding: 0; /* Removed padding to fix alignment */
   overflow-y: auto;
   max-height: 100vh;
 }
@@ -56,14 +53,14 @@ body {
   overflow-y: auto;
   z-index: 100;
   background-color: var(--primary-color);
-  padding: 1rem; /* Moved padding here from site-header */
+  padding: 1rem;
 }
 
 .site-title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .site-title {
@@ -138,7 +135,7 @@ body {
 .nav-section-title:after {
   content: '⯆';
   position: absolute;
-  right: 5px; /* Changed from 0 to 5px to move it inside the blue bar */
+  right: 5px;
   top: 0;
   transition: transform var(--transition-speed) ease;
 }
@@ -152,72 +149,37 @@ body {
   padding-left: 1rem;
   margin-top: 0.3rem;
   font-size: 0.95rem;
-  /* Fixed: Removed default display:none to let JS handle initial state */
 }
 
 .nav-subsection li {
   margin-bottom: 0.3rem;
 }
 
-/* Content area - UPDATED WITH MARGIN FIX */
+/* Content area */
 .content {
   flex: 1;
-  padding: 1.5rem 1.5rem 1.5rem 0; /* Remove left padding completely */
-  margin-left: var(--sidebar-width);
-  max-width: calc(100% - var(--sidebar-width));
-  width: 100%;
+  padding: 1.5rem 1.5rem 1.5rem calc(var(--sidebar-width) + 1.5rem);
+  max-width: 100%;
   background-color: var(--background-color);
-}
-
-.content-header {
-  margin-bottom: 2rem;
 }
 
 .content-body {
   max-width: var(--content-max-width);
-  background-color: var(--content-background); /* Added white background */
-  padding: 2rem;  /* Added padding inside the content */
-  padding-left: 0.75rem !important; /* Force specific left padding */
-  margin-left: 0 !important; /* Force no left margin */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Subtle shadow */
-  box-sizing: border-box;
-}
-
-/* Target any first-level elements inside content-body that might have margin */
-.content-body > * {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-/* Make h1 align properly with the edge */
-.content-body h1 {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-/* Also target any articles that might be wrapping content */
-.content article {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-/* Make sure blockquotes align properly */
-blockquote {
-  margin-left: 0;
+  background-color: var(--content-background);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 .page-navigation {
   display: flex;
-  margin-top: 3rem;
-  padding-top: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
   border-top: 1px solid #ddd;
   max-width: var(--content-max-width);
-  margin-left: 0.75rem; /* Match content-body margin */
 }
 
 .back-home {
-  color: #3498db; /* Using the actual color value instead of var for older browsers */
   color: var(--accent-color);
   text-decoration: none;
   display: inline-block;
@@ -237,33 +199,15 @@ blockquote {
   margin-left: var(--sidebar-width);
 }
 
-.footer-content {
-  max-width: var(--content-max-width);
-  margin: 0 auto;
-}
-
-/* Responsive adjustments with consistent breakpoints */
+/* Responsive adjustments */
 @media (max-width: 992px) {
-  body {
+  :root {
     --sidebar-width: 240px;
-  }
-  
-  .sidebar {
-    width: 240px;
-  }
-  
-  .content {
-    margin-left: 240px;
-    max-width: calc(100% - 240px);
-  }
-  
-  .site-footer {
-    margin-left: 240px;
   }
 }
 
 @media (max-width: 768px) {
-  body {
+  :root {
     --sidebar-width: 100%;
   }
   
@@ -283,17 +227,12 @@ blockquote {
     padding: 0.5rem 1rem;
   }
   
-  .content, .site-footer {
+  .content {
     margin-left: 0;
-    max-width: 100%;
+    padding: 1.5rem;
   }
   
-  .content-body {
-    margin-left: 0;
-    padding-left: 1rem !important;
-  }
-  
-  .page-navigation {
+  .site-footer {
     margin-left: 0;
   }
   
@@ -307,11 +246,6 @@ blockquote {
   
   .site-nav.active {
     display: block;
-  }
-  
-  /* When menu is open on mobile - smoother transitions */
-  .mobile-nav-toggle .bar {
-    transition: all 0.25s ease;
   }
   
   .mobile-nav-open .mobile-nav-toggle .bar:nth-child(1) {
@@ -336,18 +270,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   border-bottom: 2px solid var(--accent-color);
   padding-bottom: 0.3rem;
   margin-top: 0;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 a {
@@ -369,7 +303,7 @@ pre {
 }
 
 code {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   background-color: #f5f5f5;
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
@@ -427,35 +361,38 @@ img {
   border-radius: 4px;
 }
 
-/* Math display improvements */
+/* Math display */
 .MathJax {
   overflow-x: auto;
-  overflow-y: hidden;
   max-width: 100%;
 }
 
-/* User experience improvements */
+/* Selection styling */
 ::selection {
   background-color: rgba(52, 152, 219, 0.3);
   color: var(--text-color);
 }
 
-.content-body a {
-  border-bottom: 1px dotted var(--accent-color);
+/* Homepage specific styles */
+.audience-paths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  margin: 2rem 0;
 }
 
-.content-body a:hover {
-  border-bottom: 1px solid var(--accent-color);
-  text-decoration: none;
+.audience-path {
+  background-color: white;
+  border-radius: 6px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-/* Helper classes */
-.text-center {
-  text-align: center;
-}
-
-.full-width {
-  width: 100%;
+.audience-path h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
 }
 
 /* Print styles */
@@ -481,101 +418,3 @@ img {
     color: black;
   }
 }
-
-/* Homepage specific styles */
-
-/* Principle cards */
-.principle-card {
-  background-color: white;
-  border-left: 4px solid var(--accent-color);
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  margin-bottom: 1.2rem;
-  overflow: hidden;
-}
-
-.principle-header {
-  background-color: rgba(52, 152, 219, 0.1);
-  color: var(--primary-color);
-  font-weight: bold;
-  padding: 0.6rem 1rem;
-  font-size: 1.1rem;
-}
-
-.principle-content {
-  padding: 1rem;
-  line-height: 1.5;
-}
-
-/* Entry paths section */
-.entry-paths {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.entry-path {
-  flex: 1;
-  min-width: 250px;
-  background-color: white;
-  border-radius: 6px;
-  padding: 1.2rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.entry-path h3 {
-  margin-top: 0;
-  color: var(--primary-color);
-  font-size: 1.1rem;
-  margin-bottom: 0.6rem;
-}
-
-.entry-path p {
-  margin-bottom: 0;
-}
-
-/* Exploration grid */
-.explore-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1.2rem;
-  margin-top: 1.5rem;
-}
-
-.explore-card {
-  background-color: white;
-  border-radius: 6px;
-  padding: 1.2rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-decoration: none !important;
-  border: none !important;
-  color: var(--text-color);
-}
-
-.explore-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  text-decoration: none !important;
-  border: none !important;
-}
-
-.explore-card h3 {
-  margin-top: 0;
-  color: var(--accent-color);
-  font-size: 1.1rem;
-  margin-bottom: 0.6rem;
-}
-
-.explore-card p {
-  margin-bottom: 0;
-  color: var(--text-color);
-}
-
-/* Enable for debugging if needed */
-/* 
-.content-body {
-  outline: 1px solid red;
-}
-*/
