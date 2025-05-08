@@ -5,8 +5,6 @@ title: "The Simplest Explanation of PIR"
 
 # The Simplest Explanation of PIR
 
-> "No man ever steps in the same river twice, for it's not the same river and he's not the same man." — Heraclitus
-
 Have you ever tried to change something—a habit, a team, a relationship—only to find it snapping back to its old patterns? That's because we've been taught to see the world backward.
 
 ## What Is PIR?

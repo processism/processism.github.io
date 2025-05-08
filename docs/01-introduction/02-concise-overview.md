@@ -5,8 +5,6 @@ title: "The PIR Framework: A Concise Overview"
 
 # The PIR Framework: A Concise Overview
 
-> "No man ever steps in the same river twice, for it's not the same river and he's not the same man." — Heraclitus
-
 ## Introduction: Inverting Our View of Reality
 
 Most of us were taught to understand the world as a collection of "things" that occasionally change. This intuitive, object-based perspective has dominated Western thought for centuries. The Process-Interaction-Recursion (PIR) framework offers a fundamental inversion: what if processes are primary, and "things" are merely stable patterns within these processes?

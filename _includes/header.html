@@ -35,11 +35,27 @@
           </ul>
         </li>
         
-        <!-- Case Studies Section -->
+        <!-- Case Studies Section - Updated with nested structure -->
         <li class="nav-section">
           <span class="nav-section-title">Case Studies</span>
           <ul class="nav-subsection">
-            <li><a href="{{ site.baseurl }}/docs/03-case-studies/01-physics/01-quantum" {% if page.url contains '/docs/03-case-studies/01-physics/01-quantum' %}class="active"{% endif %}>Quantum Physics</a></li>
+            <!-- Physics subsection -->
+            <li class="nav-section">
+              <span class="nav-section-title">Physics</span>
+              <ul class="nav-subsection">
+                <li><a href="{{ site.baseurl }}/docs/03-case-studies/01-physics/01-quantum" {% if page.url contains '/docs/03-case-studies/01-physics/01-quantum' %}class="active"{% endif %}>Quantum Physics</a></li>
+                <!-- Add other physics pages here as they're created -->
+              </ul>
+            </li>
+            <!-- Additional subject areas would go here -->
+            <!-- Example:
+            <li class="nav-section">
+              <span class="nav-section-title">Biology</span>
+              <ul class="nav-subsection">
+                <li><a href="{{ site.baseurl }}/docs/03-case-studies/02-biology/01-example" {% if page.url contains '/docs/03-case-studies/02-biology/01-example' %}class="active"{% endif %}>Example</a></li>
+              </ul>
+            </li>
+            -->
           </ul>
         </li>
         
