@@ -159,10 +159,10 @@ body {
   margin-bottom: 0.3rem;
 }
 
-/* Content area - UPDATED */
+/* Content area - UPDATED WITH MARGIN FIX */
 .content {
   flex: 1;
-  padding: 1.5rem 1.5rem 1.5rem 0; /* Removed left padding entirely */
+  padding: 1.5rem 1.5rem 1.5rem 0; /* Remove left padding completely */
   margin-left: var(--sidebar-width);
   max-width: calc(100% - var(--sidebar-width));
   width: 100%;
@@ -177,9 +177,34 @@ body {
   max-width: var(--content-max-width);
   background-color: var(--content-background); /* Added white background */
   padding: 2rem;  /* Added padding inside the content */
+  padding-left: 0.75rem !important; /* Force specific left padding */
+  margin-left: 0 !important; /* Force no left margin */
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Subtle shadow */
-  margin-left: 0.75rem; /* Added small margin to create separation from sidebar */
+  box-sizing: border-box;
+}
+
+/* Target any first-level elements inside content-body that might have margin */
+.content-body > * {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Make h1 align properly with the edge */
+.content-body h1 {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Also target any articles that might be wrapping content */
+.content article {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Make sure blockquotes align properly */
+blockquote {
+  margin-left: 0;
 }
 
 .page-navigation {
@@ -265,6 +290,7 @@ body {
   
   .content-body {
     margin-left: 0;
+    padding-left: 1rem !important;
   }
   
   .page-navigation {
@@ -455,3 +481,101 @@ img {
     color: black;
   }
 }
+
+/* Homepage specific styles */
+
+/* Principle cards */
+.principle-card {
+  background-color: white;
+  border-left: 4px solid var(--accent-color);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 1.2rem;
+  overflow: hidden;
+}
+
+.principle-header {
+  background-color: rgba(52, 152, 219, 0.1);
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+}
+
+.principle-content {
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+/* Entry paths section */
+.entry-paths {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.entry-path {
+  flex: 1;
+  min-width: 250px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.entry-path h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.entry-path p {
+  margin-bottom: 0;
+}
+
+/* Exploration grid */
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.explore-card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none !important;
+  border: none !important;
+  color: var(--text-color);
+}
+
+.explore-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-decoration: none !important;
+  border: none !important;
+}
+
+.explore-card h3 {
+  margin-top: 0;
+  color: var(--accent-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.explore-card p {
+  margin-bottom: 0;
+  color: var(--text-color);
+}
+
+/* Enable for debugging if needed */
+/* 
+.content-body {
+  outline: 1px solid red;
+}
+*/

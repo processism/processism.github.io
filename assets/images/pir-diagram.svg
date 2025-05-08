@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f4f6f8" rx="8" ry="8"/>
+  
+  <!-- Circles -->
+  <circle cx="250" cy="200" r="120" fill="#3498db" fill-opacity="0.15" stroke="#3498db" stroke-width="2"/>
+  <circle cx="400" cy="200" r="120" fill="#2ecc71" fill-opacity="0.15" stroke="#2ecc71" stroke-width="2"/>
+  <circle cx="550" cy="200" r="120" fill="#9b59b6" fill-opacity="0.15" stroke="#9b59b6" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">Process</text>
+  <text x="250" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">Dynamic patterns</text>
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">maintain stability</text>
+  
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">Interaction</text>
+  <text x="400" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">Properties emerge</text>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">from relationships</text>
+  
+  <text x="550" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">Recursion</text>
+  <text x="550" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">Systems modify</text>
+  <text x="550" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">themselves</text>
+  
+  <!-- Connecting area -->
+  <text x="400" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">The PIR Framework</text>
+  
+  <!-- The center where all three principles meet -->
+  <circle cx="400" cy="200" r="30" fill="#2c3e50" fill-opacity="0.1" stroke="#2c3e50" stroke-width="1.5" stroke-dasharray="4"/>
+  <text x="400" y="195" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Reality as</text>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Process</text>
+  
+  <!-- Title at the top -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#2c3e50">Process-Interaction-Recursion</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">A framework for understanding reality as fundamentally process-based</text>
+</svg>
