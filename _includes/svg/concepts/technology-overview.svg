@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" aria-labelledby="technology-overview-title technology-overview-desc" role="img">
+  <title id="technology-overview-title">Processism for Technologists Overview</title>
+  <desc id="technology-overview-desc">A visual overview of how Processism helps technologists design better AI architectures, systems, and information integration approaches.</desc>
+  
+  <!-- Styles -->
+  <defs>
+    <style>
+      .central-box {
+        fill: #e5eeff;
+        stroke: #304878;
+        stroke-width: 3;
+        filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.2));
+      }
+      .domain-box {
+        fill: #f0f5ff;
+        stroke: #304878;
+        stroke-width: 2;
+      }
+      .challenge-box {
+        fill: #ffeaea;
+        stroke: #d88;
+        stroke-width: 2;
+      }
+      .arrow {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .label {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .central-label {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .domain-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .challenge-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #a44;
+      }
+      .text {
+        font-family: sans-serif;
+        font-size: 12px;
+        text-anchor: middle;
+        fill: #555;
+      }
+      .aspect-circle {
+        fill: #fff;
+        stroke: #304878;
+        stroke-width: 1.5;
+      }
+      .aspect-label {
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+    </style>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#304878" />
+    </marker>
+  </defs>
+  
+  <!-- Central Box - Processism for Technologists -->
+  <rect x="300" y="150" width="200" height="100" rx="10" ry="10" class="central-box" />
+  <text x="400" y="190" class="central-label">Processism</text>
+  <text x="400" y="220" class="central-label">for Technologists</text>
+  
+  <!-- Technical Domains -->
+  <rect x="100" y="50" width="160" height="70" rx="8" ry="8" class="domain-box" />
+  <text x="180" y="80" class="domain-label">AI Architecture</text>
+  <text x="180" y="100" class="text">Complementary processing streams</text>
+  
+  <rect x="540" y="50" width="160" height="70" rx="8" ry="8" class="domain-box" />
+  <text x="620" y="80" class="domain-label">Systems Design</text>
+  <text x="620" y="100" class="text">Self-modifying architectures</text>
+  
+  <rect x="100" y="280" width="160" height="70" rx="8" ry="8" class="domain-box" />
+  <text x="180" y="310" class="domain-label">Information Integration</text>
+  <text x="180" y="330" class="text">Cross-scale data relationships</text>
+  
+  <rect x="540" y="280" width="160" height="70" rx="8" ry="8" class="domain-box" />
+  <text x="620" y="310" class="domain-label">Human-Computer Interaction</text>
+  <text x="620" y="330" class="text">Process-focused interfaces</text>
+  
+  <!-- Technical Challenges -->
+  <rect x="150" y="170" width="120" height="60" rx="8" ry="8" class="challenge-box" />
+  <text x="210" y="195" class="challenge-label">Context Problem</text>
+  <text x="210" y="215" class="text">Context sensitivity</text>
+  
+  <rect x="530" y="170" width="120" height="60" rx="8" ry="8" class="challenge-box" />
+  <text x="590" y="195" class="challenge-label">Alignment Problem</text>
+  <text x="590" y="215" class="text">Human-AI alignment</text>
+  
+  <!-- Aspect Circles -->
+  <circle cx="335" cy="110" r="20" class="aspect-circle" />
+  <text x="335" y="115" class="aspect-label">Comple-</text>
+  <text x="335" y="125" class="aspect-label">mentarity</text>
+  
+  <circle cx="400" cy="110" r="20" class="aspect-circle" />
+  <text x="400" y="115" class="aspect-label">Self-</text>
+  <text x="400" y="125" class="aspect-label">Reference</text>
+  
+  <circle cx="465" cy="110" r="20" class="aspect-circle" />
+  <text x="465" y="115" class="aspect-label">Scale-</text>
+  <text x="465" y="125" class="aspect-label">Recursion</text>
+  
+  <!-- Connecting Arrows -->
+  <path d="M180,120 L290,150" class="arrow" />
+  <path d="M620,120 L510,150" class="arrow" />
+  <path d="M180,280 L290,250" class="arrow" />
+  <path d="M620,280 L510,250" class="arrow" />
+  
+  <path d="M270,200 L290,200" class="arrow" />
+  <path d="M530,200 L510,200" class="arrow" />
+</svg>
