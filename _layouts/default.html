@@ -10,13 +10,11 @@
   {% seo %}
 </head>
 <body>
-  {% include header.html %}
+  <aside class="site-sidebar">
+    {% include navigation.html %}
+  </aside>
   
   <div class="main-container">
-    <aside class="site-sidebar">
-      {% include navigation.html %}
-    </aside>
-    
     <main class="site-content">
       <div class="content-wrapper">
         {% if page.title and layout.name != 'home' %}
@@ -64,40 +62,15 @@
     {% include footer.html %}
   </footer>
 
+  <!-- Mobile sidebar toggle button -->
+  <button class="sidebar-toggle" aria-label="Toggle sidebar navigation">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 12h18M3 6h18M3 18h18"/>
+    </svg>
+  </button>
+
   <script>
-    // Simple mobile menu toggle
     document.addEventListener('DOMContentLoaded', function() {
-      const mobileToggle = document.querySelector('.mobile-nav-toggle');
-      const mobileOverlay = document.querySelector('.mobile-nav-overlay');
-      const mobileClose = document.querySelector('.mobile-nav-close');
-      const body = document.body;
-      
-      if (mobileToggle && mobileOverlay) {
-        mobileToggle.addEventListener('click', function() {
-          mobileOverlay.classList.add('active');
-          body.classList.add('mobile-menu-active');
-          mobileOverlay.setAttribute('aria-hidden', 'false');
-        });
-        
-        if (mobileClose) {
-          mobileClose.addEventListener('click', function() {
-            mobileOverlay.classList.remove('active');
-            body.classList.remove('mobile-menu-active');
-            mobileOverlay.setAttribute('aria-hidden', 'true');
-          });
-        }
-        
-        // Close mobile menu when clicking on links
-        const mobileLinks = mobileOverlay.querySelectorAll('a');
-        mobileLinks.forEach(link => {
-          link.addEventListener('click', function() {
-            mobileOverlay.classList.remove('active');
-            body.classList.remove('mobile-menu-active');
-            mobileOverlay.setAttribute('aria-hidden', 'true');
-          });
-        });
-      }
-      
       // Toggle sidebar on mobile
       const sidebarToggle = document.querySelector('.sidebar-toggle');
       const sidebar = document.querySelector('.site-sidebar');
