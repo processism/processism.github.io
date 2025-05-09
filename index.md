@@ -5,7 +5,6 @@ permalink: /
 nav_order: 1
 ---
 
-# Processism: A Recursive Framework of Reality
 {: .fs-9 }
 
 A framework that models reality as a single recursive process of self-differentiation, self-relation, and self-integration.

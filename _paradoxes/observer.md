@@ -6,8 +6,6 @@ nav_order: 5
 parent: Paradox Resolutions
 ---
 
-# The Observer Paradox
-
 **Key Takeaway:** Processism resolves the observer paradox by revealing observation itself as a self-referential process—we can understand the process that enables understanding because self-reference is fundamental to reality.
 
 ## The Paradox

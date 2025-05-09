@@ -6,8 +6,6 @@ nav_order: 5
 parent: Processism Basics
 ---
 
-# The Three Aspects of Processism
-
 **Key Takeaway:** Processism identifies three fundamental patterns that work together as aspects of a unified recursive process: complementarity (self-differentiation), self-reference (self-relation), and scale-recursion (self-integration).
 
 ## Introduction

@@ -5,8 +5,6 @@ permalink: /
 nav_order: 5
 ---
 
-# Processism
-
 ## About
 
 Processism is a fundamental ontological framework that proposes reality is best understood as a single recursive process of self-differentiation, self-relation, and self-integration.

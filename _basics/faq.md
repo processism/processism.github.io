@@ -6,8 +6,6 @@ nav_order: 5
 parent: Processism Basics
 ---
 
-# Frequently Asked Questions
-
 ## General Questions
 
 ### What is Processism in simple terms?

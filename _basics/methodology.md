@@ -6,8 +6,6 @@ nav_order: 5
 parent: Processism Basics
 ---
 
-# Our Research Methodology
-
 **Key Takeaway:** Processism emerged from a systematic analysis of patterns across domains of human knowledge, using large language models as pattern-extraction tools to identify the strongest recurring meta-patterns.
 
 ## The Challenge: The Observer Paradox

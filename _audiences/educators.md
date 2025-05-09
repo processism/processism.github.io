@@ -6,8 +6,6 @@ nav_order: 5
 parent: Audiences
 ---
 
-# Processism for Educators
-
 **Key Takeaway:** Processism offers educators powerful frameworks for transdisciplinary teaching, developing systems thinking in students, and creating more integrated learning experiences that bridge traditional subject boundaries.
 
 ## Why Processism Matters for Educators

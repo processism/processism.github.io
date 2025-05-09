@@ -6,8 +6,6 @@ nav_order: 5
 parent: Paradox Resolutions
 ---
 
-# Processism in Business and Organizations
-
 **Key Takeaway:** Processism offers practical approaches to organizational design, innovation, strategy, and leadership that work with rather than against natural patterns of complex adaptive systems.
 
 ## Introduction

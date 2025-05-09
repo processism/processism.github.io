@@ -6,8 +6,6 @@ nav_order: 6
 has_children: True
 ---
 
-# Processism Resources
-
 **Key Takeaway:** This section provides supporting materials to help you understand and apply Processism concepts, including visual explanations, terminology definitions, and suggested reading.
 
 ## Visual Explanations

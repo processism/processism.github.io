@@ -6,8 +6,6 @@ nav_order: 2
 has_children: True
 ---
 
-# Processism in Plain Language
-
 **Key Takeaway:** Processism suggests that reality is best understood as a recursive process that generates its own complexity through three key patterns: complementary aspects, self-reference, and similar organization across scales.
 
 ## What is Processism?

@@ -6,8 +6,6 @@ nav_order: 5
 parent: Audiences
 ---
 
-# Processism for Philosophers
-
 **Key Takeaway:** Processism offers philosophers a novel framework for addressing longstanding philosophical questions, connecting diverse traditions, and resolving persistent paradoxes with remarkable conceptual parsimony.
 
 ## Why Processism Matters for Philosophers

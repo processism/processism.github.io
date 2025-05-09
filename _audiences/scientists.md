@@ -6,8 +6,6 @@ nav_order: 5
 parent: Audiences
 ---
 
-# Processism for Scientists
-
 **Key Takeaway:** Processism offers scientists a transdisciplinary framework for addressing complex research challenges, bridging disciplinary boundaries, and resolving persistent paradoxes across scientific domains.
 
 ## Why Processism Matters for Scientists

@@ -6,8 +6,6 @@ nav_order: 3
 has_children: True
 ---
 
-# How Processism Resolves Paradoxes
-
 **Key Takeaway:** Processism doesn't just explain paradoxes—it reveals why they arise in the first place and transforms them from problems into natural consequences of a recursive process framework.
 
 ## Why Paradoxes Matter

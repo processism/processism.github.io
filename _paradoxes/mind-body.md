@@ -6,8 +6,6 @@ nav_order: 5
 parent: Paradox Resolutions
 ---
 
-# The Mind-Body Problem
-
 **Key Takeaway:** Processism resolves the mind-body problem by recognizing physical and mental phenomena as complementary manifestations of the same recursive process operating at different scales of organization.
 
 ## The Paradox
