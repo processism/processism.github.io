@@ -1,92 +1,110 @@
 <nav class="main-nav">
-  <h2>Navigation</h2>
-  
-  <h3>Core Understanding</h3>
-  <ul>
-    <li {% if page.url == "/basics/" %}class="current"{% endif %}>
-      <a href="{{ "/basics/" | relative_url }}">Processism Basics</a>
-    </li>
-    <li {% if page.url == "/basics/three-aspects/" %}class="current"{% endif %}>
-      <a href="{{ "/basics/three-aspects/" | relative_url }}">The Three Aspects</a>
-    </li>
-    <li {% if page.url == "/basics/methodology/" %}class="current"{% endif %}>
-      <a href="{{ "/basics/methodology/" | relative_url }}">Our Methodology</a>
-    </li>
-    <li {% if page.url == "/basics/faq/" %}class="current"{% endif %}>
-      <a href="{{ "/basics/faq/" | relative_url }}">FAQ</a>
-    </li>
-  </ul>
-  
-  <h3>Paradox Resolutions</h3>
-  <ul>
-    <li {% if page.url == "/paradoxes/" %}class="current"{% endif %}>
-      <a href="{{ "/paradoxes/" | relative_url }}">Overview</a>
-    </li>
-    <li {% if page.url == "/paradoxes/observer/" %}class="current"{% endif %}>
-      <a href="{{ "/paradoxes/observer/" | relative_url }}">The Observer Paradox</a>
-    </li>
-    <li {% if page.url == "/paradoxes/mind-body/" %}class="current"{% endif %}>
-      <a href="{{ "/paradoxes/mind-body/" | relative_url }}">Mind-Body Problem</a>
-    </li>
-    <li {% if page.url == "/paradoxes/free-will/" %}class="current"{% endif %}>
-      <a href="{{ "/paradoxes/free-will/" | relative_url }}">Free Will & Determinism</a>
-    </li>
-    <li {% if page.url == "/paradoxes/quantum/" %}class="current"{% endif %}>
-      <a href="{{ "/paradoxes/quantum/" | relative_url }}">Quantum Measurement</a>
-    </li>
-  </ul>
-  
-  <h3>Applications</h3>
-  <ul>
-    <li {% if page.url == "/applications/" %}class="current"{% endif %}>
-      <a href="{{ "/applications/" | relative_url }}">Overview</a>
-    </li>
-    <li {% if page.url == "/applications/science/" %}class="current"{% endif %}>
-      <a href="{{ "/applications/science/" | relative_url }}">Scientific Applications</a>
-    </li>
-    <li {% if page.url == "/applications/business/" %}class="current"{% endif %}>
-      <a href="{{ "/applications/business/" | relative_url }}">Business Applications</a>
-    </li>
-    <li {% if page.url == "/applications/technology/" %}class="current"{% endif %}>
-      <a href="{{ "/applications/technology/" | relative_url }}">Technology Applications</a>
-    </li>
-    <li {% if page.url == "/applications/personal/" %}class="current"{% endif %}>
-      <a href="{{ "/applications/personal/" | relative_url }}">Personal Applications</a>
-    </li>
-  </ul>
-  
-  <h3>Audience Paths</h3>
-  <ul>
-    <li {% if page.url == "/audiences/scientists/" %}class="current"{% endif %}>
-      <a href="{{ "/audiences/scientists/" | relative_url }}">For Scientists</a>
-    </li>
-    <li {% if page.url == "/audiences/business/" %}class="current"{% endif %}>
-      <a href="{{ "/audiences/business/" | relative_url }}">For Business Leaders</a>
-    </li>
-    <li {% if page.url == "/audiences/philosophers/" %}class="current"{% endif %}>
-      <a href="{{ "/audiences/philosophers/" | relative_url }}">For Philosophers</a>
-    </li>
-    <li {% if page.url == "/audiences/technologists/" %}class="current"{% endif %}>
-      <a href="{{ "/audiences/technologists/" | relative_url }}">For Technologists</a>
-    </li>
-    <li {% if page.url == "/audiences/educators/" %}class="current"{% endif %}>
-      <a href="{{ "/audiences/educators/" | relative_url }}">For Educators</a>
-    </li>
-  </ul>
-  
-  <h3>Resources</h3>
-  <ul>
-    <li {% if page.url == "/resources/" %}class="current"{% endif %}>
-      <a href="{{ "/resources/" | relative_url }}">Overview</a>
-    </li>
-    <li {% if page.url == "/resources/glossary/" %}class="current"{% endif %}>
-      <a href="{{ "/resources/glossary/" | relative_url }}">Glossary</a>
-    </li>
-    <li {% if page.url == "/resources/visuals/" %}class="current"{% endif %}>
-      <a href="{{ "/resources/visuals/" | relative_url }}">Visual Explanations</a>
-    </li>
-    <li {% if page.url == "/resources/reading/" %}class="current"{% endif %}>
-      <a href="{{ "/resources/reading/" | relative_url }}">Further Reading</a>
-    </li>
-  </ul>
+  <!-- Mobile menu toggle (hidden on desktop) -->
+  <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Main navigation menu -->
+  <div class="nav-container">
+    <div class="nav-section">
+      <h3>Core Understanding</h3>
+      <ul>
+        <li {% if page.url == "/basics/" %}class="current"{% endif %}>
+          <a href="{{ "/basics/" | relative_url }}">Processism Basics</a>
+        </li>
+        <li {% if page.url == "/basics/three-aspects/" %}class="current"{% endif %}>
+          <a href="{{ "/basics/three-aspects/" | relative_url }}">The Three Aspects</a>
+        </li>
+        <li {% if page.url == "/basics/methodology/" %}class="current"{% endif %}>
+          <a href="{{ "/basics/methodology/" | relative_url }}">Our Methodology</a>
+        </li>
+        <li {% if page.url == "/basics/faq/" %}class="current"{% endif %}>
+          <a href="{{ "/basics/faq/" | relative_url }}">FAQ</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav-section">
+      <h3>Paradox Resolutions</h3>
+      <ul>
+        <li {% if page.url == "/paradoxes/" %}class="current"{% endif %}>
+          <a href="{{ "/paradoxes/" | relative_url }}">Overview</a>
+        </li>
+        <li {% if page.url == "/paradoxes/observer/" %}class="current"{% endif %}>
+          <a href="{{ "/paradoxes/observer/" | relative_url }}">Observer Paradox</a>
+        </li>
+        <li {% if page.url == "/paradoxes/mind-body/" %}class="current"{% endif %}>
+          <a href="{{ "/paradoxes/mind-body/" | relative_url }}">Mind-Body Problem</a>
+        </li>
+        <li {% if page.url == "/paradoxes/free-will/" %}class="current"{% endif %}>
+          <a href="{{ "/paradoxes/free-will/" | relative_url }}">Free Will & Determinism</a>
+        </li>
+        <li {% if page.url == "/paradoxes/quantum/" %}class="current"{% endif %}>
+          <a href="{{ "/paradoxes/quantum/" | relative_url }}">Quantum Measurement</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav-section">
+      <h3>Applications</h3>
+      <ul>
+        <li {% if page.url == "/applications/" %}class="current"{% endif %}>
+          <a href="{{ "/applications/" | relative_url }}">Overview</a>
+        </li>
+        <li {% if page.url == "/applications/science/" %}class="current"{% endif %}>
+          <a href="{{ "/applications/science/" | relative_url }}">Scientific Applications</a>
+        </li>
+        <li {% if page.url == "/applications/business/" %}class="current"{% endif %}>
+          <a href="{{ "/applications/business/" | relative_url }}">Business Applications</a>
+        </li>
+        <li {% if page.url == "/applications/technology/" %}class="current"{% endif %}>
+          <a href="{{ "/applications/technology/" | relative_url }}">Technology Applications</a>
+        </li>
+        <li {% if page.url == "/applications/personal/" %}class="current"{% endif %}>
+          <a href="{{ "/applications/personal/" | relative_url }}">Personal Applications</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav-section">
+      <h3>Audience Paths</h3>
+      <ul>
+        <li {% if page.url == "/audiences/scientists/" %}class="current"{% endif %}>
+          <a href="{{ "/audiences/scientists/" | relative_url }}">For Scientists</a>
+        </li>
+        <li {% if page.url == "/audiences/business/" %}class="current"{% endif %}>
+          <a href="{{ "/audiences/business/" | relative_url }}">For Business Leaders</a>
+        </li>
+        <li {% if page.url == "/audiences/philosophers/" %}class="current"{% endif %}>
+          <a href="{{ "/audiences/philosophers/" | relative_url }}">For Philosophers</a>
+        </li>
+        <li {% if page.url == "/audiences/technologists/" %}class="current"{% endif %}>
+          <a href="{{ "/audiences/technologists/" | relative_url }}">For Technologists</a>
+        </li>
+        <li {% if page.url == "/audiences/educators/" %}class="current"{% endif %}>
+          <a href="{{ "/audiences/educators/" | relative_url }}">For Educators</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav-section">
+      <h3>Resources</h3>
+      <ul>
+        <li {% if page.url == "/resources/" %}class="current"{% endif %}>
+          <a href="{{ "/resources/" | relative_url }}">Overview</a>
+        </li>
+        <li {% if page.url == "/resources/glossary/" %}class="current"{% endif %}>
+          <a href="{{ "/resources/glossary/" | relative_url }}">Glossary</a>
+        </li>
+        <li {% if page.url == "/resources/visuals/" %}class="current"{% endif %}>
+          <a href="{{ "/resources/visuals/" | relative_url }}">Visual Explanations</a>
+        </li>
+        <li {% if page.url == "/resources/reading/" %}class="current"{% endif %}>
+          <a href="{{ "/resources/reading/" | relative_url }}">Further Reading</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
