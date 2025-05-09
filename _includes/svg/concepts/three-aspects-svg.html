@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" aria-labelledby="three-aspects-title three-aspects-desc" role="img">
+  <title id="three-aspects-title">The Three Aspects of Processism</title>
+  <desc id="three-aspects-desc">A visual representation of the three fundamental aspects of Processism: Complementarity, Self-Reference, and Scale-Recursion.</desc>
+  
+  <!-- Styles -->
+  <defs>
+    <style>
+      .aspect-circle {
+        fill: #f0f5ff;
+        stroke: #304878;
+        stroke-width: 3;
+      }
+      .aspect-icon {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .aspect-text {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .aspect-description {
+        font-family: sans-serif;
+        font-size: 14px;
+        text-anchor: middle;
+        fill: #666;
+      }
+      .connection {
+        fill: none;
+        stroke: #6a8cc8;
+        stroke-width: 2;
+        stroke-dasharray: 5,5;
+      }
+      .center-circle {
+        fill: #e5eeff;
+        stroke: #304878;
+        stroke-width: 3;
+      }
+      .center-text {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+    </style>
+  </defs>
+  
+  <!-- Center Circle - Recursive Process -->
+  <circle cx="400" cy="200" r="70" class="center-circle" />
+  <text x="400" y="190" class="center-text">Recursive</text>
+  <text x="400" y="215" class="center-text">Process</text>
+  
+  <!-- Complementarity Aspect (Left) -->
+  <circle cx="180" cy="200" r="100" class="aspect-circle" />
+  <text x="180" y="155" class="aspect-text">Complementarity</text>
+  <text x="180" y="180" class="aspect-description">(Self-Differentiation)</text>
+  
+  <!-- Complementarity Icon - Yin-Yang style symbol -->
+  <path d="M150,220 A30,30 0 1,1 210,220 A30,30 0 1,1 150,220 Z" class="aspect-icon" />
+  <path d="M180,220 A15,15 0 1,0 195,220 A15,15 0 1,0 180,220 Z" class="aspect-icon" />
+  <path d="M180,220 A15,15 0 1,1 165,220 A15,15 0 1,1 180,220 Z" class="aspect-icon" />
+  
+  <!-- Self-Reference Aspect (Top) -->
+  <circle cx="400" cy="80" r="100" class="aspect-circle" />
+  <text x="400" y="35" class="aspect-text">Self-Reference</text>
+  <text x="400" y="60" class="aspect-description">(Self-Relation)</text>
+  
+  <!-- Self-Reference Icon - Recursive loop -->
+  <path d="M370,100 C350,80 450,60 430,100 L450,85 M430,100 L415,85" class="aspect-icon" />
+  <circle cx="400" cy="100" r="15" class="aspect-icon" />
+  
+  <!-- Scale-Recursion Aspect (Right) -->
+  <circle cx="620" cy="200" r="100" class="aspect-circle" />
+  <text x="620" y="155" class="aspect-text">Scale-Recursion</text>
+  <text x="620" y="180" class="aspect-description">(Self-Integration)</text>
+  
+  <!-- Scale-Recursion Icon - Nested circles -->
+  <circle cx="620" cy="220" r="30" class="aspect-icon" />
+  <circle cx="620" cy="220" r="20" class="aspect-icon" />
+  <circle cx="620" cy="220" r="10" class="aspect-icon" />
+  
+  <!-- Connecting Lines -->
+  <path d="M240,150 C280,130 320,130 350,150" class="connection" />
+  <path d="M450,150 C480,130 520,130 560,150" class="connection" />
+  <path d="M220,260 C280,280 520,280 580,260" class="connection" />
+  
+  <!-- Connecting Lines to Center -->
+  <path d="M260,200 L330,200" class="connection" />
+  <path d="M400,150 L400,130" class="connection" />
+  <path d="M470,200 L540,200" class="connection" />
+</svg>

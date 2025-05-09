@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" aria-labelledby="logo-title logo-desc" role="img">
+  <title id="logo-title">Processism</title>
+  <desc id="logo-desc">Processism logo showing a recursive pattern</desc>
+  
+  <!-- Simple logo showing recursive circular pattern -->
+  <g fill="none" stroke="#304878" stroke-width="3">
+    <!-- Outer circle -->
+    <circle cx="60" cy="60" r="50" />
+    
+    <!-- Middle circle -->
+    <circle cx="60" cy="60" r="30" />
+    
+    <!-- Inner circle -->
+    <circle cx="60" cy="60" r="15" />
+    
+    <!-- Connecting lines representing recursion -->
+    <path d="M60,10 C80,30 80,90 60,110" />
+    <path d="M60,110 C40,90 40,30 60,10" />
+    <path d="M110,60 C90,80 30,80 10,60" />
+    <path d="M10,60 C30,40 90,40 110,60" />
+  </g>
+  
+  <!-- Logo text -->
+  <text x="130" y="70" font-family="sans-serif" font-size="40" fill="#304878" font-weight="bold">Processism</text>
+</svg>

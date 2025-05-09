@@ -1,0 +1,277 @@
+---
+---
+
+// Variables
+$primary-color: #304878;
+$secondary-color: #6a8cc8;
+$accent-color: #2b88d8;
+$text-color: #333;
+$light-text: #666;
+$background-color: #fff;
+$light-background: #f8f8f8;
+$border-color: #eaeaea;
+$link-color: #2b88d8;
+$link-hover-color: darken($link-color, 15%);
+
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$font-family-heading: $font-family-base;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+$spacing-unit: 30px;
+$content-width: 1200px;
+$on-palm: 600px;
+$on-laptop: 800px;
+
+// Base styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+body {
+  font-family: $font-family-base;
+  color: $text-color;
+  background-color: $background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+  margin-bottom: $spacing-unit / 2;
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-top: $spacing-unit;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: $spacing-unit;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: $spacing-unit / 1.5;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5, h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: $spacing-unit / 2;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+blockquote {
+  border-left: 4px solid $secondary-color;
+  padding-left: $spacing-unit / 2;
+  font-style: italic;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: $spacing-unit / 2;
+  color: $light-text;
+}
+
+code {
+  font-family: monospace;
+  background-color: $light-background;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: $light-background;
+  padding: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
+  overflow-x: auto;
+  border-radius: 4px;
+  
+  code {
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+ul, ol {
+  margin-left: $spacing-unit;
+  margin-bottom: $spacing-unit / 2;
+}
+
+// Layout
+.container {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
+}
+
+.site-header {
+  padding: $spacing-unit 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.site-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $spacing-unit 0;
+  
+  .content-wrapper {
+    flex: 1 1 70%;
+    padding-right: $spacing-unit;
+    
+    @media (max-width: $on-laptop) {
+      flex: 1 1 100%;
+      padding-right: 0;
+    }
+  }
+  
+  .site-sidebar {
+    flex: 1 1 30%;
+    
+    @media (max-width: $on-laptop) {
+      flex: 1 1 100%;
+      margin-top: $spacing-unit;
+    }
+  }
+}
+
+.site-footer {
+  border-top: 1px solid $border-color;
+  padding: $spacing-unit 0;
+  color: $light-text;
+}
+
+// Components
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: $spacing-unit / 2;
+  font-size: 0.875rem;
+  
+  .separator {
+    margin: 0 0.5em;
+    color: $light-text;
+  }
+  
+  .current {
+    color: $light-text;
+  }
+}
+
+.page-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $spacing-unit;
+  padding-top: $spacing-unit / 2;
+  border-top: 1px solid $border-color;
+  
+  .previous, .next {
+    display: flex;
+    align-items: center;
+    
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+  }
+  
+  .previous svg {
+    margin-right: 8px;
+  }
+  
+  .next svg {
+    margin-left: 8px;
+  }
+  
+  @media (max-width: $on-palm) {
+    flex-direction: column;
+    
+    .next {
+      margin-top: $spacing-unit / 2;
+    }
+  }
+}
+
+.related-pages, .audience-links {
+  margin-top: $spacing-unit;
+  padding-top: $spacing-unit / 2;
+  border-top: 1px solid $border-color;
+  
+  h3 {
+    margin-top: 0;
+  }
+}
+
+// Home-specific
+.home-header {
+  text-align: center;
+  margin-bottom: $spacing-unit;
+  
+  .logo-container {
+    max-width: 100%;
+    margin: 0 auto;
+    
+    svg {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+// Navigation
+.main-nav {
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  .current {
+    font-weight: bold;
+    color: $primary-color;
+  }
+}
+
+// Utility classes
+.text-center {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.svg-container {
+  margin-bottom: $spacing-unit / 2;
+  text-align: center;
+  
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+}

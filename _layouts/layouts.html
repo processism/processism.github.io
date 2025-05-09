@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="page">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="page-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  <div class="page-content">
+    {{ content }}
+  </div>
+
+  {% if page.related_pages %}
+    <div class="related-pages">
+      <h3>Related Content</h3>
+      <ul>
+        {% for related_page in page.related_pages %}
+          <li>
+            <a href="{{ related_page.url | relative_url }}">{{ related_page.title }}</a>
+            {% if related_page.description %}
+              <p>{{ related_page.description }}</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% if page.audience_links %}
+    <div class="audience-links">
+      <h3>Audience Perspectives</h3>
+      <ul>
+        {% for link in page.audience_links %}
+          <li>
+            <a href="{{ link.url | relative_url }}">{{ link.text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</article>

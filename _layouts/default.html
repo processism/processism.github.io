@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      {% include header.html %}
+    </header>
+
+    <main class="site-content">
+      <div class="content-wrapper">
+        {% if page.title %}
+          <div class="page-header">
+            <div class="breadcrumbs">
+              <a href="{{ "/" | relative_url }}">Home</a>
+              {% if page.collection %}
+                <span class="separator">›</span>
+                <a href="{{ page.collection | prepend: '/' | append: '/' | relative_url }}">{{ page.collection | capitalize }}</a>
+              {% endif %}
+              {% if page.title != page.collection %}
+                <span class="separator">›</span>
+                <span class="current">{{ page.title }}</span>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+
+        {{ content }}
+        
+        {% if page.collection %}
+          <div class="page-navigation">
+            {% if page.previous %}
+              <a href="{{ page.previous.url | relative_url }}" class="previous">
+                {% include svg/icons/arrow-left.svg %}
+                <span>Previous: {{ page.previous.title }}</span>
+              </a>
+            {% endif %}
+            
+            {% if page.next %}
+              <a href="{{ page.next.url | relative_url }}" class="next">
+                <span>Next: {{ page.next.title }}</span>
+                {% include svg/icons/arrow-right.svg %}
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+
+      <aside class="site-sidebar">
+        {% include navigation.html %}
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      {% include footer.html %}
+    </footer>
+  </div>
+</body>
+</html>
