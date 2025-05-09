@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" aria-labelledby="aspects-integration-title aspects-integration-desc" role="img">
+  <title id="aspects-integration-title">Integration of the Three Aspects</title>
+  <desc id="aspects-integration-desc">A visual representation of how the three aspects of Processism work together as an integrated process.</desc>
+  
+  <!-- Styles -->
+  <defs>
+    <style>
+      .aspect-circle {
+        fill: #f0f5ff;
+        stroke: #304878;
+        stroke-width: 2.5;
+      }
+      .center-circle {
+        fill: #e5eeff;
+        stroke: #304878;
+        stroke-width: 3;
+      }
+      .arrow {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .cycle-arrow {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .label {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .sublabel {
+        font-family: sans-serif;
+        font-size: 14px;
+        text-anchor: middle;
+        fill: #666;
+      }
+      .center-label {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .process-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+    </style>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#304878" />
+    </marker>
+  </defs>
+  
+  <!-- Central Process Circle -->
+  <circle cx="400" cy="150" r="50" class="center-circle" />
+  <text x="400" y="145" class="center-label">Recursive</text>
+  <text x="400" y="170" class="center-label">Process</text>
+  
+  <!-- Three Aspect Circles -->
+  <circle cx="200" cy="150" r="60" class="aspect-circle" />
+  <text x="200" y="140" class="label">Complementarity</text>
+  <text x="200" y="165" class="sublabel">(Self-Differentiation)</text>
+  
+  <circle cx="400" cy="50" r="60" class="aspect-circle" />
+  <text x="400" y="40" class="label">Self-Reference</text>
+  <text x="400" y="65" class="sublabel">(Self-Relation)</text>
+  
+  <circle cx="600" cy="150" r="60" class="aspect-circle" />
+  <text x="600" y="140" class="label">Scale-Recursion</text>
+  <text x="600" y="165" class="sublabel">(Self-Integration)</text>
+  
+  <!-- Integration Process Circle -->
+  <circle cx="400" cy="250" r="60" class="aspect-circle" />
+  <text x="400" y="240" class="label">Integrated</text>
+  <text x="400" y="265" class="sublabel">Process</text>
+  
+  <!-- Connecting Arrows from Center -->
+  <path d="M360,130 L270,150" class="arrow" />
+  <path d="M400,110 L400,80" class="arrow" />
+  <path d="M440,130 L530,150" class="arrow" />
+  <path d="M400,190 L400,220" class="arrow" />
+  
+  <!-- Process Cycle -->
+  <path d="M240,190 C280,230 350,250 380,250" class="cycle-arrow" />
+  <path d="M420,250 C450,250 520,230 560,190" class="cycle-arrow" />
+  <path d="M560,110 C520,70 450,50 420,50" class="cycle-arrow" />
+  <path d="M380,50 C350,50 280,70 240,110" class="cycle-arrow" />
+  
+  <!-- Process Labels -->
+  <text x="280" y="230" class="process-label">Differentiation</text>
+  <text x="520" y="230" class="process-label">Integration</text>
+  <text x="520" y="70" class="process-label">Self-Modeling</text>
+  <text x="280" y="70" class="process-label">Relation</text>
+</svg>

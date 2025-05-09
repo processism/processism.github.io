@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" aria-labelledby="processism-overview-title processism-overview-desc" role="img">
+  <title id="processism-overview-title">Processism Overview</title>
+  <desc id="processism-overview-desc">A visual overview of the Processism framework showing the recursive process and its three key aspects.</desc>
+  
+  <!-- Styles -->
+  <defs>
+    <style>
+      .central-circle {
+        fill: #e5eeff;
+        stroke: #304878;
+        stroke-width: 3;
+        filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.2));
+      }
+      .recursive-path {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+      }
+      .aspect-circle {
+        fill: #f0f5ff;
+        stroke: #304878;
+        stroke-width: 2.5;
+      }
+      .aspect-arrow {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .label {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .sublabel {
+        font-family: sans-serif;
+        font-size: 14px;
+        text-anchor: middle;
+        fill: #666;
+      }
+      .central-label {
+        font-family: sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .description {
+        font-family: sans-serif;
+        font-size: 14px;
+        text-anchor: middle;
+        fill: #555;
+      }
+      .formula {
+        font-family: monospace;
+        font-size: 20px;
+        text-anchor: middle;
+        fill: #304878;
+      }
+    </style>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#304878" />
+    </marker>
+  </defs>
+  
+  <!-- Central Process Circle -->
+  <circle cx="400" cy="200" r="80" class="central-circle" />
+  <text x="400" y="190" class="central-label">Recursive</text>
+  <text x="400" y="220" class="central-label">Process</text>
+  
+  <!-- Recursive Function -->
+  <text x="400" y="260" class="formula">f(x) = f(f(x))</text>
+  
+  <!-- Recursive Illustration -->
+  <path d="M375,150 C375,140 425,140 425,150 C425,160 415,165 400,165 C385,165 375,170 375,180 C375,190 425,190 425,180" class="recursive-path" />
+  
+  <!-- Three Aspect Circles -->
+  <circle cx="200" cy="100" r="60" class="aspect-circle" />
+  <text x="200" y="90" class="label">Complementarity</text>
+  <text x="200" y="115" class="sublabel">(Self-Differentiation)</text>
+  
+  <circle cx="200" cy="300" r="60" class="aspect-circle" />
+  <text x="200" y="290" class="label">Self-Reference</text>
+  <text x="200" y="315" class="sublabel">(Self-Relation)</text>
+  
+  <circle cx="600" cy="200" r="60" class="aspect-circle" />
+  <text x="600" y="190" class="label">Scale-Recursion</text>
+  <text x="600" y="215" class="sublabel">(Self-Integration)</text>
+  
+  <!-- Connecting Arrows -->
+  <path d="M260,100 L330,150" class="aspect-arrow" />
+  <path d="M260,300 L330,250" class="aspect-arrow" />
+  <path d="M540,200 L470,200" class="aspect-arrow" />
+  
+  <!-- Descriptions -->
+  <text x="200" y="165" class="description">Paired aspects that work</text>
+  <text x="200" y="185" class="description">together and cannot be</text>
+  <text x="200" y="205" class="description">reduced to each other</text>
+  
+  <text x="200" y="365" class="description">Processes that fold back</text>
+  <text x="200" y="385" class="description">on themselves, creating</text>
+  <text x="200" y="405" class="description">self-modeling systems</text>
+  
+  <text x="600" y="265" class="description">Similar patterns manifesting</text>
+  <text x="600" y="285" class="description">across different scales</text>
+  <text x="600" y="305" class="description">of organization</text>
+</svg>

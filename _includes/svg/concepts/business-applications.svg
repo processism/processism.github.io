@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" aria-labelledby="business-applications-title business-applications-desc" role="img">
+  <title id="business-applications-title">Business Applications of Processism</title>
+  <desc id="business-applications-desc">A visual representation of how Processism principles apply to business domains including organizational design, innovation, strategy, and leadership.</desc>
+  
+  <!-- Styles -->
+  <defs>
+    <style>
+      .domain-box {
+        fill: #f0f5ff;
+        stroke: #304878;
+        stroke-width: 3;
+        filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.2));
+      }
+      .center-circle {
+        fill: #e5eeff;
+        stroke: #304878;
+        stroke-width: 3;
+      }
+      .connection {
+        fill: none;
+        stroke: #6a8cc8;
+        stroke-width: 2;
+        stroke-dasharray: 5,5;
+      }
+      .domain-title {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .center-text {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .domain-text {
+        font-family: sans-serif;
+        font-size: 14px;
+        text-anchor: middle;
+        fill: #555;
+      }
+      .aspect-circle {
+        fill: #fff;
+        stroke: #304878;
+        stroke-width: 2;
+      }
+      .aspect-text {
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+    </style>
+  </defs>
+  
+  <!-- Center Circle - Processism -->
+  <circle cx="400" cy="200" r="70" class="center-circle" />
+  <text x="400" y="190" class="center-text">Processism</text>
+  <text x="400" y="215" class="center-text">in Business</text>
+  
+  <!-- Organization Design (Top Left) -->
+  <rect x="100" y="50" width="200" height="120" rx="10" ry="10" class="domain-box" />
+  <text x="200" y="80" class="domain-title">Organizational Design</text>
+  <text x="200" y="110" class="domain-text">Balancing stability</text>
+  <text x="200" y="130" class="domain-text">and adaptability</text>
+  <text x="200" y="150" class="domain-text">across scales</text>
+  
+  <!-- Innovation (Top Right) -->
+  <rect x="500" y="50" width="200" height="120" rx="10" ry="10" class="domain-box" />
+  <text x="600" y="80" class="domain-title">Innovation</text>
+  <text x="600" y="110" class="domain-text">Integrating diverse</text>
+  <text x="600" y="130" class="domain-text">perspectives for</text>
+  <text x="600" y="150" class="domain-text">breakthrough solutions</text>
+  
+  <!-- Strategy (Bottom Left) -->
+  <rect x="100" y="230" width="200" height="120" rx="10" ry="10" class="domain-box" />
+  <text x="200" y="260" class="domain-title">Strategy</text>
+  <text x="200" y="290" class="domain-text">Balancing analysis</text>
+  <text x="200" y="310" class="domain-text">and intuition across</text>
+  <text x="200" y="330" class="domain-text">multiple timeframes</text>
+  
+  <!-- Leadership (Bottom Right) -->
+  <rect x="500" y="230" width="200" height="120" rx="10" ry="10" class="domain-box" />
+  <text x="600" y="260" class="domain-title">Leadership</text>
+  <text x="600" y="290" class="domain-text">Creating conditions</text>
+  <text x="600" y="310" class="domain-text">for adaptation and</text>
+  <text x="600" y="330" class="domain-text">coherent purpose</text>
+  
+  <!-- Connecting Lines -->
+  <path d="M250,170 C300,190 350,200 330,200" class="connection" />
+  <path d="M550,170 C500,190 450,200 470,200" class="connection" />
+  <path d="M250,230 C300,210 350,200 330,200" class="connection" />
+  <path d="M550,230 C500,210 450,200 470,200" class="connection" />
+  
+  <!-- Aspect Mini-Circles -->
+  <circle cx="300" cy="160" r="25" class="aspect-circle" />
+  <text x="300" y="165" class="aspect-text">Comple-</text>
+  <text x="300" y="180" class="aspect-text">mentarity</text>
+  
+  <circle cx="500" cy="160" r="25" class="aspect-circle" />
+  <text x="500" y="165" class="aspect-text">Self-</text>
+  <text x="500" y="180" class="aspect-text">Reference</text>
+  
+  <circle cx="300" cy="240" r="25" class="aspect-circle" />
+  <text x="300" y="245" class="aspect-text">Scale-</text>
+  <text x="300" y="260" class="aspect-text">Recursion</text>
+  
+  <circle cx="500" cy="240" r="25" class="aspect-circle" />
+  <text x="500" y="245" class="aspect-text">Process</text>
+  <text x="500" y="260" class="aspect-text">Focus</text>
+</svg>

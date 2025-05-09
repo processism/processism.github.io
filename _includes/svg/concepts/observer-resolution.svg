@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" aria-labelledby="observer-resolution-title observer-resolution-desc" role="img">
+  <title id="observer-resolution-title">Resolution of the Observer Paradox</title>
+  <desc id="observer-resolution-desc">Visual representation of how Processism resolves the observer paradox through self-reference.</desc>
+  
+  <!-- Styles -->
+  <defs>
+    <style>
+      .process-circle {
+        fill: #e5eeff;
+        stroke: #304878;
+        stroke-width: 3;
+        filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.1));
+      }
+      .aspect-circle {
+        fill: #f0f5ff;
+        stroke: #304878;
+        stroke-width: 2;
+      }
+      .arrow {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .loop-arrow {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .label {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #304878;
+        text-anchor: middle;
+      }
+      .process-label {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        fill: #304878;
+        text-anchor: middle;
+      }
+      .sublabel {
+        font-family: sans-serif;
+        font-size: 14px;
+        fill: #666;
+        text-anchor: middle;
+      }
+      .aspect-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        fill: #304878;
+        text-anchor: middle;
+      }
+      .resolution-box {
+        fill: #eaffea;
+        stroke: #6c6;
+        stroke-width: 2;
+        filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.1));
+      }
+      .resolution-label {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #494;
+        text-anchor: middle;
+      }
+    </style>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#304878" />
+    </marker>
+  </defs>
+  
+  <!-- Central Process Circle -->
+  <circle cx="400" cy="200" r="100" class="process-circle" />
+  <text x="400" y="190" class="process-label">Recursive</text>
+  <text x="400" y="220" class="process-label">Process</text>
+  
+  <!-- Self-Reference Aspect Circle -->
+  <circle cx="400" cy="80" r="50" class="aspect-circle" />
+  <text x="400" y="75" class="aspect-label">Self-Reference</text>
+  <text x="400" y="95" class="sublabel">(Self-Relation)</text>
+  
+  <!-- Observer Representation -->
+  <circle cx="280" cy="200" r="30" class="aspect-circle" />
+  <text x="280" y="205" class="aspect-label">Observer</text>
+  
+  <!-- Observed Representation -->
+  <circle cx="520" cy="200" r="30" class="aspect-circle" />
+  <text x="520" y="205" class="aspect-label">Observed</text>
+  
+  <!-- Connecting Arrows -->
+  <path d="M310,200 L490,200" class="arrow" />
+  <text x="400" y="185" class="sublabel">Complementary Aspects</text>
+  
+  <!-- Self-Reference Loop -->
+  <path d="M430,145 C450,120 450,70 400,70 C350,70 350,120 370,145" class="loop-arrow" />
+  
+  <!-- Resolution Box -->
+  <rect x="250" y="300" width="300" height="80" rx="10" ry="10" class="resolution-box" />
+  <text x="400" y="330" class="resolution-label">Resolution Through Self-Reference:</text>
+  <text x="400" y="360" class="sublabel">Observer and observed are aspects of the same</text>
+  <text x="400" y="380" class="sublabel">self-referential process relating to itself</text>
+</svg>

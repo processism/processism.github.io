@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" aria-labelledby="methodology-discovery-title methodology-discovery-desc" role="img">
+  <title id="methodology-discovery-title">Processism Methodology and Discovery</title>
+  <desc id="methodology-discovery-desc">Visual representation of the research methodology that led to the discovery of the Processism framework.</desc>
+  
+  <!-- Styles -->
+  <defs>
+    <style>
+      .step-box {
+        fill: #f0f5ff;
+        stroke: #304878;
+        stroke-width: 2;
+        filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.1));
+      }
+      .domain-circle {
+        fill: #fff;
+        stroke: #6a8cc8;
+        stroke-width: 1.5;
+      }
+      .result-box {
+        fill: #e5eeff;
+        stroke: #304878;
+        stroke-width: 3;
+        filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.2));
+      }
+      .arrow {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .step-label {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .domain-label {
+        font-family: sans-serif;
+        font-size: 12px;
+        text-anchor: middle;
+        fill: #6a8cc8;
+      }
+      .result-label {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+      .text {
+        font-family: sans-serif;
+        font-size: 12px;
+        text-anchor: middle;
+        fill: #555;
+      }
+      .aspect-circle {
+        fill: #fff;
+        stroke: #304878;
+        stroke-width: 2;
+      }
+      .aspect-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #304878;
+      }
+    </style>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#304878" />
+    </marker>
+  </defs>
+  
+  <!-- Step 1: Pattern Extraction -->
+  <rect x="50" y="100" width="150" height="60" rx="8" ry="8" class="step-box" />
+  <text x="125" y="130" class="step-label">Pattern Extraction</text>
+  <text x="125" y="150" class="text">Using LLMs as analysis tools</text>
+  
+  <!-- Knowledge Domains -->
+  <circle cx="75" cy="220" r="25" class="domain-circle" />
+  <text x="75" y="225" class="domain-label">Physics</text>
+  
+  <circle cx="125" cy="220" r="25" class="domain-circle" />
+  <text x="125" y="225" class="domain-label">Biology</text>
+  
+  <circle cx="175" cy="220" r="25" class="domain-circle" />
+  <text x="175" y="225" class="domain-label">Cognition</text>
+  
+  <circle cx="125" cy="270" r="25" class="domain-circle" />
+  <text x="125" y="275" class="domain-label">Social</text>
+  
+  <!-- Step 2: Pattern Recognition -->
+  <rect x="250" y="100" width="150" height="60" rx="8" ry="8" class="step-box" />
+  <text x="325" y="130" class="step-label">Pattern Recognition</text>
+  <text x="325" y="150" class="text">Identifying cross-domain structures</text>
+  
+  <!-- Pattern Analysis -->
+  <rect x="250" y="200" width="150" height="100" rx="8" ry="8" class="step-box" opacity="0.7" />
+  <text x="325" y="225" class="text">Comparing structures</text>
+  <text x="325" y="245" class="text">across domains</text>
+  <text x="325" y="265" class="text">Looking for strongest</text>
+  <text x="325" y="285" class="text">recurring patterns</text>
+  
+  <!-- Step 3: Framework Synthesis -->
+  <rect x="450" y="100" width="150" height="60" rx="8" ry="8" class="step-box" />
+  <text x="525" y="130" class="step-label">Framework Synthesis</text>
+  <text x="525" y="150" class="text">Formulating coherent patterns</text>
+  
+  <!-- Results -->
+  <rect x="450" y="200" width="300" height="150" rx="10" ry="10" class="result-box" />
+  <text x="600" y="230" class="result-label">Discovered Pattern:</text>
+  <text x="600" y="260" class="result-label">Recursive Process Framework</text>
+  
+  <!-- Three Aspects -->
+  <circle cx="525" cy="310" r="35" class="aspect-circle" />
+  <text x="525" y="305" class="aspect-label">Comple-</text>
+  <text x="525" y="320" class="aspect-label">mentarity</text>
+  
+  <circle cx="600" cy="310" r="35" class="aspect-circle" />
+  <text x="600" y="305" class="aspect-label">Self-</text>
+  <text x="600" y="320" class="aspect-label">Reference</text>
+  
+  <circle cx="675" cy="310" r="35" class="aspect-circle" />
+  <text x="675" y="305" class="aspect-label">Scale-</text>
+  <text x="675" y="320" class="aspect-label">Recursion</text>
+  
+  <!-- Connecting Arrows -->
+  <path d="M125,160 L125,190" class="arrow" />
+  <path d="M200,130 L250,130" class="arrow" />
+  <path d="M325,160 L325,200" class="arrow" />
+  <path d="M400,130 L450,130" class="arrow" />
+  <path d="M525,160 L525,200" class="arrow" />
+</svg>

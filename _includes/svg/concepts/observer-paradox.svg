@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" aria-labelledby="observer-paradox-title observer-paradox-desc" role="img">
+  <title id="observer-paradox-title">The Observer Paradox</title>
+  <desc id="observer-paradox-desc">Visual representation of the observer paradox - trying to understand the very process that enables our understanding.</desc>
+  
+  <!-- Styles -->
+  <defs>
+    <style>
+      .observer {
+        fill: #f0f5ff;
+        stroke: #304878;
+        stroke-width: 3;
+      }
+      .observed {
+        fill: #fff;
+        stroke: #304878;
+        stroke-width: 3;
+      }
+      .paradox-box {
+        fill: #ffeaea;
+        stroke: #d88;
+        stroke-width: 2;
+        filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.1));
+      }
+      .arrow {
+        fill: none;
+        stroke: #304878;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .feedback-arrow {
+        fill: none;
+        stroke: #d88;
+        stroke-width: 2;
+        stroke-dasharray: 5,5;
+        marker-end: url(#arrowhead-red);
+      }
+      .label {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #304878;
+        text-anchor: middle;
+      }
+      .sublabel {
+        font-family: sans-serif;
+        font-size: 14px;
+        fill: #666;
+        text-anchor: middle;
+      }
+      .paradox-label {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #d44;
+        text-anchor: middle;
+      }
+    </style>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#304878" />
+    </marker>
+    
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d88" />
+    </marker>
+  </defs>
+  
+  <!-- Observer (Person with Brain) -->
+  <circle cx="250" cy="150" r="70" class="observer" />
+  <ellipse cx="250" cy="110" rx="40" ry="30" fill="#e5eeff" stroke="#304878" stroke-width="2" />
+  <path d="M230,100 C235,95 245,90 255,95 M235,115 C240,110 250,105 260,110" fill="none" stroke="#304878" stroke-width="1.5" />
+  <circle cx="235" cy="130" r="5" fill="#304878" />
+  <circle cx="265" cy="130" r="5" fill="#304878" />
+  <path d="M235,160 C240,170 260,170 265,160" fill="none" stroke="#304878" stroke-width="1.5" />
+  
+  <!-- Observed Reality -->
+  <circle cx="550" cy="150" r="70" class="observed" />
+  <path d="M520,130 L540,140 L520,150 M560,130 L540,140 L560,150" fill="none" stroke="#304878" stroke-width="2" />
+  <path d="M530,170 C540,180 560,180 570,170" fill="none" stroke="#304878" stroke-width="2" />
+  
+  <!-- Paradox Box -->
+  <rect x="300" y="250" width="200" height="100" rx="10" ry="10" class="paradox-box" />
+  <text x="400" y="280" class="paradox-label">The Observer Paradox</text>
+  <text x="400" y="310" class="sublabel">How can we understand</text>
+  <text x="400" y="330" class="sublabel">the very process that enables</text>
+  <text x="400" y="350" class="sublabel">our understanding?</text>
+  
+  <!-- Observation Arrow -->
+  <path d="M320,150 L480,150" class="arrow" />
+  <text x="400" y="135" class="label">Observation</text>
+  
+  <!-- Feedback Arrow -->
+  <path d="M350,250 C350,210 300,180 300,150" class="feedback-arrow" />
+  <text x="300" y="210" transform="rotate(-65,300,210)" class="paradox-label" style="font-size: 14px;">But how?</text>
+  
+  <!-- Feedback Arrow from Reality to Understanding -->
+  <path d="M450,250 C450,210 500,180 500,150" class="feedback-arrow" />
+  <text x="500" y="210" transform="rotate(65,500,210)" class="paradox-label" style="font-size: 14px;">Recursion</text>
+</svg>
