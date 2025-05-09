@@ -2,32 +2,19 @@ title: Processism
 description: A recursive framework for understanding reality that offers extraordinary explanatory power with remarkable parsimony.
 url: https://processism.wiki
 baseurl: ""
-logo: "/assets/images/logo.svg"
 
 # Theme settings for GitHub Pages
 remote_theme: just-the-docs/just-the-docs
-color_scheme: light
 
-# Set a path/url to a favicon (if you have one)
-# favicon_ico: "/assets/images/favicon.ico"
-
-# Enable or disable the site search
+# Basic settings
 search_enabled: true
+heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
   "GitHub":
     - "https://github.com/processism/processism.github.io"
-
-# Makes Aux links open in a new tab
 aux_links_new_tab: true
-
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
-
-# Enable heading anchors
-heading_anchors: true
 
 # Collections for website structure
 collections:
@@ -46,39 +33,6 @@ collections:
   resources:
     permalink: "/:collection/:path/"
     output: true
-
-# Default front matter
-defaults:
-  - scope:
-      path: ""
-      type: basics
-    values:
-      layout: "page"
-      nav_order: 2
-  - scope:
-      path: ""
-      type: paradoxes
-    values:
-      layout: "page"
-      nav_order: 3
-  - scope:
-      path: ""
-      type: applications
-    values:
-      layout: "page"
-      nav_order: 4
-  - scope:
-      path: ""
-      type: audiences
-    values:
-      layout: "page"
-      nav_order: 5
-  - scope:
-      path: ""
-      type: resources
-    values:
-      layout: "page"
-      nav_order: 6
 
 # For GitHub Pages compatibility
 plugins:
