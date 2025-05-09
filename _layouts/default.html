@@ -14,49 +14,47 @@
     {% include navigation.html %}
   </aside>
   
-  <div class="main-container">
-    <main class="site-content">
-      <div class="content-wrapper">
-        {% if page.title and layout.name != 'home' %}
-          <div class="breadcrumbs">
-            <a href="{{ "/" | relative_url }}">Home</a>
-            {% if page.collection %}
-              <span class="separator">›</span>
-              <a href="{{ page.collection | prepend: '/' | append: '/' | relative_url }}">{{ page.collection | capitalize }}</a>
-            {% endif %}
-            {% if page.title != page.collection %}
-              <span class="separator">›</span>
-              <span class="current">{{ page.title }}</span>
-            {% endif %}
-          </div>
-        {% endif %}
+  <main class="site-content">
+    <div class="content-wrapper">
+      {% if page.title and layout.name != 'home' %}
+        <div class="breadcrumbs">
+          <a href="{{ "/" | relative_url }}">Home</a>
+          {% if page.collection %}
+            <span class="separator">›</span>
+            <a href="{{ page.collection | prepend: '/' | append: '/' | relative_url }}">{{ page.collection | capitalize }}</a>
+          {% endif %}
+          {% if page.title != page.collection %}
+            <span class="separator">›</span>
+            <span class="current">{{ page.title }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
 
-        {{ content }}
-        
-        {% if page.collection and page.previous or page.next %}
-          <nav class="page-navigation">
-            {% if page.previous %}
-              <a href="{{ page.previous.url | relative_url }}" class="previous">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M19 12H5M5 12l7 7M5 12l7-7"/>
-                </svg>
-                <span>{{ page.previous.title }}</span>
-              </a>
-            {% endif %}
-            
-            {% if page.next %}
-              <a href="{{ page.next.url | relative_url }}" class="next">
-                <span>{{ page.next.title }}</span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14M19 12l-7 7M19 12l-7-7"/>
-                </svg>
-              </a>
-            {% endif %}
-          </nav>
-        {% endif %}
-      </div>
-    </main>
-  </div>
+      {{ content }}
+      
+      {% if page.collection and page.previous or page.next %}
+        <nav class="page-navigation">
+          {% if page.previous %}
+            <a href="{{ page.previous.url | relative_url }}" class="previous">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12H5M5 12l7 7M5 12l7-7"/>
+              </svg>
+              <span>{{ page.previous.title }}</span>
+            </a>
+          {% endif %}
+          
+          {% if page.next %}
+            <a href="{{ page.next.url | relative_url }}" class="next">
+              <span>{{ page.next.title }}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M19 12l-7 7M19 12l-7-7"/>
+              </svg>
+            </a>
+          {% endif %}
+        </nav>
+      {% endif %}
+    </div>
+  </main>
 
   <footer class="site-footer">
     {% include footer.html %}
