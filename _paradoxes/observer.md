@@ -17,7 +17,7 @@ This creates a recursive challenge:
 - We're using conceptual frameworks to discover a more fundamental framework
 - We're attempting to see the outside of a box while standing inside it
 
-{% include svg/concepts/observer-paradox.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 This isn't merely a philosophical puzzle—it's a fundamental challenge for any attempt to understand consciousness, cognition, and even reality itself.
 
@@ -74,7 +74,7 @@ Understanding operates across scales of organization:
 - Higher level awareness can model lower level processes
 - This creates a recursive loop that allows understanding to understand itself
 
-{% include svg/concepts/observer-resolution.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Practical Implications
 

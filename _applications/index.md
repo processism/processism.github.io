@@ -12,7 +12,7 @@ has_children: True
 
 The power of any framework lies not just in its explanatory elegance but in its practical utility. Processism's three aspects—complementarity, self-reference, and scale-recursion—offer powerful lenses for addressing real-world challenges.
 
-{% include svg/concepts/applications-overview.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Application Domains
 

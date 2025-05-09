@@ -17,7 +17,7 @@ This creates what we call "The Observer Paradox":
 - We're using awareness to understand what creates awareness
 - We're using conceptual frameworks to discover a more fundamental framework
 
-{% include svg/concepts/observer-paradox.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 Traditional approaches often ignore this paradox. Our methodology explicitly acknowledges it and works with it rather than against it.
 
@@ -97,7 +97,7 @@ This methodical process revealed three fundamental meta-patterns that recur acro
 
 These patterns appear to work together as aspects of a more unified framework that views reality as a self-organizing, self-referential process.
 
-{% include svg/concepts/methodology-discovery.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Distinguishing Real Patterns from Cognitive Biases
 

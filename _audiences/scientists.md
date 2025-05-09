@@ -23,7 +23,7 @@ Traditional scientific frameworks often struggle because they:
 - Lack frameworks for addressing self-referential phenomena
 - Struggle to connect processes across different scales
 
-{% include svg/concepts/science-overview.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Practical Applications
 

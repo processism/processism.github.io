@@ -23,7 +23,7 @@ Traditional approaches often fall short because they:
 - Create artificial separations between technical and human aspects
 - Struggle to balance competing technical priorities
 
-{% include svg/concepts/technology-overview.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Practical Applications
 

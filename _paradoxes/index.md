@@ -12,7 +12,7 @@ has_children: True
 
 Persistent paradoxes in our understanding aren't just interesting puzzles—they're evidence of limitations in our conceptual frameworks. When a paradox resists resolution despite centuries of effort, it suggests we may need a more fundamental framework.
 
-{% include svg/concepts/paradox-overview.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## The Processist Approach to Paradoxes
 

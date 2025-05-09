@@ -18,7 +18,7 @@ Organizations face unprecedented complexity and change. Traditional management a
 
 Processism provides practical approaches that address these challenges by applying its three core aspects to organizational contexts.
 
-{% include svg/concepts/business-applications.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Organizational Design
 

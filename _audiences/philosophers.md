@@ -19,7 +19,7 @@ As a philosopher, you engage with fundamental questions about reality, knowledge
 
 Processism offers unique philosophical contributions:
 
-{% include svg/concepts/philosophy-overview.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Philosophical Applications
 

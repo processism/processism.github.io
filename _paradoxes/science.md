@@ -18,7 +18,7 @@ Science faces several significant challenges in the 21st century:
 
 Processism provides approaches that address these challenges by applying its three core aspects to scientific contexts.
 
-{% include svg/concepts/science-applications.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Transdisciplinary Integration
 

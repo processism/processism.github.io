@@ -14,7 +14,7 @@ Visual representations can make abstract concepts more accessible. Here you'll f
 
 ### Core Framework Visuals
 
-{% include svg/concepts/three-aspects.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 The three fundamental aspects of Processism: Complementarity (self-differentiation), Self-Reference (self-relation), and Scale-Recursion (self-integration).
 

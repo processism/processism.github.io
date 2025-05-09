@@ -17,7 +17,7 @@ This creates several challenges:
 - How can mental events have causal effects in the physical world?
 - How can we unify our scientific understanding of the brain with our first-person experience?
 
-{% include svg/concepts/mind-body-paradox.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 This problem has persisted for centuries and remains unresolved by traditional frameworks.
 
@@ -78,7 +78,7 @@ Mental and physical descriptions refer to different scales of organization:
 - These aren't competing accounts but complementary perspectives at different scales
 - The relationship between them is scale-recursive rather than causal
 
-{% include svg/concepts/mind-body-resolution.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Practical Implications
 

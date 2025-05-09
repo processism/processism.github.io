@@ -23,7 +23,7 @@ Traditional business frameworks often fall short because they:
 - Fail to integrate perspectives across organizational scales
 - Lack frameworks for genuine adaptation
 
-{% include svg/concepts/business-overview.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Practical Applications
 

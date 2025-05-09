@@ -23,7 +23,7 @@ Traditional educational approaches often struggle because they:
 - Treat complementary learning modes as separate or even opposed
 - Lack frameworks for true transdisciplinary understanding
 
-{% include svg/concepts/education-overview.svg %}
+*[Visual diagram - will be restored in a future update]*
 
 ## Practical Applications
 
