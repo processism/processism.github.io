@@ -17,6 +17,7 @@
     
     <nav class="header-nav">
       <ul>
+        <li><a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
         <li><a href="{{ "/basics/" | relative_url }}" {% if page.url contains '/basics/' %}class="active"{% endif %}>Basics</a></li>
         <li><a href="{{ "/paradoxes/" | relative_url }}" {% if page.url contains '/paradoxes/' %}class="active"{% endif %}>Paradoxes</a></li>
         <li><a href="{{ "/applications/" | relative_url }}" {% if page.url contains '/applications/' %}class="active"{% endif %}>Applications</a></li>
@@ -40,6 +41,7 @@
     <button class="mobile-nav-close" aria-label="Close mobile navigation">×</button>
     <div class="mobile-nav-content">
       <ul class="mobile-nav-links">
+        <li><a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
         <li><a href="{{ "/basics/" | relative_url }}" {% if page.url contains '/basics/' %}class="active"{% endif %}>Basics</a></li>
         <li><a href="{{ "/paradoxes/" | relative_url }}" {% if page.url contains '/paradoxes/' %}class="active"{% endif %}>Paradoxes</a></li>
         <li><a href="{{ "/applications/" | relative_url }}" {% if page.url contains '/applications/' %}class="active"{% endif %}>Applications</a></li>

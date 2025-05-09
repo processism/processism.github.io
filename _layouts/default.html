@@ -10,9 +10,13 @@
   {% seo %}
 </head>
 <body>
-  <div class="container">
-    {% include header.html %}
-
+  {% include header.html %}
+  
+  <div class="main-container">
+    <aside class="site-sidebar">
+      {% include navigation.html %}
+    </aside>
+    
     <main class="site-content">
       <div class="content-wrapper">
         {% if page.title and layout.name != 'home' %}
@@ -53,16 +57,12 @@
           </nav>
         {% endif %}
       </div>
-
-      <aside class="site-sidebar">
-        {% include navigation.html %}
-      </aside>
     </main>
-
-    <footer class="site-footer">
-      {% include footer.html %}
-    </footer>
   </div>
+
+  <footer class="site-footer">
+    {% include footer.html %}
+  </footer>
 
   <script>
     // Simple mobile menu toggle
@@ -95,6 +95,17 @@
             body.classList.remove('mobile-menu-active');
             mobileOverlay.setAttribute('aria-hidden', 'true');
           });
+        });
+      }
+      
+      // Toggle sidebar on mobile
+      const sidebarToggle = document.querySelector('.sidebar-toggle');
+      const sidebar = document.querySelector('.site-sidebar');
+      
+      if (sidebarToggle && sidebar) {
+        sidebarToggle.addEventListener('click', function() {
+          sidebar.classList.toggle('active');
+          this.classList.toggle('active');
         });
       }
     });

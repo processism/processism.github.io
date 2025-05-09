@@ -1,110 +1,124 @@
 <nav class="main-nav">
-  <!-- Mobile menu toggle (hidden on desktop) -->
-  <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+  <h2>Navigation</h2>
+  
+  <div class="nav-section">
+    <h3>Core Understanding</h3>
+    <ul>
+      <li {% if page.url == "/basics/" %}class="current"{% endif %}>
+        <a href="{{ "/basics/" | relative_url }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          Processism Basics
+        </a>
+      </li>
+      <li {% if page.url == "/basics/three-aspects/" %}class="current"{% endif %}>
+        <a href="{{ "/basics/three-aspects/" | relative_url }}">The Three Aspects</a>
+      </li>
+      <li {% if page.url == "/basics/methodology/" %}class="current"{% endif %}>
+        <a href="{{ "/basics/methodology/" | relative_url }}">Our Methodology</a>
+      </li>
+      <li {% if page.url == "/basics/faq/" %}class="current"{% endif %}>
+        <a href="{{ "/basics/faq/" | relative_url }}">FAQ</a>
+      </li>
+    </ul>
+  </div>
 
-  <!-- Main navigation menu -->
-  <div class="nav-container">
-    <div class="nav-section">
-      <h3>Core Understanding</h3>
-      <ul>
-        <li {% if page.url == "/basics/" %}class="current"{% endif %}>
-          <a href="{{ "/basics/" | relative_url }}">Processism Basics</a>
-        </li>
-        <li {% if page.url == "/basics/three-aspects/" %}class="current"{% endif %}>
-          <a href="{{ "/basics/three-aspects/" | relative_url }}">The Three Aspects</a>
-        </li>
-        <li {% if page.url == "/basics/methodology/" %}class="current"{% endif %}>
-          <a href="{{ "/basics/methodology/" | relative_url }}">Our Methodology</a>
-        </li>
-        <li {% if page.url == "/basics/faq/" %}class="current"{% endif %}>
-          <a href="{{ "/basics/faq/" | relative_url }}">FAQ</a>
-        </li>
-      </ul>
-    </div>
+  <div class="nav-section">
+    <h3>Paradox Resolutions</h3>
+    <ul>
+      <li {% if page.url == "/paradoxes/" %}class="current"{% endif %}>
+        <a href="{{ "/paradoxes/" | relative_url }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          Overview
+        </a>
+      </li>
+      <li {% if page.url == "/paradoxes/observer/" %}class="current"{% endif %}>
+        <a href="{{ "/paradoxes/observer/" | relative_url }}">Observer Paradox</a>
+      </li>
+      <li {% if page.url == "/paradoxes/mind-body/" %}class="current"{% endif %}>
+        <a href="{{ "/paradoxes/mind-body/" | relative_url }}">Mind-Body Problem</a>
+      </li>
+      <li {% if page.url == "/paradoxes/free-will/" %}class="current"{% endif %}>
+        <a href="{{ "/paradoxes/free-will/" | relative_url }}">Free Will & Determinism</a>
+      </li>
+      <li {% if page.url == "/paradoxes/quantum/" %}class="current"{% endif %}>
+        <a href="{{ "/paradoxes/quantum/" | relative_url }}">Quantum Measurement</a>
+      </li>
+    </ul>
+  </div>
 
-    <div class="nav-section">
-      <h3>Paradox Resolutions</h3>
-      <ul>
-        <li {% if page.url == "/paradoxes/" %}class="current"{% endif %}>
-          <a href="{{ "/paradoxes/" | relative_url }}">Overview</a>
-        </li>
-        <li {% if page.url == "/paradoxes/observer/" %}class="current"{% endif %}>
-          <a href="{{ "/paradoxes/observer/" | relative_url }}">Observer Paradox</a>
-        </li>
-        <li {% if page.url == "/paradoxes/mind-body/" %}class="current"{% endif %}>
-          <a href="{{ "/paradoxes/mind-body/" | relative_url }}">Mind-Body Problem</a>
-        </li>
-        <li {% if page.url == "/paradoxes/free-will/" %}class="current"{% endif %}>
-          <a href="{{ "/paradoxes/free-will/" | relative_url }}">Free Will & Determinism</a>
-        </li>
-        <li {% if page.url == "/paradoxes/quantum/" %}class="current"{% endif %}>
-          <a href="{{ "/paradoxes/quantum/" | relative_url }}">Quantum Measurement</a>
-        </li>
-      </ul>
-    </div>
+  <div class="nav-section">
+    <h3>Applications</h3>
+    <ul>
+      <li {% if page.url == "/applications/" %}class="current"{% endif %}>
+        <a href="{{ "/applications/" | relative_url }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          Overview
+        </a>
+      </li>
+      <li {% if page.url == "/applications/science/" %}class="current"{% endif %}>
+        <a href="{{ "/applications/science/" | relative_url }}">Scientific Applications</a>
+      </li>
+      <li {% if page.url == "/applications/business/" %}class="current"{% endif %}>
+        <a href="{{ "/applications/business/" | relative_url }}">Business Applications</a>
+      </li>
+      <li {% if page.url == "/applications/technology/" %}class="current"{% endif %}>
+        <a href="{{ "/applications/technology/" | relative_url }}">Technology Applications</a>
+      </li>
+      <li {% if page.url == "/applications/personal/" %}class="current"{% endif %}>
+        <a href="{{ "/applications/personal/" | relative_url }}">Personal Applications</a>
+      </li>
+    </ul>
+  </div>
 
-    <div class="nav-section">
-      <h3>Applications</h3>
-      <ul>
-        <li {% if page.url == "/applications/" %}class="current"{% endif %}>
-          <a href="{{ "/applications/" | relative_url }}">Overview</a>
-        </li>
-        <li {% if page.url == "/applications/science/" %}class="current"{% endif %}>
-          <a href="{{ "/applications/science/" | relative_url }}">Scientific Applications</a>
-        </li>
-        <li {% if page.url == "/applications/business/" %}class="current"{% endif %}>
-          <a href="{{ "/applications/business/" | relative_url }}">Business Applications</a>
-        </li>
-        <li {% if page.url == "/applications/technology/" %}class="current"{% endif %}>
-          <a href="{{ "/applications/technology/" | relative_url }}">Technology Applications</a>
-        </li>
-        <li {% if page.url == "/applications/personal/" %}class="current"{% endif %}>
-          <a href="{{ "/applications/personal/" | relative_url }}">Personal Applications</a>
-        </li>
-      </ul>
-    </div>
+  <div class="nav-section">
+    <h3>Audience Paths</h3>
+    <ul>
+      <li {% if page.url == "/audiences/scientists/" %}class="current"{% endif %}>
+        <a href="{{ "/audiences/scientists/" | relative_url }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          For Scientists
+        </a>
+      </li>
+      <li {% if page.url == "/audiences/business/" %}class="current"{% endif %}>
+        <a href="{{ "/audiences/business/" | relative_url }}">For Business Leaders</a>
+      </li>
+      <li {% if page.url == "/audiences/philosophers/" %}class="current"{% endif %}>
+        <a href="{{ "/audiences/philosophers/" | relative_url }}">For Philosophers</a>
+      </li>
+      <li {% if page.url == "/audiences/technologists/" %}class="current"{% endif %}>
+        <a href="{{ "/audiences/technologists/" | relative_url }}">For Technologists</a>
+      </li>
+      <li {% if page.url == "/audiences/educators/" %}class="current"{% endif %}>
+        <a href="{{ "/audiences/educators/" | relative_url }}">For Educators</a>
+      </li>
+    </ul>
+  </div>
 
-    <div class="nav-section">
-      <h3>Audience Paths</h3>
-      <ul>
-        <li {% if page.url == "/audiences/scientists/" %}class="current"{% endif %}>
-          <a href="{{ "/audiences/scientists/" | relative_url }}">For Scientists</a>
-        </li>
-        <li {% if page.url == "/audiences/business/" %}class="current"{% endif %}>
-          <a href="{{ "/audiences/business/" | relative_url }}">For Business Leaders</a>
-        </li>
-        <li {% if page.url == "/audiences/philosophers/" %}class="current"{% endif %}>
-          <a href="{{ "/audiences/philosophers/" | relative_url }}">For Philosophers</a>
-        </li>
-        <li {% if page.url == "/audiences/technologists/" %}class="current"{% endif %}>
-          <a href="{{ "/audiences/technologists/" | relative_url }}">For Technologists</a>
-        </li>
-        <li {% if page.url == "/audiences/educators/" %}class="current"{% endif %}>
-          <a href="{{ "/audiences/educators/" | relative_url }}">For Educators</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="nav-section">
-      <h3>Resources</h3>
-      <ul>
-        <li {% if page.url == "/resources/" %}class="current"{% endif %}>
-          <a href="{{ "/resources/" | relative_url }}">Overview</a>
-        </li>
-        <li {% if page.url == "/resources/glossary/" %}class="current"{% endif %}>
-          <a href="{{ "/resources/glossary/" | relative_url }}">Glossary</a>
-        </li>
-        <li {% if page.url == "/resources/visuals/" %}class="current"{% endif %}>
-          <a href="{{ "/resources/visuals/" | relative_url }}">Visual Explanations</a>
-        </li>
-        <li {% if page.url == "/resources/reading/" %}class="current"{% endif %}>
-          <a href="{{ "/resources/reading/" | relative_url }}">Further Reading</a>
-        </li>
-      </ul>
-    </div>
+  <div class="nav-section">
+    <h3>Resources</h3>
+    <ul>
+      <li {% if page.url == "/resources/" %}class="current"{% endif %}>
+        <a href="{{ "/resources/" | relative_url }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          Overview
+        </a>
+      </li>
+      <li {% if page.url == "/resources/glossary/" %}class="current"{% endif %}>
+        <a href="{{ "/resources/glossary/" | relative_url }}">Glossary</a>
+      </li>
+      <li {% if page.url == "/resources/visuals/" %}class="current"{% endif %}>
+        <a href="{{ "/resources/visuals/" | relative_url }}">Visual Explanations</a>
+      </li>
+      <li {% if page.url == "/resources/reading/" %}class="current"{% endif %}>
+        <a href="{{ "/resources/reading/" | relative_url }}">Further Reading</a>
+      </li>
+    </ul>
   </div>
 </nav>
+
+<!-- Mobile sidebar toggle button -->
+<button class="sidebar-toggle" aria-label="Toggle sidebar navigation">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 12h18M3 6h18M3 18h18"/>
+  </svg>
+</button>
