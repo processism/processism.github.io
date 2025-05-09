@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Paradox Resolutions
-description: How the Processism framework resolves persistent paradoxes in our understanding of reality.
 permalink: /paradoxes/
+nav_order: 3
+has_children: True
 ---
 
 # How Processism Resolves Paradoxes

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Processism Basics
-description: An introduction to Processism in plain language with everyday examples.
 permalink: /basics/
+nav_order: 2
+has_children: True
 ---
 
 # Processism in Plain Language
@@ -14,8 +15,6 @@ permalink: /basics/
 Processism is a framework for understanding reality that emerged from a systematic analysis of patterns across many domains of human knowledge.
 
 Rather than seeing the world primarily as a collection of objects or separate domains, Processism views it as an integrated process that generates its own complexity through recursive patterns—patterns that repeat and build upon themselves.
-
-{% include svg/concepts/processism-overview.svg %}
 
 ## The Three Core Patterns
 
@@ -53,14 +52,14 @@ Beyond its theoretical elegance, this framework offers practical approaches to c
 
 Depending on your interests, you might want to explore:
 
-- [The Three Aspects Explained]({{ "/basics/three-aspects/" | relative_url }}) - A deeper look at the core patterns
-- [How We Discovered This]({{ "/basics/methodology/" | relative_url }}) - Our research methodology
-- [Paradox Resolutions]({{ "/paradoxes/" | relative_url }}) - How this framework resolves persistent paradoxes
-- [Practical Applications]({{ "/applications/" | relative_url }}) - How to apply these insights
+- [The Three Aspects Explained](/basics/three-aspects/) - A deeper look at the core patterns
+- [How We Discovered This](/basics/methodology/) - Our research methodology
+- [Paradox Resolutions](/paradoxes/) - How this framework resolves persistent paradoxes
+- [Practical Applications](/applications/) - How to apply these insights
 
 Or explore content specific to your field:
-- [For Scientists]({{ "/audiences/scientists/" | relative_url }})
-- [For Business Leaders]({{ "/audiences/business/" | relative_url }})
-- [For Philosophers]({{ "/audiences/philosophers/" | relative_url }})
-- [For Technologists]({{ "/audiences/technologists/" | relative_url }})
-- [For Educators]({{ "/audiences/educators/" | relative_url }})
+- [For Scientists](/audiences/scientists/)
+- [For Business Leaders](/audiences/business/)
+- [For Philosophers](/audiences/philosophers/)
+- [For Technologists](/audiences/technologists/)
+- [For Educators](/audiences/educators/)

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: For Technologists
-description: How Processism can enhance AI architecture, systems design, and information integration approaches for technologists and engineers.
+title: Processism for Technologists
 permalink: /audiences/technologists/
+nav_order: 5
+parent: Audiences
 ---
 
 # Processism for Technologists

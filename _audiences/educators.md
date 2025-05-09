@@ -1,8 +1,9 @@
 ---
 layout: page
-title: For Educators
-description: How Processism can enhance education through transdisciplinary approaches, systems thinking, and integrated learning experiences.
+title: Processism for Educators
 permalink: /audiences/educators/
+nav_order: 5
+parent: Audiences
 ---
 
 # Processism for Educators

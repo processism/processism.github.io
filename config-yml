@@ -1,0 +1,80 @@
+title: Processism
+description: A recursive framework for understanding reality that offers extraordinary explanatory power with remarkable parsimony.
+url: https://processism.wiki
+baseurl: ""
+logo: "/assets/images/logo.svg"
+
+# Theme settings
+theme: just-the-docs
+color_scheme: light
+
+# Set a path/url to a favicon
+favicon_ico: "/assets/images/favicon.ico"
+
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub":
+    - "https://github.com/processism/processism.github.io"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Sort order for navigation links
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "© 2025 Processism"
+
+# Collections for website structure
+collections:
+  basics:
+    permalink: "/:collection/:path/"
+    output: true
+  paradoxes:
+    permalink: "/:collection/:path/"
+    output: true
+  applications:
+    permalink: "/:collection/:path/"
+    output: true
+  audiences:
+    permalink: "/:collection/:path/"
+    output: true
+  resources:
+    permalink: "/:collection/:path/"
+    output: true
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: basics
+    values:
+      layout: "page"
+      nav_order: 2
+  - scope:
+      path: ""
+      type: paradoxes
+    values:
+      layout: "page"
+      nav_order: 3
+  - scope:
+      path: ""
+      type: applications
+    values:
+      layout: "page"
+      nav_order: 4
+  - scope:
+      path: ""
+      type: audiences
+    values:
+      layout: "page"
+      nav_order: 5
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: "page"
+      nav_order: 6

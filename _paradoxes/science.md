@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Scientific Applications
-description: How Processism can enhance scientific research, bridge disciplinary gaps, and address complex challenges across scientific domains.
-permalink: /applications/science/
+title: Processism in Scientific Research
+permalink: /paradoxes/science/
+nav_order: 5
+parent: Paradox Resolutions
 ---
 
 # Processism in Scientific Research

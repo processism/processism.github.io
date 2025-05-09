@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Mind-Body Problem
-description: How Processism resolves the persistent question of how physical and mental phenomena relate to each other.
-permalink: /paradoxes/mind-body/
+title: "The Mind-Body Problem"
+permalink: "/paradoxes/mind-body/"
+nav_order: 5
+parent: Paradox Resolutions
 ---
 
 # The Mind-Body Problem

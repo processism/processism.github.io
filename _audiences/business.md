@@ -1,8 +1,9 @@
 ---
 layout: page
-title: For Business Leaders
-description: How Processism can help business leaders develop more adaptive organizations, enhance innovation, and navigate complexity.
+title: Processism for Business Leaders
 permalink: /audiences/business/
+nav_order: 5
+parent: Audiences
 ---
 
 # Processism for Business Leaders

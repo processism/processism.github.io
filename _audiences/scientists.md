@@ -1,8 +1,9 @@
 ---
 layout: page
-title: For Scientists
-description: How Processism can enhance scientific research, bridge disciplinary boundaries, and address complex challenges across scientific domains.
+title: Processism for Scientists
 permalink: /audiences/scientists/
+nav_order: 5
+parent: Audiences
 ---
 
 # Processism for Scientists

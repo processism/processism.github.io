@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Resources
-description: Supporting resources for understanding and applying the Processism framework, including visuals, glossary, and further reading.
 permalink: /resources/
+nav_order: 6
+has_children: True
 ---
 
 # Processism Resources

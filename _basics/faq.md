@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Frequently Asked Questions
-description: Common questions and answers about Processism, its methodology, and applications.
 permalink: /basics/faq/
+nav_order: 5
+parent: Processism Basics
 ---
 
 # Frequently Asked Questions

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: The Observer Paradox
-description: How Processism resolves the fundamental paradox of trying to understand the very process that enables our understanding.
 permalink: /paradoxes/observer/
+nav_order: 5
+parent: Paradox Resolutions
 ---
 
 # The Observer Paradox

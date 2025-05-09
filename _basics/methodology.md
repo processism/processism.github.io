@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Our Methodology
-description: How we discovered the Processism framework through meta-pattern analysis across domains of human knowledge.
+title: Our Research Methodology
 permalink: /basics/methodology/
+nav_order: 5
+parent: Processism Basics
 ---
 
 # Our Research Methodology

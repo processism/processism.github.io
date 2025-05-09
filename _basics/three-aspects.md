@@ -1,8 +1,9 @@
 ---
 layout: page
-title: The Three Aspects
-description: A detailed exploration of the three fundamental aspects of Processism - complementarity, self-reference, and scale-recursion.
-permalink: /basics/three-aspects/
+title: The Three Aspects of Processism
+permalink: "/basics/three-aspects/"
+nav_order: 5
+parent: Processism Basics
 ---
 
 # The Three Aspects of Processism
@@ -12,8 +13,6 @@ permalink: /basics/three-aspects/
 ## Introduction
 
 Our research across domains of human knowledge has revealed three recurring meta-patterns that appear consistently in how we understand reality. These aren't separate principles but three interrelated aspects of a single recursive process.
-
-{% include svg/concepts/three-aspects.svg %}
 
 ## 1. Complementarity (Self-Differentiation)
 
@@ -137,8 +136,6 @@ This creates a cyclical dynamic:
 - Scale-integration creates coherent multi-level organization
 - This organization enables further differentiation
 
-{% include svg/concepts/aspects-integration.svg %}
-
 ## Practical Implications
 
 Understanding these three aspects has practical implications:
@@ -152,6 +149,6 @@ Understanding these three aspects has practical implications:
 
 Now that you understand the three core aspects, you might want to explore:
 
-- [Our Research Methodology]({{ "/basics/methodology/" | relative_url }}) - How we discovered these patterns
-- [Paradox Resolutions]({{ "/paradoxes/" | relative_url }}) - How these aspects resolve persistent paradoxes
-- [Applications]({{ "/applications/" | relative_url }}) - How to apply these insights in practice
+- [Our Research Methodology](/basics/methodology/) - How we discovered these patterns
+- [Paradox Resolutions](/paradoxes/) - How these aspects resolve persistent paradoxes
+- [Applications](/applications/) - How to apply these insights in practice

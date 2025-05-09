@@ -1,8 +1,9 @@
 ---
 layout: page
-title: For Philosophers
-description: How Processism offers new perspectives on fundamental philosophical questions about reality, mind, and knowledge.
+title: Processism for Philosophers
 permalink: /audiences/philosophers/
+nav_order: 5
+parent: Audiences
 ---
 
 # Processism for Philosophers

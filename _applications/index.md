@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Applications
-description: Practical applications of the Processism framework across scientific, business, technological, and personal domains.
 permalink: /applications/
+nav_order: 4
+has_children: True
 ---
 
 # Practical Applications of Processism

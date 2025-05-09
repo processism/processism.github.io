@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Business Applications
-description: How Processism can be applied to create more adaptive organizations, enhance innovation, and improve strategic decision-making.
-permalink: /applications/business/
+title: Processism in Business and Organizations
+permalink: /paradoxes/business/
+nav_order: 5
+parent: Paradox Resolutions
 ---
 
 # Processism in Business and Organizations
