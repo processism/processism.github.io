@@ -1,7 +1,17 @@
 # Processism
 
-This repository contains the source code for the Processism website.
+## About
 
-Processism is a philosophical framework that views reality as fundamentally process-based rather than entity-based. It proposes that what we perceive as "things" are actually stable patterns within ongoing processes.
+Processism is a fundamental ontological framework that proposes reality is best understood as a single recursive process of self-differentiation, self-relation, and self-integration.
 
-Visit the website: [http://www.processism.wiki](http://www.processism.wiki)
+## Resources
+
+- **Website**: [processism.wiki](https://processism.wiki)
+- **Inception Date**: May 9, 2025
+- **Contact**: processism@pm.me
+
+## Repository Contents
+
+This repository contains the source content for the Processism website and related materials.
+
+For a complete introduction to the framework, please visit [processism.wiki](https://processism.wiki).
