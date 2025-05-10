@@ -1,40 +1,18 @@
-title: Processism
-description: A recursive framework for understanding reality that offers extraordinary explanatory power with remarkable parsimony.
+# Site settings
+title: A Methodology for Pattern Discovery
+description: An empirical approach to identifying fundamental patterns across domains of human knowledge
 url: https://processism.wiki
 baseurl: ""
 
-# Theme settings for GitHub Pages
-remote_theme: just-the-docs/just-the-docs
+# Build settings
+markdown: kramdown
+theme: none
 
-# Basic settings
-search_enabled: true
-heading_anchors: true
-
-# Aux links for the upper right navigation
-aux_links:
-  "GitHub":
-    - "https://github.com/processism/processism.github.io"
-aux_links_new_tab: true
-
-# Collections for website structure
-collections:
-  basics:
-    permalink: "/:collection/:path/"
-    output: true
-  paradoxes:
-    permalink: "/:collection/:path/"
-    output: true
-  applications:
-    permalink: "/:collection/:path/"
-    output: true
-  audiences:
-    permalink: "/:collection/:path/"
-    output: true
-  resources:
-    permalink: "/:collection/:path/"
-    output: true
-
-# For GitHub Pages compatibility
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
