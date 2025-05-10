@@ -1,12 +1,15 @@
 # Site settings
-title: A Methodology for Pattern Discovery
-description: An empirical approach to identifying fundamental patterns across domains of human knowledge
+title: Processism - A Methodology for Pattern Discovery
+description: An exploration of recurring patterns across domains of human knowledge
 url: https://processism.wiki
 baseurl: ""
 
 # Build settings
 markdown: kramdown
-# Remove the theme line entirely for GitHub Pages
+
+# Navigation structure
+nav_enabled: true
+nav_sort: true
 
 # Exclude from processing
 exclude:
@@ -16,3 +19,25 @@ exclude:
   - vendor
   - .git
   - README.md
+  - foundational-framework-mission.md
+
+# Additional settings
+timezone: UTC
+encoding: utf-8
+
+# Permalinks
+permalink: pretty
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "simple"
