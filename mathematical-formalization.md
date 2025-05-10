@@ -6,7 +6,7 @@ description: Exploring formal mathematical representations of process patterns
 permalink: /mathematical-formalization
 navigation: |
   *This page explores mathematical possibilities. Best suited for formal thinkers.*  
-  *Previous: [Historical Perspectives](historical-perspectives) | Next: [Future Directions](future-directions)*
+  *Previous: [Questions & Challenges](questions-challenges) | Next: [Future Directions](future-directions)*
 ---
 
 # Mathematical Formalization
@@ -14,10 +14,6 @@ navigation: |
 ## The Challenge of Formalizing Process
 
 Mathematics traditionally describes static structures and their relationships. How do we formally represent pure process, change, and becoming? This page explores mathematical approaches to capturing process reality.
-
-<div class="diagram-container">
-[SVG: Mathematical symbols transforming from static (=) to dynamic (→, ⟲, ∂)]
-</div>
 
 ## Category Theory Approach
 
@@ -78,10 +74,6 @@ SelfReference(P) ≡
   (Process P maps to itself)
 ```
 
-<div class="diagram-container">
-[SVG: Visual representation of a fixed point in process space]
-</div>
-
 ### 3. Scale-Invariance
 
 Mathematical frameworks:
@@ -103,13 +95,11 @@ ScaleInvariance(P, λ) ≡
 Developing an algebra of processes:
 
 ### Basic Operations
-| Operation | Symbol | Meaning |
-|-----------|--------|---------|
-| Sequence | P₁ ; P₂ | P₁ then P₂ |
-| Parallel | P₁ ∥ P₂ | P₁ and P₂ simultaneously |
-| Choice | P₁ + P₂ | P₁ or P₂ |
-| Iteration | P* | P repeated |
-| Feedback | P↺ | P acting on itself |
+**Sequence**: P₁ ; P₂ (P₁ then P₂)  
+**Parallel**: P₁ ∥ P₂ (P₁ and P₂ simultaneously)  
+**Choice**: P₁ + P₂ (P₁ or P₂)  
+**Iteration**: P* (P repeated)  
+**Feedback**: P↺ (P acting on itself)
 
 ### Process Equations
 ```
@@ -127,10 +117,6 @@ Process as flow on manifolds:
 - Change as tangent vectors
 - Patterns as invariant sets
 - Bifurcations as qualitative shifts
-
-<div class="diagram-container">
-[SVG: Vector field on a manifold showing process flow]
-</div>
 
 ### Mathematical Framework
 ```
@@ -207,10 +193,6 @@ Modern foundations for process:
 - Terms as process instances
 - Equality as process equivalence
 - Higher types as meta-processes
-
-<div class="diagram-container">
-[SVG: Homotopy diagram showing continuous transformation between processes]
-</div>
 
 ## Sheaf Theory for Process
 

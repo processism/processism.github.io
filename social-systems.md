@@ -6,7 +6,7 @@ description: Understanding cultures, institutions, and human groups as living pr
 permalink: /social-systems
 navigation: |
   *This page explores social reality through the process lens. Best suited for understanding collective dynamics.*  
-  *Previous: [Consciousness Explained](consciousness-explained) | Next: [Technology & Information](technology-information)*
+  *Previous: [Personal Development](personal-development) | Next: [Technology & Information](technology-information)*
 ---
 
 # Social Systems
@@ -15,23 +15,11 @@ navigation: |
 
 A culture isn't a thing that societies "have"—it's what they continuously do. Like a melody that exists only while being played, culture exists only while being enacted, interpreted, and transformed by people.
 
-<div class="diagram-container">
-[SVG: Circular flow showing: People enact culture → Culture shapes people → People reshape culture → continuous cycle]
-</div>
-
 ## The Three Patterns in Society
 
 ### Complementarity in Social Systems
 
-Society thrives on dynamic tensions:
-
-| Force | Counterforce | Dynamic Balance |
-|-------|--------------|-----------------|
-| Individual | Collective | Social fabric |
-| Freedom | Responsibility | Civic life |
-| Tradition | Innovation | Cultural evolution |
-| Competition | Cooperation | Market economy |
-| Local | Global | Glocalization |
+Society thrives on dynamic tensions. Individual and collective create the social fabric. Freedom and responsibility enable civic life. Tradition and innovation drive cultural evolution. Competition and cooperation balance market economies. Local and global forces create glocalization.
 
 <div class="key-insight">
 <strong>Not Opposition but Dance:</strong>
@@ -54,44 +42,22 @@ Consider money—it has value because we agree it has value. Our collective beli
 
 ### Scale-Invariance in Human Groups
 
-Similar patterns repeat across social scales:
-
-| Scale | Pattern | Example |
-|-------|---------|---------|
-| Family | Hierarchy and roles | Parent-child dynamics |
-| Organization | Hierarchy and roles | Management structure |
-| Nation | Hierarchy and roles | Government systems |
-| Global | Hierarchy and roles | International relations |
-
-<div class="diagram-container">
-[SVG: Nested circles showing repeating organizational patterns from family to global levels]
-</div>
+Similar patterns repeat across social scales. Hierarchy and roles appear in family parent-child dynamics, organizational management structures, national government systems, and international relations. The same organizational patterns scale from the intimate to the global.
 
 ## Institutions as Processes
 
-Traditional view: Institutions are structures
+Traditional view: Institutions are structures  
 Process view: Institutions are patterns of interaction
 
 <div class="key-insight">
 A university isn't buildings and rules—it's the ongoing process of teaching, learning, researching, and relating. The buildings are just where these processes happen.
 </div>
 
-### Examples of Institutional Processes
-
-| Institution | Entity View | Process View |
-|------------|-------------|--------------|
-| Corporation | Legal entity with assets | Network of relationships and activities |
-| Government | Offices and buildings | Patterns of decision and action |
-| Marriage | Legal contract | Ongoing relationship dynamics |
-| Language | Dictionary and grammar | Living communication patterns |
+Corporations are networks of relationships and activities, not just legal entities with assets. Governments are patterns of decision and action, not just offices and buildings. Marriage is ongoing relationship dynamics, not just a legal contract. Language consists of living communication patterns, not just dictionaries and grammar.
 
 ## Social Change as Process
 
 Change doesn't happen TO society—change IS what society is:
-
-<div class="diagram-container">
-[SVG: Spiral showing how small changes accumulate into social transformation]
-</div>
 
 ### How Social Patterns Shift
 
@@ -104,11 +70,7 @@ This is cultural evolution in action—not designed but emergent.
 
 ## Power as Process
 
-Power isn't possessed but enacted:
-- Not something leaders "have"
-- But patterns of influence flowing
-- Requires constant reinforcement
-- Changes the wielder as much as the world
+Power isn't possessed but enacted. It's not something leaders "have" but patterns of influence flowing. Power requires constant reinforcement and changes the wielder as much as the world.
 
 <div class="try-this">
 <strong>Power Analysis:</strong>
@@ -120,18 +82,13 @@ Think of a powerful person or institution. What processes maintain their power? 
 Language demonstrates all three patterns:
 
 ### Complementarity
-- Speaker needs listener
-- Signal requires interpretation
-- Meaning emerges between minds
+Speaker and listener need each other. Signal requires interpretation. Meaning emerges between minds.
 
 ### Self-Reference  
-- Language describes language
-- Communication about communication
-- Meaning-making about meaning
+Language describes language. We communicate about communication. Meaning-making creates meaning about meaning.
 
 ### Scale-Invariance
-- Phonemes → words → sentences → discourse
-- Similar patterns at each level
+Phonemes build into words into sentences into discourse. Similar patterns appear at each level.
 
 ## Markets as Process Systems
 
@@ -141,20 +98,9 @@ Markets exemplify process dynamics:
 - Information flows shape behavior
 - Self-organizing without central control
 
-<div class="diagram-container">
-[SVG: Network diagram showing market as web of interactions, not container of things]
-</div>
-
 ## Social Problems Reconsidered
 
-Process thinking reframes social issues:
-
-| Issue | Entity Thinking | Process Thinking |
-|-------|----------------|------------------|
-| Poverty | Lack of things | Exclusion from processes |
-| Crime | Bad people | Dysfunctional patterns |
-| Inequality | Unfair distribution | Systemic process imbalances |
-| Conflict | Incompatible groups | Misaligned interaction patterns |
+Process thinking reframes social issues. Poverty isn't lack of things but exclusion from processes. Crime represents dysfunctional patterns, not bad people. Inequality reflects systemic process imbalances. Conflict emerges from misaligned interaction patterns.
 
 ## Creating Social Change
 

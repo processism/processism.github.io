@@ -15,7 +15,7 @@ navigation: |
 
 ## The Discovery
 
-We've discovered three fundamental patterns that appear universally across human knowledge and demonstrate perfect self-consistency. These patterns may represent how reality organizes itself.
+I've discovered three fundamental patterns that appear universally across human knowledge and demonstrate perfect self-consistency. These patterns may represent how reality organizes itself.
 
 ## The Three Patterns
 
@@ -39,6 +39,20 @@ Patterns repeating across scales:
 - Networks at every level
 - Similar dynamics from quantum to cosmic
 - Organizational patterns from cells to societies
+
+## See It Yourself
+
+Right now, as you read this:
+1. Notice you're aware of these words
+2. Notice you're aware of being aware
+3. Notice the strange loop of self-awareness
+
+You've just experienced:
+- **Complementarity**: Knower and known creating each other
+- **Self-Reference**: Awareness aware of itself
+- **Scale-Invariance**: The same pattern at each level
+
+This isn't philosophy—it's your direct experience.
 
 ## One Practical Example
 

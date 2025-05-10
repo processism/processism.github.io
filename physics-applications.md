@@ -6,7 +6,7 @@ description: How process thinking illuminates quantum mechanics and cosmology
 permalink: /physics-applications
 navigation: |
   *This page explores physics through the process lens. Best suited for science enthusiasts.*  
-  *Previous: [Entity vs Process](entity-vs-process) | Next: [Biology Applications](biology-applications)*
+  *Previous: [The Ultimate Pattern](recursion-ultimate-pattern) | Next: [Biology Applications](biology-applications)*
 ---
 
 # Physics Applications
@@ -19,22 +19,13 @@ Modern physics already hints at a process-based reality. Quantum mechanics, desp
 - Observations that create reality
 - Entanglement that defies separation
 
-<div class="diagram-container">
-[SVG: Wave function collapse showing probability cloud becoming "particle" upon measurement]
-</div>
-
 ## Patterns in Physics
 
 ### Complementarity in Action
 
 Physics is full of complementary pairs that require each other:
 
-| Classical View | Quantum Reality |
-|---------------|-----------------|
-| Wave OR Particle | Wave AND Particle |
-| Position OR Momentum | Uncertainty Principle |
-| Local OR Non-local | Entanglement |
-| Continuous OR Discrete | Quantization |
+In the quantum realm, we find wave-particle duality—light exhibits both behaviors. The uncertainty principle shows position and momentum cannot be simultaneously known. Entanglement demonstrates local and non-local properties coexisting. Quantization reveals the discrete within the continuous.
 
 <div class="key-insight">
 <strong>The Double-Slit Experiment:</strong>
@@ -48,10 +39,6 @@ The measurement problem reveals deep self-reference:
 - Measurement affects what's measured
 - Consciousness might play a fundamental role
 - The universe observes itself into existence
-
-<div class="diagram-container">
-[SVG: Circular diagram showing observer, measurement apparatus, and quantum system in a loop]
-</div>
 
 ### Scale-Invariance in Physical Law
 
@@ -84,10 +71,6 @@ Einstein's insights align with process thinking:
 - Time is relative to motion
 - Gravity is geometry in motion
 
-<div class="diagram-container">
-[SVG: Warped spacetime grid showing how mass creates curvature]
-</div>
-
 ### Emergence in Physics
 
 Process thinking illuminates how:
@@ -101,20 +84,20 @@ Process thinking illuminates how:
 Process thinking helps resolve longstanding puzzles:
 
 ### Wave-Particle Duality
-- **Entity view**: Contradictory natures
-- **Process view**: Different aspects of quantum process
+**Entity view**: Contradictory natures  
+**Process view**: Different aspects of quantum process
 
 ### Quantum Measurement
-- **Entity view**: Mysterious collapse
-- **Process view**: Interaction creates apparent entities
+**Entity view**: Mysterious collapse  
+**Process view**: Interaction creates apparent entities
 
 ### Quantum Entanglement
-- **Entity view**: Spooky action at a distance
-- **Process view**: Non-local process appearing local
+**Entity view**: Spooky action at a distance  
+**Process view**: Non-local process appearing local
 
 ### Time's Arrow
-- **Entity view**: Why does time flow forward?
-- **Process view**: Time IS the flow of process
+**Entity view**: Why does time flow forward?  
+**Process view**: Time IS the flow of process
 
 <div class="key-insight">
 <strong>The Pattern:</strong>
@@ -130,10 +113,6 @@ Modern cosmology suggests:
 - Space itself expanding
 - Dark energy as cosmic process
 - The universe computing itself
-
-<div class="diagram-container">
-[SVG: Expanding universe visualization showing space itself growing]
-</div>
 
 ### Information and Reality
 
@@ -175,12 +154,7 @@ Process thinking points toward:
 
 Physics has been moving toward process:
 
-| Era | View | Key Insights |
-|-----|------|--------------|
-| Classical | Mechanical objects | Deterministic entities |
-| Quantum | Wave-particles | Probabilistic processes |
-| Field Theory | Fields primary | Everything is excitation |
-| Information | It from bit | Reality as computation |
+The classical era saw mechanical objects and deterministic entities. The quantum era revealed wave-particles and probabilistic processes. Field theory showed fields as primary with everything as excitation. Information theory suggests reality as computation.
 
 ## Future Directions
 
@@ -192,7 +166,7 @@ Process-based physics might explore:
 
 <div class="key-insight">
 <strong>The Deep Unity:</strong>
-Physics reveals the same three patterns we found everywhere:
+Physics reveals the same three patterns I found everywhere:
 - Complementarity (wave-particle)
 - Self-reference (measurement)
 - Scale-invariance (renormalization)

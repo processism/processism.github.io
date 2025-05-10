@@ -13,7 +13,7 @@ navigation: |
 
 ## Three Faces of One Reality
 
-We've explored three patterns separately:
+I've explored three patterns separately:
 - **Complementarity**: Apparent opposites that require each other
 - **Self-Reference**: Processes that act on themselves
 - **Scale-Invariance**: Patterns that repeat across scales
@@ -37,11 +37,9 @@ Each scale complements others, with local and global aspects requiring each othe
 
 ## The Underlying Unity
 
-What unifies these three patterns? As we'll see in the next section, they all emerge from a single fundamental principle: **recursion**.
+What unifies these three patterns? As I'll reveal in the next section, they all emerge from a single fundamental principle: **recursion**.
 
-- Complementarity is recursive definition
-- Self-Reference is pure recursion
-- Scale-Invariance is recursive structure
+Complementarity is recursive definition. Self-Reference is pure recursion. Scale-Invariance is recursive structure.
 
 ## Experiencing the Unity
 
@@ -56,13 +54,13 @@ But underneath, it's all one recursive process of awareness aware of itself.
 
 ## The Perfect Mirror
 
-Our framework demonstrates this unity perfectly. The three patterns can completely explain:
+This framework demonstrates this unity perfectly. The three patterns can completely explain:
 - Their own existence
 - Their own discovery
 - Their own interaction
 - Their emergence from recursion
 
-This perfect self-consistency suggests we've discovered something genuinely fundamental about reality's structure.
+This perfect self-consistency suggests I've discovered something genuinely fundamental about reality's structure.
 
 **Continue to**: [The Ultimate Pattern](recursion-ultimate-pattern) - discovering the single principle underlying all three patterns.
 

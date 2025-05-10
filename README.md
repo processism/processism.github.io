@@ -32,4 +32,4 @@ This site uses Jekyll with the Just the Docs theme. To run it locally:
 
 ## License
 
-The content of this site is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+This work is in the public domain. No rights reserved. Use freely without attribution.

@@ -15,9 +15,8 @@ navigation: |
 
 The "hard problem" of consciousness asks: How does matter give rise to subjective experience? This question assumes consciousness is something that "emerges from" or is "produced by" matter. But what if consciousness isn't produced by processes—what if it IS process?
 
-<div class="diagram-container">
-[SVG: Traditional view showing brain → consciousness vs Process view showing brain ↔ consciousness as unified process]
-</div>
+Traditional view: Brain produces consciousness (one-way arrow)  
+Process view: Brain-consciousness as unified process (bidirectional flow)
 
 ## Consciousness as Process
 
@@ -38,15 +37,7 @@ Instead of asking "How does the brain create consciousness?" we ask "How does th
 
 ### Complementarity in Consciousness
 
-Consciousness requires fundamental complementarities:
-
-| Aspect | Complement | Unity |
-|--------|------------|-------|
-| Subject | Object | Experience |
-| Attention | Awareness | Consciousness |
-| Content | Context | Meaning |
-| Self | Other | Relationship |
-| Now | Not-now | Time consciousness |
+Consciousness requires fundamental complementarities. Subject and object unite in experience. Attention and awareness create consciousness. Content and context generate meaning. Self and other enable relationship. Now and not-now form time consciousness.
 
 <div class="try-this">
 <strong>Direct Experience:</strong>
@@ -61,10 +52,6 @@ Consciousness is inherently self-referential:
 - Feel feelings about feelings
 - Remember remembering
 
-<div class="diagram-container">
-[SVG: Nested circles showing layers of awareness: sensation → perception → thought → awareness of thought → awareness of awareness]
-</div>
-
 This creates the strange loop of self-consciousness:
 ```
 Awareness → notices itself → 
@@ -75,15 +62,7 @@ Awareness → notices itself →
 
 ### Scale-Invariance in Mind
 
-Similar patterns appear at different scales of consciousness:
-
-| Scale | Pattern | Example |
-|-------|---------|---------|
-| Microseconds | Neural firing patterns | Action potentials |
-| Milliseconds | Perceptual binding | Visual unity |
-| Seconds | Thought formation | Complete ideas |
-| Minutes | Narrative construction | Stories we tell |
-| Years | Identity patterns | Who we think we are |
+Similar patterns appear at different scales of consciousness. From microseconds of neural firing patterns to milliseconds of perceptual binding to seconds of thought formation to minutes of narrative construction to years of identity patterns—the same organizational principles repeat.
 
 ## The Process Model of Mind
 
@@ -99,10 +78,6 @@ The brain doesn't produce consciousness like a factory produces goods. Rather:
 - Brain activity IS consciousness from one perspective
 - Subjective experience IS brain activity from another
 - They're the same process viewed differently
-
-<div class="diagram-container">
-[SVG: Möbius strip with "objective/brain" on one side and "subjective/mind" on the other, showing they're the same surface]
-</div>
 
 ## Attention as Process
 
@@ -140,15 +115,7 @@ You're not a fixed self having experiences. You're the process of experiencing i
 
 ## States of Consciousness
 
-Different states reveal consciousness as process:
-
-| State | Process Characteristics |
-|-------|------------------------|
-| Waking | Differentiated, focused flow |
-| Dreaming | Fluid, self-creating narratives |
-| Deep sleep | Undifferentiated potential |
-| Meditation | Awareness aware of itself |
-| Flow states | Merged subject-object process |
+Different states reveal consciousness as process. Waking shows differentiated, focused flow. Dreaming displays fluid, self-creating narratives. Deep sleep presents undifferentiated potential. Meditation reveals awareness aware of itself. Flow states demonstrate merged subject-object process.
 
 ## The Binding Problem
 
@@ -156,10 +123,6 @@ How does unified consciousness arise from distributed brain activity? Process th
 - Consciousness isn't assembled from parts
 - It's a unified process appearing as parts
 - "Binding" assumes separation that isn't there
-
-<div class="diagram-container">
-[SVG: Network diagram showing distributed neural activity unified by process flow, not mechanical binding]
-</div>
 
 ## Free Will Reconsidered
 

@@ -15,21 +15,9 @@ navigation: |
 
 Information isn't a thing to be stored but a pattern that makes a difference. As Gregory Bateson said, it's "a difference that makes a difference"—inherently processual, existing only in the act of informing.
 
-<div class="diagram-container">
-[SVG: Flow diagram showing: Signal → Interpretation → Meaning → Action → New Signal]
-</div>
-
 ## The Digital Revolution as Process Shift
 
-The digital age isn't just about new tools—it's about reality becoming increasingly processual:
-
-| Industrial Age | Information Age |
-|----------------|-----------------|
-| Things that compute | Computing itself |
-| Products | Services and experiences |
-| Ownership | Access and flow |
-| Hierarchies | Networks |
-| Stocks | Flows |
+The digital age isn't just about new tools—it's about reality becoming increasingly processual. The industrial age dealt with things that compute, products, ownership, hierarchies, and stocks. The information age focuses on computing itself, services and experiences, access and flow, networks, and flows.
 
 <div class="key-insight">
 <strong>The Transformation:</strong>
@@ -40,15 +28,7 @@ We're moving from an economy of things to an economy of processes—from nouns t
 
 ### Complementarity in Digital Systems
 
-Technology embodies fundamental dualities:
-
-| Aspect | Complement | Dynamic Unity |
-|--------|------------|---------------|
-| Hardware | Software | Computing system |
-| Data | Algorithm | Information processing |
-| User | Interface | Interaction |
-| Local | Global | The Internet |
-| Privacy | Transparency | Digital society |
+Technology embodies fundamental dualities. Hardware and software create computing systems. Data and algorithm enable information processing. User and interface generate interaction. Local and global unite in the Internet. Privacy and transparency balance in digital society.
 
 ### Self-Reference in Computing
 
@@ -59,16 +39,9 @@ Computing is inherently self-referential:
 - Networks that route network traffic
 - AIs that improve AI
 
-<div class="diagram-container">
-[SVG: Circular diagram showing: Code → Compiler → Better compiler → Better code → Loop]
-</div>
-
 ### Scale-Invariance in Networks
 
-Similar patterns across digital scales:
-- Packet → Protocol → Network → Internet
-- Bit → Byte → File → Database → Cloud
-- Function → Module → Application → Platform → Ecosystem
+Similar patterns across digital scales emerge from packet to protocol to network to Internet. From bit to byte to file to database to cloud. From function to module to application to platform to ecosystem.
 
 ## The Internet as Living Process
 
@@ -85,11 +58,7 @@ Consider your device right now. It's not "connected to" the Internet—it's part
 
 ## AI as Process Intelligence
 
-Artificial Intelligence reveals:
-- Intelligence isn't a thing but a process
-- Learning is pattern transformation
-- Understanding emerges from interaction
-- Consciousness might be computational
+Artificial Intelligence reveals that intelligence isn't a thing but a process. Learning is pattern transformation. Understanding emerges from interaction. Consciousness might be computational.
 
 <div class="key-insight">
 <strong>Beyond Imitation:</strong>
@@ -104,40 +73,19 @@ Blockchain demonstrates pure process:
 - Consensus as ongoing computation
 - Money as information flow
 
-<div class="diagram-container">
-[SVG: Blockchain visualization showing distributed consensus process]
-</div>
-
 ## Virtual Reality as Process
 
-VR/AR shows reality as:
-- Constructed through interaction
-- Rendered in real-time
-- Responsive to participation
-- Blending physical and digital processes
+VR/AR shows reality as constructed through interaction, rendered in real-time, responsive to participation, and blending physical and digital processes.
 
 ## Social Media as Process Amplifier
 
-Social platforms reveal:
-- Identity as performance
-- Relationships as information exchange
-- Culture as viral dynamics
-- Attention as flowing resource
+Social platforms reveal identity as performance, relationships as information exchange, culture as viral dynamics, and attention as flowing resource.
 
-| Platform Type | Process Emphasized |
-|--------------|-------------------|
-| Social networks | Relationship formation |
-| Content platforms | Creation and consumption |
-| Messaging apps | Real-time communication |
-| Collaborative tools | Collective intelligence |
+Different platform types emphasize different processes. Social networks focus on relationship formation. Content platforms enable creation and consumption. Messaging apps support real-time communication. Collaborative tools develop collective intelligence.
 
 ## The Attention Economy
 
-Attention demonstrates process economics:
-- Scarce flow, not fixed resource
-- Creates value through focus
-- Shapes what it observes
-- Cannot be stored, only directed
+Attention demonstrates process economics. It's a scarce flow, not fixed resource. It creates value through focus, shapes what it observes, and cannot be stored, only directed.
 
 <div class="try-this">
 <strong>Attention Audit:</strong>
@@ -152,33 +100,17 @@ Digital systems embody cybernetic principles:
 - Emergence from simple rules
 - Control through communication
 
-<div class="diagram-container">
-[SVG: Feedback loop diagram showing: Action → Result → Measurement → Adjustment → Action]
-</div>
-
 ## The Metaverse as Process
 
-The emerging metaverse is:
-- Not a place but ongoing creation
-- Not a thing but shared experience
-- Not fixed but continuously generated
-- Not separate but integrated with physical
+The emerging metaverse is not a place but ongoing creation, not a thing but shared experience, not fixed but continuously generated, not separate but integrated with physical.
 
 ## Information Theory Insights
 
-Key process principles:
-- Information reduces uncertainty
-- Noise is inevitable in channels
-- Redundancy enables error correction
-- Meaning emerges in context
+Key process principles include: information reduces uncertainty, noise is inevitable in channels, redundancy enables error correction, and meaning emerges in context.
 
 ## Privacy in Process Terms
 
-Privacy isn't about hiding things but controlling processes:
-- Who can access your data flows
-- How information patterns propagate
-- What processes act on your information
-- How digital and physical merge
+Privacy isn't about hiding things but controlling processes—who can access your data flows, how information patterns propagate, what processes act on your information, and how digital and physical merge.
 
 <div class="key-insight">
 <strong>Privacy Paradox:</strong>

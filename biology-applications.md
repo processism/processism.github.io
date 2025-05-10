@@ -15,23 +15,11 @@ navigation: |
 
 What is life? Traditional definitions list properties: reproduction, metabolism, response to stimuli. But these are activities—processes. Life isn't a thing with properties; it's a pattern of processes maintaining itself through time.
 
-<div class="diagram-container">
-[SVG: Circular diagram showing life processes: metabolism → growth → reproduction → adaptation → metabolism]
-</div>
-
 ## The Patterns of Life
 
 ### Complementarity in Living Systems
 
-Life thrives on complementary relationships:
-
-| Process | Complement | Dynamic Unity |
-|---------|------------|---------------|
-| Anabolism | Catabolism | Metabolism |
-| Predator | Prey | Ecosystem balance |
-| Competition | Cooperation | Evolution |
-| Life | Death | Renewal cycle |
-| Order | Entropy | Dissipative structures |
+Life thrives on complementary relationships. Anabolism and catabolism unite in metabolism. Predator and prey create ecosystem balance. Competition and cooperation drive evolution. Life and death enable renewal cycles. Order and entropy form dissipative structures.
 
 <div class="key-insight">
 <strong>The Paradox:</strong> Life maintains order by accelerating entropy in its environment. It's a process that sustains itself by facilitating other processes.
@@ -45,21 +33,9 @@ Life is inherently self-referential:
 - Immune systems distinguish self from non-self
 - Evolution evolves its own evolvability
 
-<div class="diagram-container">
-[SVG: Circular arrows showing DNA → proteins → DNA replication machinery → DNA]
-</div>
-
 ### Scale-Invariance in Living Systems
 
-Similar patterns appear across biological scales:
-
-| Scale | Pattern | Example |
-|-------|---------|---------|
-| Molecular | Networks | Metabolic pathways |
-| Cellular | Networks | Signaling cascades |
-| Organism | Networks | Neural connections |
-| Ecosystem | Networks | Food webs |
-| Biosphere | Networks | Global cycles |
+Similar patterns appear across biological scales. Networks exist at every level—metabolic pathways, signaling cascades, neural connections, food webs, and global cycles. The same organizational principles repeat from molecular to biosphere scales.
 
 ## Autopoiesis: Life Creating Itself
 
@@ -82,13 +58,9 @@ Evolution isn't just change over time—it's a process that:
 - Builds complexity from simplicity
 - Evolves its own mechanisms
 
-<div class="diagram-container">
-[SVG: Tree diagram showing evolution branching, with feedback loops showing how evolution evolves itself]
-</div>
-
 ### Process View of Natural Selection
 
-Traditional view: Entities (organisms) compete
+Traditional view: Entities (organisms) compete  
 Process view: Patterns that better maintain themselves persist
 
 <div class="try-this">
@@ -98,18 +70,9 @@ Instead of "survival of the fittest organisms," think "persistence of self-maint
 
 ## Organisms as Process
 
-You are not a thing but a pattern:
-- Your atoms replace themselves
-- Your cells die and regenerate
-- Your neural patterns constantly change
-- Yet "you" persist as a coherent process
+You are not a thing but a pattern. Your atoms replace themselves. Your cells die and regenerate. Your neural patterns constantly change. Yet "you" persist as a coherent process.
 
-| Component | Turnover Rate | Implication |
-|-----------|---------------|-------------|
-| Stomach lining | 5 days | Constant renewal |
-| Skin cells | 2-4 weeks | New skin monthly |
-| Red blood cells | 4 months | New blood regularly |
-| Skeleton | 10 years | Even bones flow |
+Consider the turnover rates: stomach lining replaces every 5 days, skin cells every 2-4 weeks, red blood cells every 4 months, and even your skeleton every 10 years. Everything flows.
 
 ## Ecosystems as Process Networks
 
@@ -119,20 +82,9 @@ Ecosystems aren't collections of organisms but networks of processes:
 - Information exchange
 - Co-evolutionary dynamics
 
-<div class="diagram-container">
-[SVG: Ecosystem diagram showing circular flows of energy, nutrients, and information]
-</div>
-
 ## Health as Dynamic Balance
 
-Medicine shifts from entity to process thinking:
-
-| Entity Approach | Process Approach |
-|----------------|------------------|
-| Disease as thing | Health as dynamic balance |
-| Kill pathogens | Support immune processes |
-| Fix broken parts | Restore healthy patterns |
-| Suppress symptoms | Address systemic imbalances |
+Medicine shifts from entity to process thinking. Instead of disease as thing, we see health as dynamic balance. Rather than killing pathogens, we support immune processes. Instead of fixing broken parts, we restore healthy patterns. Rather than suppressing symptoms, we address systemic imbalances.
 
 <div class="key-insight">
 <strong>Holistic Health:</strong>
@@ -157,10 +109,6 @@ Earth's biosphere exhibits process characteristics:
 - Atmospheric composition maintenance
 - Global nutrient cycling
 - Evolutionary feedback loops
-
-<div class="diagram-container">
-[SVG: Earth with arrows showing global regulatory processes]
-</div>
 
 ## Practical Applications
 

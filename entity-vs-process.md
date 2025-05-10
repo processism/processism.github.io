@@ -55,34 +55,29 @@ Process thinking sees reality differently:
 
 ## Comparing Worldviews
 
-| Aspect | Entity Thinking | Process Thinking |
-|--------|----------------|------------------|
-| **Basic Reality** | Things that exist | Patterns that happen |
-| **Change** | Secondary, needs cause | Primary, always occurring |
-| **Identity** | Fixed essence | Dynamic pattern |
-| **Relationships** | Between separate things | Constitutive of patterns |
-| **Time** | Container for events | Dimension of process |
-| **Causation** | Linear, mechanical | Circular, emergent |
+Entity thinking sees reality as things that exist, where change is secondary and needs cause. Identity is fixed essence. Relationships exist between separate things. Time is a container for events. Causation is linear and mechanical.
+
+Process thinking sees reality as patterns that happen, where change is primary and always occurring. Identity is dynamic pattern. Relationships are constitutive of patterns. Time is a dimension of process. Causation is circular and emergent.
 
 ## Why This Matters
 
 These aren't just philosophical positions. They lead to different approaches in:
 
 ### Science
-- **Entity**: Look for fundamental particles
-- **Process**: Study patterns and relationships
+**Entity approach**: Look for fundamental particles  
+**Process approach**: Study patterns and relationships
 
 ### Medicine
-- **Entity**: Fix broken parts
-- **Process**: Restore healthy patterns
+**Entity approach**: Fix broken parts  
+**Process approach**: Restore healthy patterns
 
 ### Psychology
-- **Entity**: Treat mental disorders
-- **Process**: Support psychological processes
+**Entity approach**: Treat mental disorders  
+**Process approach**: Support psychological processes
 
 ### Organizations
-- **Entity**: Design fixed structures
-- **Process**: Cultivate adaptive patterns
+**Entity approach**: Design fixed structures  
+**Process approach**: Cultivate adaptive patterns
 
 <div class="try-this">
 🧪 <strong>Try This:</strong> Think of a problem you're facing. First approach it as a thing to be fixed. Then approach it as a pattern to be shifted. Notice how different solutions emerge?
@@ -110,13 +105,13 @@ Process thinking reveals possibilities hidden from entity thinking:
 ## Common Misunderstandings
 
 <div class="key-insight">
-❌ **Process thinking is NOT**:
+❌ <strong>Process thinking is NOT</strong>:
 - Rejection of science
 - Mystical or vague
 - Denial that things exist
 - Always better than entity thinking
 
-✓ **Process thinking IS**:
+✓ <strong>Process thinking IS</strong>:
 - Complementary to entity thinking
 - Precise about patterns
 - Recognition of dynamic stability
@@ -160,14 +155,7 @@ Yet entity thinking has dominated Western thought since Aristotle.
 
 ## The Paradigm Shift
 
-We may be witnessing a historical shift:
-
-| Era | Dominant View | Emerging View |
-|-----|--------------|---------------|
-| Classical | Mechanical entities | --- |
-| Modern | Particles and forces | --- |
-| Contemporary | --- | Fields and processes |
-| Emerging | --- | Patterns and relationships |
+We may be witnessing a historical shift from mechanical entities to fields and processes, from particles and forces to patterns and relationships.
 
 ## Practical Exercise
 

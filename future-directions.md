@@ -15,10 +15,6 @@ navigation: |
 
 We may be witnessing a fundamental shift in human understanding—from seeing reality as things to experiencing it as process. This transformation could reshape every aspect of human life and knowledge.
 
-<div class="diagram-container">
-[SVG: Timeline arrow showing paradigm shifts: Mythological → Philosophical → Scientific → Process]
-</div>
-
 ## Science and Technology
 
 ### Quantum Biology
@@ -46,10 +42,6 @@ Technology that enhances rather than disrupts natural processes:
 - Living materials
 - Self-healing systems
 - Ecosystem-integrated infrastructure
-
-<div class="diagram-container">
-[SVG: Comparison of industrial (disruptive) vs. regenerative (integrative) technology approaches]
-</div>
 
 ## Medicine and Health
 
@@ -94,10 +86,6 @@ Economy as living system:
 - Regenerative capitalism
 - Commons management
 - Value as process
-
-<div class="diagram-container">
-[SVG: Network governance model showing fluid, adaptive decision-making processes]
-</div>
 
 ### Social Architecture
 Designing for emergence:
@@ -179,10 +167,6 @@ Universal awareness:
 - Universe self-awareness
 - Participation mystique
 - Reality awakening to itself
-
-<div class="diagram-container">
-[SVG: Spiral of consciousness evolution from individual to planetary to cosmic awareness]
-</div>
 
 ## The Singularity Reconsidered
 

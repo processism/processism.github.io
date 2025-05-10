@@ -15,19 +15,9 @@ navigation: |
 
 Health isn't a state to achieve but a process to maintain. Like a tightrope walker who stays balanced through constant micro-adjustments, health emerges from continuous adaptation and dynamic equilibrium.
 
-<div class="diagram-container">
-[SVG: Balance scale showing health as dynamic equilibrium between multiple factors, with constant adjustments]
-</div>
-
 ## The Shift in Healthcare
 
-| Disease Model | Process Model |
-|--------------|---------------|
-| Fix what's broken | Support what's working |
-| Eliminate symptoms | Understand patterns |
-| Fight disease | Promote health |
-| Treat parts | Heal wholes |
-| Doctor as mechanic | Doctor as gardener |
+The disease model seeks to fix what's broken, eliminate symptoms, fight disease, treat parts, and positions the doctor as mechanic. The process model supports what's working, understands patterns, promotes health, heals wholes, and sees the doctor as gardener.
 
 <div class="key-insight">
 <strong>The Paradigm Shift:</strong>
@@ -38,15 +28,7 @@ Instead of asking "What's wrong that needs fixing?" we ask "What processes maint
 
 ### Complementarity in Healing
 
-Health requires balancing apparent opposites:
-
-| Aspect | Complement | Dynamic Balance |
-|--------|------------|-----------------|
-| Rest | Activity | Vitality |
-| Intake | Elimination | Metabolism |
-| Stability | Adaptation | Resilience |
-| Autonomy | Connection | Wellbeing |
-| Treatment | Prevention | Comprehensive care |
+Health requires balancing apparent opposites. Rest and activity create vitality. Intake and elimination generate metabolism. Stability and adaptation produce resilience. Autonomy and connection enable wellbeing. Treatment and prevention form comprehensive care.
 
 <div class="try-this">
 <strong>Balance Check:</strong>
@@ -62,26 +44,13 @@ The body is remarkably self-referential:
 - Healing processes that enhance healing
 - Consciousness affects physiology
 
-<div class="diagram-container">
-[SVG: Circular diagram showing body systems monitoring and regulating themselves]
-</div>
-
 ### Scale-Invariance in Health
 
-Similar patterns across biological scales:
-- Cellular health → Tissue health → Organ health → System health → Whole person health
-- Individual wellness → Family health → Community health → Population health → Planetary health
+Similar patterns across biological scales: cellular health builds to tissue health to organ health to system health to whole person health. This extends from individual wellness to family health to community health to population health to planetary health.
 
 ## Disease as Process Disruption
 
-Illness often represents disrupted processes rather than invading entities:
-
-| Condition | Entity View | Process View |
-|-----------|------------|--------------|
-| Diabetes | Broken pancreas | Disrupted glucose regulation |
-| Depression | Chemical imbalance | Dysregulated mood processes |
-| Cancer | Malignant cells | Uncontrolled growth process |
-| Autoimmune | Attacking antibodies | Misdirected recognition process |
+Illness often represents disrupted processes rather than invading entities. Diabetes isn't a broken pancreas but disrupted glucose regulation. Depression isn't just chemical imbalance but dysregulated mood processes. Cancer represents uncontrolled growth process. Autoimmune conditions reflect misdirected recognition process.
 
 <div class="key-insight">
 <strong>Therapeutic Implications:</strong>
@@ -99,23 +68,12 @@ Healing is an active process, not passive repair:
 4. **Repair**: Restoration of structure
 5. **Reintegration**: Return to dynamic balance
 
-<div class="diagram-container">
-[SVG: Spiral showing healing process with feedback loops between stages]
-</div>
-
 ## Mind-Body Process
 
-The mind-body connection is really mind-body process:
-- Thoughts trigger physiological cascades
-- Emotions manifest as body patterns
-- Body states influence mental processes
-- Healing involves whole-system patterns
+The mind-body connection is really mind-body process. Thoughts trigger physiological cascades. Emotions manifest as body patterns. Body states influence mental processes. Healing involves whole-system patterns.
 
 ### Psychosomatic Process
-- Stress → Inflammation → Disease
-- Relaxation → Healing → Wellbeing
-- Belief → Biochemistry → Recovery
-- Meaning → Resilience → Health
+Stress leads to inflammation which leads to disease. Relaxation enables healing which promotes wellbeing. Belief influences biochemistry which affects recovery. Meaning builds resilience which supports health.
 
 ## Chronic Conditions as Stuck Patterns
 
@@ -128,19 +86,7 @@ If you have a chronic condition, explore: What patterns maintain this state? Wha
 
 ## Integrative Medicine as Process Medicine
 
-Integrative approaches naturally align with process thinking:
-- Supporting body's healing processes
-- Working with natural rhythms
-- Addressing pattern disturbances
-- Facilitating system rebalancing
-
-| Approach | Focus |
-|----------|-------|
-| Acupuncture | Energy flow patterns |
-| Herbalism | Supporting natural processes |
-| Mind-body practices | Integration patterns |
-| Nutrition | Metabolic processes |
-| Movement therapies | Dynamic patterns |
+Integrative approaches naturally align with process thinking. Acupuncture works with energy flow patterns. Herbalism supports natural processes. Mind-body practices enhance integration patterns. Nutrition optimizes metabolic processes. Movement therapies restore dynamic patterns.
 
 ## Prevention as Process Maintenance
 
@@ -179,10 +125,6 @@ Healthcare systems can benefit from process thinking:
 - Health maintenance vs. disease treatment
 - Relationship continuity vs. transactional care
 
-<div class="diagram-container">
-[SVG: Comparison of episodic care (disconnected points) vs. continuous care process (flowing line)]
-</div>
-
 ## Personalized Medicine as Process Matching
 
 Personalized medicine recognizes individual process variations:
@@ -193,19 +135,11 @@ Personalized medicine recognizes individual process variations:
 
 ## The Placebo Effect as Process
 
-The placebo effect demonstrates healing as process:
-- Expectation creates physiological change
-- Ritual initiates healing patterns
-- Relationship facilitates recovery
-- Meaning enhances resilience
+The placebo effect demonstrates healing as process. Expectation creates physiological change. Ritual initiates healing patterns. Relationship facilitates recovery. Meaning enhances resilience.
 
 ## Mental Health as Process
 
-Mental health is dynamic balance, not fixed state:
-- Emotional regulation processes
-- Thought pattern flexibility
-- Relational dynamics
-- Meaning-making processes
+Mental health is dynamic balance, not fixed state. It involves emotional regulation processes, thought pattern flexibility, relational dynamics, and meaning-making processes.
 
 <div class="try-this">
 <strong>Mental Health Check:</strong>

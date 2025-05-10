@@ -11,97 +11,97 @@ navigation: |
 
 # Examples Library 🔍
 
-This library provides concrete examples of how the three patterns appear across different domains of human knowledge. These examples emerged from our analysis—they're not claims about reality but patterns we consistently found in how humans understand and describe various phenomena.
+This library provides concrete examples of how the three patterns appear across different domains of human knowledge. These examples emerged from my analysis—they're not claims about reality but patterns I consistently found in how humans understand and describe various phenomena.
 
 ## Complementarity Examples ⚖️
 
 ### In Nature
-- **Day/Night**: Each defines and requires the other
-- **Predator/Prey**: Co-evolution creates balance
-- **Mountain/Valley**: Can't have one without the other
-- **Hot/Cold**: Temperature only exists as relative difference
+**Day/Night**: Each defines and requires the other  
+**Predator/Prey**: Co-evolution creates balance  
+**Mountain/Valley**: Can't have one without the other  
+**Hot/Cold**: Temperature only exists as relative difference
 
 ### In Physics
-- **Wave/Particle**: Light exhibits both properties
-- **Space/Time**: Two aspects of spacetime
-- **Electric/Magnetic**: Always perpendicular, always together
-- **Matter/Antimatter**: Created and destroyed in pairs
+**Wave/Particle**: Light exhibits both properties  
+**Space/Time**: Two aspects of spacetime  
+**Electric/Magnetic**: Always perpendicular, always together  
+**Matter/Antimatter**: Created and destroyed in pairs
 
 ### In Human Experience
-- **Self/Other**: Identity forms through relationships
-- **Teacher/Student**: Roles that create each other
-- **Freedom/Responsibility**: True freedom requires constraints
-- **Work/Rest**: Productivity needs recovery
+**Self/Other**: Identity forms through relationships  
+**Teacher/Student**: Roles that create each other  
+**Freedom/Responsibility**: True freedom requires constraints  
+**Work/Rest**: Productivity needs recovery
 
 ### In Technology
-- **Hardware/Software**: Neither functions alone
-- **Input/Output**: Information flow requires both
-- **Online/Offline**: Digital life needs physical substrate
-- **Security/Convenience**: Eternal trade-off in design
+**Hardware/Software**: Neither functions alone  
+**Input/Output**: Information flow requires both  
+**Online/Offline**: Digital life needs physical substrate  
+**Security/Convenience**: Eternal trade-off in design
 
 ## Self-Reference Examples 🔄
 
 ### In Biology
-- **DNA**: Contains instructions for machinery that reads DNA
-- **Immune System**: Must recognize "self" to protect self
-- **Brain**: Neural networks studying neural networks
-- **Evolution**: Life evolving the capacity to evolve faster
+**DNA**: Contains instructions for machinery that reads DNA  
+**Immune System**: Must recognize "self" to protect self  
+**Brain**: Neural networks studying neural networks  
+**Evolution**: Life evolving the capacity to evolve faster
 
 ### In Language
-- **Dictionary**: Words defined using other words
-- **Grammar**: Rules that describe their own structure
-- **"This sentence is false"**: Classic paradox
-- **Translation**: Using language to explain language
+**Dictionary**: Words defined using other words  
+**Grammar**: Rules that describe their own structure  
+**"This sentence is false"**: Classic paradox  
+**Translation**: Using language to explain language
 
 ### In Consciousness
-- **Self-awareness**: Being aware that you're aware
-- **Metacognition**: Thinking about thinking
-- **Memory of remembering**: Recalling the act of recall
-- **Choosing to choose**: Deciding how to decide
+**Self-awareness**: Being aware that you're aware  
+**Metacognition**: Thinking about thinking  
+**Memory of remembering**: Recalling the act of recall  
+**Choosing to choose**: Deciding how to decide
 
 ### In Society
-- **Laws about lawmaking**: Constitutional provisions
-- **Money**: Has value because we agree it has value
-- **Culture**: Shapes people who shape culture
-- **Education**: Learning how to learn
+**Laws about lawmaking**: Constitutional provisions  
+**Money**: Has value because we agree it has value  
+**Culture**: Shapes people who shape culture  
+**Education**: Learning how to learn
 
 ### In Mathematics
-- **Recursive functions**: Functions that call themselves
-- **Fractals**: Patterns containing smaller versions of themselves
-- **Gödel's theorem**: Math systems referring to themselves
-- **Set theory paradoxes**: Sets containing themselves
+**Recursive functions**: Functions that call themselves  
+**Fractals**: Patterns containing smaller versions of themselves  
+**Gödel's theorem**: Math systems referring to themselves  
+**Set theory paradoxes**: Sets containing themselves
 
 ## Scale-Invariance Examples 🔍
 
 ### In Nature
-- **River networks**: Same branching pattern at all scales
-- **Coastlines**: Jagged at every level of zoom
-- **Mountains**: Rough texture from boulders to ranges
-- **Clouds**: Similar patterns from wisps to weather systems
+**River networks**: Same branching pattern at all scales  
+**Coastlines**: Jagged at every level of zoom  
+**Mountains**: Rough texture from boulders to ranges  
+**Clouds**: Similar patterns from wisps to weather systems
 
 ### In Biology
-- **Circulatory system**: Branching from aorta to capillaries
-- **Neural networks**: Similar patterns from local circuits to whole brain
-- **Ecosystem organization**: Individual → population → community → biosphere
-- **Metabolic scaling**: Same mathematical relationships across species sizes
+**Circulatory system**: Branching from aorta to capillaries  
+**Neural networks**: Similar patterns from local circuits to whole brain  
+**Ecosystem organization**: Individual → population → community → biosphere  
+**Metabolic scaling**: Same mathematical relationships across species sizes
 
 ### In Human Systems
-- **Organizations**: Similar hierarchies from teams to corporations
-- **Cities**: Neighborhood → district → city → metropolitan area
-- **Economic cycles**: Daily trading → business cycles → long waves
-- **Social networks**: Friend groups → communities → societies
+**Organizations**: Similar hierarchies from teams to corporations  
+**Cities**: Neighborhood → district → city → metropolitan area  
+**Economic cycles**: Daily trading → business cycles → long waves  
+**Social networks**: Friend groups → communities → societies
 
 ### In Technology
-- **Internet architecture**: LAN → WAN → Internet
-- **Software design**: Function → module → application → system
-- **Data structures**: Bit → byte → file → database
-- **Computing power**: Transistor → chip → computer → data center
+**Internet architecture**: LAN → WAN → Internet  
+**Software design**: Function → module → application → system  
+**Data structures**: Bit → byte → file → database  
+**Computing power**: Transistor → chip → computer → data center
 
 ### In Physics
-- **Turbulence**: Same patterns in coffee cups and hurricanes
-- **Magnetic domains**: Similar structures from atomic to cosmic scales
-- **Crystal structure**: Repeated patterns at different scales
-- **Galaxy clustering**: Similar patterns from star clusters to superclusters
+**Turbulence**: Same patterns in coffee cups and hurricanes  
+**Magnetic domains**: Similar structures from atomic to cosmic scales  
+**Crystal structure**: Repeated patterns at different scales  
+**Galaxy clustering**: Similar patterns from star clusters to superclusters
 
 ## Combined Pattern Examples
 

@@ -15,10 +15,6 @@ navigation: |
 
 Processism isn't a finished system but an ongoing exploration. Like reality itself, it's a process of continuous becoming. Your participation shapes its evolution.
 
-<div class="diagram-container">
-[SVG: Network diagram showing diverse contributors connecting and co-creating]
-</div>
-
 ## Ways to Participate
 
 ### 1. Test and Apply
@@ -39,14 +35,7 @@ Theory without practice is empty. Your real-world testing grounds and validates 
 
 Help develop specific applications:
 
-| Domain | Possible Contributions |
-|--------|------------------------|
-| **Science** | Process interpretations of phenomena |
-| **Technology** | Process-based design principles |
-| **Education** | Process-centered curricula |
-| **Health** | Process approaches to wellness |
-| **Business** | Process-aware management |
-| **Arts** | Process-inspired creativity |
+In **Science**, explore process interpretations of phenomena. In **Technology**, develop process-based design principles. In **Education**, create process-centered curricula. In **Health**, investigate process approaches to wellness. In **Business**, test process-aware management. In **Arts**, experiment with process-inspired creativity.
 
 ### 3. Create Educational Content
 
@@ -82,10 +71,6 @@ Foster connections:
 - **Workshops**: Organize learning experiences
 - **Conferences**: Plan larger gatherings
 - **Networks**: Connect practitioners across domains
-
-<div class="diagram-container">
-[SVG: Community growth visualization showing individual contributions combining into collective wisdom]
-</div>
 
 ## Current Needs
 
@@ -175,10 +160,7 @@ What unique perspective do you bring? What questions do you have? What applicati
 ## Recognition and Attribution
 
 ### Open Source Philosophy
-- Ideas belong to the commons
-- Individual contributions acknowledged
-- Collective wisdom celebrated
-- Credit shared generously
+Ideas belong to the commons. Individual contributions are acknowledged. Collective wisdom is celebrated. Credit is shared generously.
 
 ### Types of Recognition
 - Content attribution
@@ -195,10 +177,6 @@ Process thinking needs diverse voices:
 - Skeptics and enthusiasts
 - Different cultures and traditions
 - Various ways of knowing
-
-<div class="diagram-container">
-[SVG: Diverse streams converging into river of understanding]
-</div>
 
 ## Getting Started
 
@@ -238,7 +216,11 @@ Include:
 - Any specific ideas or questions
 - Preferred way to connect
 
-We look forward to co-creating with you!
+I look forward to co-creating with you!
+
+## Note on Transition
+
+This framework began as an individual discovery and is now transitioning toward collective exploration. As more people engage with these patterns, the work naturally evolves from "I" to "we." Your participation is part of this transformation.
 
 **Continue to**: [Resources](resources) - tools and materials for deeper exploration.
 

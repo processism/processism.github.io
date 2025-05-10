@@ -6,7 +6,7 @@ description: Applying process thinking to business and institutional transformat
 permalink: /organizational-change
 navigation: |
   *This page explores organizational transformation through process. Best suited for leaders and change agents.*  
-  *Previous: [Personal Development](personal-development) | Next: [Healthcare Perspectives](healthcare-perspectives)*
+  *Previous: [Technology & Information](technology-information) | Next: [Healthcare Perspectives](healthcare-perspectives)*
 ---
 
 # Organizational Change
@@ -15,19 +15,9 @@ navigation: |
 
 An organization isn't a machine with parts but a living pattern of relationships, communications, and activities. Like a river maintaining its form while its water constantly flows, an organization persists through continuous process.
 
-<div class="diagram-container">
-[SVG: Org chart transforming into flow diagram showing dynamic interactions and feedback loops]
-</div>
-
 ## The Process View of Organizations
 
-| Machine View | Process View |
-|-------------|--------------|
-| Hierarchical structure | Networks of relationships |
-| Fixed departments | Flowing collaborations |
-| Job descriptions | Evolving roles |
-| Command and control | Sense and respond |
-| Strategic plans | Emergent strategies |
+The machine view sees hierarchical structure, fixed departments, job descriptions, command and control, and strategic plans. The process view reveals networks of relationships, flowing collaborations, evolving roles, sense and respond dynamics, and emergent strategies.
 
 <div class="key-insight">
 <strong>The Shift:</strong>
@@ -38,15 +28,7 @@ Stop thinking of your organization as a structure to be fixed and start seeing i
 
 ### Complementarity in Business
 
-Organizations thrive on dynamic tensions:
-
-| Force | Counterforce | Dynamic Balance |
-|-------|--------------|-----------------|
-| Efficiency | Innovation | Adaptive performance |
-| Stability | Agility | Resilient flexibility |
-| Competition | Collaboration | Co-opetition |
-| Global | Local | Glocalization |
-| Profit | Purpose | Sustainable value |
+Organizations thrive on dynamic tensions. Efficiency and innovation create adaptive performance. Stability and agility produce resilient flexibility. Competition and collaboration enable co-opetition. Global and local forces generate glocalization. Profit and purpose build sustainable value.
 
 <div class="try-this">
 <strong>Tension Mapping:</strong>
@@ -62,27 +44,15 @@ Organizations are inherently self-referential:
 - Learning organizations learn how to learn better
 - Brand promises shape internal reality
 
-<div class="diagram-container">
-[SVG: Circular diagram showing organizational feedback loops: Culture → Behavior → Results → Culture]
-</div>
-
 ### Scale-Invariance in Structure
 
-Similar patterns repeat at different organizational scales:
-- Individual habits → Team practices → Department processes → Company culture
-- Local decision-making → Regional strategies → Global policies
-- Project management → Program management → Portfolio management
+Similar patterns repeat at different organizational scales. Individual habits become team practices, which become department processes, which become company culture. Local decision-making scales to regional strategies to global policies. Project management patterns repeat in program management and portfolio management.
 
 ## Culture as Process
 
 Culture isn't something an organization HAS—it's what an organization DOES repeatedly:
 
-| Static View | Process View |
-|------------|--------------|
-| "Our culture is..." | "We continuously create culture through..." |
-| Culture as artifact | Culture as ongoing creation |
-| Values on walls | Values in actions |
-| Culture change programs | Culture evolution practices |
+The static view says "Our culture is..." and sees culture as artifact, values on walls, and culture change programs. The process view recognizes "We continuously create culture through..." and sees culture as ongoing creation, values in actions, and culture evolution practices.
 
 <div class="key-insight">
 <strong>Culture Creation:</strong>
@@ -107,10 +77,6 @@ Traditional change management treats change as an event. Process thinking sees c
 4. Nurture emergence
 5. Guide continuous evolution
 
-<div class="diagram-container">
-[SVG: Comparison showing linear change process vs. spiral evolutionary process]
-</div>
-
 ## Communication as Organizational Nervous System
 
 Communication isn't just information transfer—it's the process through which organizations sense, think, and adapt:
@@ -129,27 +95,13 @@ Map your organization's communication flows. Where does information get stuck? W
 
 ## Leadership as Process
 
-Leadership isn't a position but a process of:
-- Sensing emerging patterns
-- Catalyzing new possibilities
-- Holding space for emergence
-- Connecting networks
-- Embodying desired processes
+Leadership isn't a position but a process of sensing emerging patterns, catalyzing new possibilities, holding space for emergence, connecting networks, and embodying desired processes.
 
-| Command Leadership | Process Leadership |
-|-------------------|-------------------|
-| Directing action | Enabling emergence |
-| Having answers | Asking questions |
-| Controlling outcomes | Influencing patterns |
-| Managing resources | Cultivating conditions |
+Command leadership directs action, has answers, controls outcomes, and manages resources. Process leadership enables emergence, asks questions, influences patterns, and cultivates conditions.
 
 ## Innovation as Emergent Process
 
 Innovation isn't produced—it emerges from the right conditions:
-
-<div class="diagram-container">
-[SVG: Garden metaphor showing seeds (ideas) growing in proper conditions (culture, resources, connections)]
-</div>
 
 ### Cultivating Innovation
 - Create diverse connections
@@ -199,10 +151,6 @@ Learning organizations don't just acquire knowledge—they evolve their patterns
 - Transform the learning process itself
 - Evolve organizational consciousness
 - Create new possibilities
-
-<div class="diagram-container">
-[SVG: Nested learning loops showing increasing levels of organizational transformation]
-</div>
 
 ## Strategy as Emergent Process
 
