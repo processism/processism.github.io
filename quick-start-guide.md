@@ -13,34 +13,32 @@ navigation: |
 
 *3-minute read*
 
-## The Core Finding
+## The Discovery
 
-Our analysis of human knowledge patterns suggests a perspective worth exploring: reality might be better understood as processes (flowing patterns) rather than things. What we call "things" might be relatively stable patterns in these processes—like whirlpools in a river.
+We've discovered three fundamental patterns that appear universally across human knowledge and demonstrate perfect self-consistency. These patterns may represent how reality organizes itself.
 
 ## The Three Patterns
 
-Our methodology revealed three patterns that appear consistently across human knowledge:
-
 ### 1. Complementarity ⚖️
-Opposites that need each other:
-- Up needs down
-- Self needs other
-- Order needs chaos
-- Particle needs wave
+Opposites that require each other:
+- Wave and particle
+- Observer and observed
+- Order and chaos
+- Self and other
 
 ### 2. Self-Reference 🔄
-Things that loop back on themselves:
-- Consciousness aware of itself
-- Life that reproduces life
-- Systems that modify themselves
-- Learning how to learn
+Processes that act upon themselves:
+- Consciousness aware of consciousness
+- Evolution of evolvability
+- Understanding understanding itself
+- Life creating life
 
 ### 3. Scale-Invariance 🔍
-Same patterns at different scales:
-- Atoms orbit like solar systems
-- Brain networks mirror social networks
+Patterns repeating across scales:
 - Fractals in nature
-- Hierarchies everywhere
+- Networks at every level
+- Similar dynamics from quantum to cosmic
+- Organizational patterns from cells to societies
 
 ## One Practical Example
 

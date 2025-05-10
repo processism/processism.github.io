@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Circle background -->
+  <circle cx="32" cy="32" r="30" fill="#7253ed"/>
+  
+  <!-- Recursive spiral -->
+  <path d="M32 16 
+           Q48 16 48 32
+           Q48 48 32 48
+           Q16 48 16 32
+           Q16 16 32 16
+           Q40 16 40 32
+           Q40 40 32 40
+           Q24 40 24 32
+           Q24 24 32 24" 
+        fill="none" 
+        stroke="#ffffff" 
+        stroke-width="3" 
+        stroke-linecap="round"/>
+  
+  <!-- Center dot -->
+  <circle cx="32" cy="32" r="3" fill="#ffffff"/>
+</svg>
