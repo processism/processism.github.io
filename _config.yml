@@ -6,7 +6,7 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
-theme: none
+# Remove the theme line entirely for GitHub Pages
 
 # Exclude from processing
 exclude:
