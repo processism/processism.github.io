@@ -9,15 +9,11 @@ navigation: |
   *Previous: [Self-Reference](self-reference) | Next: [How Patterns Interact](patterns-interact)*
 ---
 
-# Scale-Invariance
+# Scale-Invariance 🔍
 
 ## The Pattern That Bridges Worlds
 
 Zoom in on a coastline and you see jagged edges. Zoom out and you see... more jagged edges. This remarkable property—patterns that look similar at different scales—reveals something profound about how reality organizes itself.
-
-<div class="diagram-container">
-[SVG: Series of nested triangles showing same pattern at different scales, like Sierpinski triangle]
-</div>
 
 **Scale-Invariance** is the pattern where similar structures appear at different levels of observation, from the quantum to the cosmic.
 
@@ -34,7 +30,7 @@ Consider how patterns repeat across scales:
 This isn't mere coincidence. It suggests deep principles about how complexity emerges.
 
 <div class="key-insight">
-<strong>The Deep Question:</strong> Why does nature reuse patterns? Why does the branching of rivers resemble the branching of trees, blood vessels, and neural networks?
+💡 <strong>The Deep Question:</strong> Why does nature reuse patterns? Why does the branching of rivers resemble the branching of trees, blood vessels, and neural networks?
 </div>
 
 ## How Scale-Invariance Shows Up
@@ -44,10 +40,6 @@ This isn't mere coincidence. It suggests deep principles about how complexity em
 - **Branching Patterns**: Trees, rivers, blood vessels, lightning
 - **Spirals**: Galaxies, hurricanes, nautilus shells, DNA
 - **Power Laws**: Earthquake sizes, city populations, word frequencies
-
-<div class="diagram-container">
-[SVG: Side-by-side comparison of branching patterns in tree, river delta, blood vessels, and lightning]
-</div>
 
 ### In Biology
 - **Hierarchical Organization**: Cells → tissues → organs → organisms → ecosystems
@@ -68,7 +60,7 @@ This isn't mere coincidence. It suggests deep principles about how complexity em
 - **Governance Structures**: Family → community → state → federation
 
 <div class="try-this">
-<strong>Try This:</strong> Look at a tree. Notice how the whole tree's branching pattern is repeated in each major branch, then in smaller branches, down to the tiniest twigs. This is scale-invariance in action.
+🧪 <strong>Try This:</strong> Look at a tree. Notice how the whole tree's branching pattern is repeated in each major branch, then in smaller branches, down to the tiniest twigs. This is scale-invariance in action.
 </div>
 
 ## The Mathematics of Self-Similarity
@@ -80,16 +72,12 @@ Scale-invariance often involves:
 3. **Recursive Generation**: Simple rules creating complex patterns
 4. **Statistical Self-Similarity**: Average properties remain similar
 
-<div class="diagram-container">
-[SVG: Mathematical visualization showing how a simple recursive rule generates complex fractal pattern]
-</div>
-
 ## Why Scale-Invariance Exists
 
 Several principles might explain this pattern:
 
 <div class="key-insight">
-<strong>Optimization</strong>: Nature finds efficient solutions and reuses them
+💡 <strong>Optimization</strong>: Nature finds efficient solutions and reuses them
 <strong>Constraint</strong>: Physical laws impose similar limitations at all scales
 <strong>Information</strong>: Simple rules can generate complex scale-invariant patterns
 <strong>Process</strong>: Similar generating processes create similar patterns
@@ -115,10 +103,6 @@ Understanding scale-invariance helps us:
 - Expect similar dynamics at different scales
 
 ## Scale-Invariance and Complexity
-
-<div class="diagram-container">
-[SVG: Diagram showing how simple rules create complex patterns across scales]
-</div>
 
 Scale-invariance reveals how:
 - Simple rules generate complex patterns
@@ -147,13 +131,13 @@ Scale-invariance deeply connects with:
 - **Self-Reference**: Patterns contain themselves at smaller scales
 
 <div class="key-insight">
-<strong>The Unity:</strong> All three patterns—Complementarity, Self-Reference, and Scale-Invariance—are aspects of a deeper unity. They're different ways of seeing the same fundamental process of reality organizing itself.
+💡 <strong>The Unity:</strong> All three patterns—Complementarity, Self-Reference, and Scale-Invariance—are aspects of a deeper unity. They're different ways of seeing the same fundamental process of reality organizing itself.
 </div>
 
 ## Experiencing Scale-Invariance
 
 <div class="try-this">
-<strong>Right Now:</strong> Your consciousness contains nested levels of awareness. You're aware of:
+🧪 <strong>Right Now:</strong> Your consciousness contains nested levels of awareness. You're aware of:
 - These words
 - Your understanding of them
 - Your awareness of understanding

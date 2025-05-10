@@ -1,23 +1,19 @@
 ---
 layout: default
 title: Personal Development
-nav_order: 16
+nav_order: 13
 description: Applying process thinking to individual growth and transformation
 permalink: /personal-development
 navigation: |
   *This page explores personal growth through the process lens. Best suited for practical application.*  
-  *Previous: [Technology & Information](technology-information) | Next: [Organizational Change](organizational-change)*
+  *Previous: [Consciousness Explained](consciousness-explained) | Next: [Social Systems](social-systems)*
 ---
 
-# Personal Development
+# Personal Development 🌱
 
 ## You Are Not Fixed
 
 The biggest obstacle to personal growth is the belief that you are a fixed entity with unchangeable properties. Process thinking reveals a liberating truth: you are a dynamic pattern, constantly changing, capable of profound transformation.
-
-<div class="diagram-container">
-[SVG: Two panels - Left shows static "self" with fixed attributes, Right shows dynamic process with flowing patterns]
-</div>
 
 <div class="key-insight">
 <strong>The Shift:</strong>
@@ -39,7 +35,7 @@ Growth requires embracing apparent opposites:
 | Doing | Being | Living |
 
 <div class="try-this">
-<strong>Paradox Practice:</strong>
+🧪 <strong>Paradox Practice:</strong>
 Identify something you want to change about yourself. Now practice fully accepting it as it is. Notice: acceptance doesn't prevent change—it enables it. This is complementarity in action.
 </div>
 
@@ -50,10 +46,6 @@ Personal development is inherently self-referential:
 - Observing self to transform self
 - Learning how you learn
 - Changing how you change
-
-<div class="diagram-container">
-[SVG: Spiral showing: Awareness → Choice → Action → New pattern → Increased awareness → cycle continues]
-</div>
 
 ### Scale-Invariance in Change
 
@@ -89,10 +81,6 @@ Habits aren't things you have but patterns you perform:
 2. **Routine**: The process itself
 3. **Reward**: Reinforcing feedback
 4. **Repetition**: Pattern stabilization
-
-<div class="diagram-container">
-[SVG: Circular flow showing habit loop with feedback mechanisms]
-</div>
 
 ### Changing Old Patterns
 - Don't try to eliminate (impossible)
@@ -161,10 +149,6 @@ Relationships aren't connections between fixed entities but dynamic patterns of 
 ## Creativity as Process
 
 Creativity isn't a talent you have but a process you engage:
-
-<div class="diagram-container">
-[SVG: Flow showing: Openness → Exploration → Connection → Expression → Reflection → cycle]
-</div>
 
 ### Enhancing Creativity
 - Create conditions for flow
@@ -240,7 +224,7 @@ Personal development as process means:
 You are not trapped in who you are—you are free to become. Every moment offers a choice point in the process of your becoming.
 </div>
 
-**Continue to**: [Organizational Change](organizational-change) - applying process thinking to collective transformation.
+**Continue to**: [Social Systems](social-systems) - exploring collective processes.
 
 ---
 

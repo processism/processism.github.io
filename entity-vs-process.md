@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Entity vs Process Thinking
-nav_order: 10
+nav_order: 5
 description: Comparing two fundamentally different ways of understanding reality
 permalink: /entity-vs-process
 navigation: |
   *This page compares two worldviews. Best suited for understanding the paradigm shift.*  
-  *Previous: [How Patterns Interact](patterns-interact) | Next: [Physics Applications](physics-applications)*
+  *Previous: [Our Methodology](methodology) | Next: [Complementarity](complementarity)*
 ---
 
-# Entity vs Process
+# Entity vs Process Thinking 🤔
 
 ## Two Ways of Seeing
 
@@ -18,10 +18,6 @@ Imagine looking at a river. You can see it as:
 2. A continuous flow of water
 
 Both views are valid, but they lead to very different understandings and possibilities.
-
-<div class="diagram-container">
-[SVG: Split image - left side shows river as static object with labels, right side shows dynamic flow patterns with arrows]
-</div>
 
 This exemplifies the fundamental difference between **entity thinking** and **process thinking**.
 
@@ -89,16 +85,12 @@ These aren't just philosophical positions. They lead to different approaches in:
 - **Process**: Cultivate adaptive patterns
 
 <div class="try-this">
-<strong>Try This:</strong> Think of a problem you're facing. First approach it as a thing to be fixed. Then approach it as a pattern to be shifted. Notice how different solutions emerge?
+🧪 <strong>Try This:</strong> Think of a problem you're facing. First approach it as a thing to be fixed. Then approach it as a pattern to be shifted. Notice how different solutions emerge?
 </div>
 
 ## The Power of Process Thinking
 
 Process thinking reveals possibilities hidden from entity thinking:
-
-<div class="diagram-container">
-[SVG: Two panels showing same situation - left panel shows stuck entity, right panel shows flow patterns with intervention points]
-</div>
 
 ### Dynamic Understanding
 - Why things persist (process stability)
@@ -151,10 +143,6 @@ Both approaches have their place:
 
 The deepest insight may be recognizing these as complementary perspectives:
 
-<div class="diagram-container">
-[SVG: Yin-yang style diagram showing entity and process thinking as complementary]
-</div>
-
 - Sometimes we need to see things
 - Sometimes we need to see processes
 - Wisdom lies in knowing when to use which
@@ -184,7 +172,7 @@ We may be witnessing a historical shift:
 ## Practical Exercise
 
 <div class="try-this">
-<strong>Shifting Perspectives:</strong>
+🔄 <strong>Shifting Perspectives:</strong>
 
 1. Choose something you typically see as a thing (your car, your job, your self)
 2. List its properties as an entity
@@ -205,7 +193,7 @@ As we explore applications across different domains, we'll see how process think
 
 The goal isn't to replace entity thinking but to add process thinking to our toolkit, knowing when each serves us best.
 
-**Continue to**: [Physics Applications](physics-applications) - seeing how process thinking illuminates physical reality.
+**Continue to**: [Complementarity](complementarity) - exploring the first fundamental pattern.
 
 ---
 

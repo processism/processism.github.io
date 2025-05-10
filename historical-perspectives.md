@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Historical Perspectives
-nav_order: 25
+nav_order: 20
 description: Tracing process thinking through human intellectual history
 permalink: /historical-perspectives
 navigation: |
   *This page explores historical roots. Best suited for understanding intellectual heritage.*  
-  *Previous: [Frequently Asked Questions](frequently-asked-questions) | Next: [Mathematical Formalization](mathematical-formalization)*
+  *Previous: [Environmental Solutions](environmental-solutions) | Next: [Philosophy & Metaphysics](philosophy-metaphysics)*
 ---
 
 # Historical Perspectives
@@ -14,10 +14,6 @@ navigation: |
 ## Ancient Wisdom
 
 Process thinking has ancient roots, appearing independently across cultures. These insights emerged wherever humans looked deeply at reality's nature.
-
-<div class="diagram-container">
-[SVG: World map showing emergence of process thinking in different cultures - Greece, China, India, Indigenous traditions]
-</div>
 
 ## Greek Origins
 
@@ -72,10 +68,6 @@ Buddha's insights align with process philosophy:
 - No-self (anatta)
 - Consciousness as stream
 
-<div class="diagram-container">
-[SVG: Buddhist wheel showing continuous cycle of dependent origination]
-</div>
-
 ### Hindu Philosophy
 Especially in Kashmir Shaivism:
 - Shiva as dynamic consciousness
@@ -125,10 +117,6 @@ Dialectical process philosophy:
 - Spirit's self-realization through history
 - Being and becoming united
 - Reality as self-developing whole
-
-<div class="diagram-container">
-[SVG: Hegelian dialectic spiral showing progressive development]
-</div>
 
 #### Schelling (1775-1854)
 Nature philosophy emphasizing:
@@ -203,10 +191,6 @@ Eastern process thinking influenced Western thought through:
 - Beat poets discovering Buddhism
 - Psychologists exploring meditation
 - Systems theorists finding Taoism
-
-<div class="diagram-container">
-[SVG: Convergence diagram showing Eastern and Western streams meeting]
-</div>
 
 ### Key Figures in Synthesis
 - Alan Watts: Bridging East-West
@@ -292,7 +276,7 @@ Current trends suggest:
 - New language developing
 - Paradigm shift accelerating
 
-**Continue to**: [Mathematical Formalization](mathematical-formalization) - exploring formal representations of process.
+**Continue to**: [Philosophy & Metaphysics](philosophy-metaphysics) - exploring deeper philosophical meanings.
 
 ---
 

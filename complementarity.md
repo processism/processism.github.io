@@ -6,20 +6,16 @@ description: Understanding how apparent opposites require and create each other
 permalink: /complementarity
 navigation: |
   *This page explores the first pattern: apparent opposites that require each other. Best suited for deep understanding.*  
-  *Previous: [Our Methodology](methodology) | Next: [Self-Reference](self-reference)*
+  *Previous: [Entity vs Process Thinking](entity-vs-process) | Next: [Self-Reference](self-reference)*
 ---
 
-# Complementarity
+# Complementarity ⚖️
 
 ## The Pattern of Mutual Necessity
 
 Look around and you'll notice something curious: apparent opposites don't just coexist—they require each other. Light needs darkness to be perceived. Up has no meaning without down. Self requires other to exist.
 
 This is **Complementarity**: the pattern where seemingly opposed aspects are actually two sides of a more fundamental unity.
-
-<div class="diagram-container">
-[SVG: Two interlocking curved shapes forming a unified whole, with labels showing various complementary pairs]
-</div>
 
 ## How Complementarity Shows Up
 
@@ -30,7 +26,7 @@ This is **Complementarity**: the pattern where seemingly opposed aspects are act
 - **Electric-Magnetic Fields**: Always perpendicular, always together
 
 <div class="key-insight">
-<strong>Key Insight:</strong> In quantum mechanics, complementary properties (like position and momentum) cannot be simultaneously measured with perfect precision. The universe itself enforces complementarity.
+💡 <strong>Key Insight:</strong> In quantum mechanics, complementary properties (like position and momentum) cannot be simultaneously measured with perfect precision. The universe itself enforces complementarity.
 </div>
 
 ### In Biology
@@ -61,7 +57,7 @@ Complementarity isn't just about opposites existing together. It reveals that:
 4. **Unity Underlies Duality**: The separation is conceptual; the unity is fundamental
 
 <div class="try-this">
-<strong>Try This:</strong> Think of any quality or concept. Can you define it without reference to its opposite? Notice how the meaning of each term depends on its complement.
+🧪 <strong>Try This:</strong> Think of any quality or concept. Can you define it without reference to its opposite? Notice how the meaning of each term depends on its complement.
 </div>
 
 ## Why This Matters
@@ -72,10 +68,6 @@ Understanding complementarity helps us:
 - **Find Balance**: Extremes often create problems; balance enables flow
 - **Embrace Paradox**: Apparent contradictions might point to deeper truths
 - **Work With Opposition**: Resistance often contains valuable information
-
-<div class="diagram-container">
-[SVG: Balance scale showing how extremes create instability while integration creates dynamic balance]
-</div>
 
 ## Common Misunderstandings
 
@@ -110,7 +102,7 @@ Instead of trying to eliminate one side of a tension, ask:
 - Find the unity beneath apparent opposition
 
 <div class="key-insight">
-<strong>Remember:</strong> The most profound truths often appear as paradoxes. When you encounter apparent opposites, look for how they might be complementary aspects of a deeper unity.
+💡 <strong>Remember:</strong> The most profound truths often appear as paradoxes. When you encounter apparent opposites, look for how they might be complementary aspects of a deeper unity.
 </div>
 
 ## Connection to Other Patterns

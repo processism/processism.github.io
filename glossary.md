@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Glossary
-nav_order: 30
+nav_order: 29
 description: Key terms and concepts in process thinking defined
 permalink: /glossary
 navigation: |
   *This page defines key terms. Best suited for reference and clarification.*  
-  *Previous: [Resources](resources) | Return to: [Home](/)*
+  *Previous: [Examples Library](examples-library) | Return to: [Home](/)*
 ---
 
-# Glossary
+# Glossary 📝
 
 ## Core Concepts
 
@@ -30,7 +30,7 @@ A state of balance maintained through continuous change and adjustment, like rid
 The appearance of novel properties or patterns that arise from the interaction of simpler elements but cannot be predicted from those elements alone. Consciousness emerging from neurons exemplifies emergence.
 
 <div class="key-insight">
-<strong>Usage Note:</strong>
+💡 <strong>Usage Note:</strong>
 These terms often overlap and interconnect. Don't worry about rigid definitions—focus on understanding the flowing relationships between concepts.
 </div>
 
@@ -65,10 +65,6 @@ The philosophical tradition, traced to Heraclitus and developed by Whitehead, th
 ### Substance
 In traditional metaphysics, the unchanging essence underlying changing properties. Process thinking questions whether substances exist.
 
-<div class="diagram-container">
-[SVG: Visual relationship map showing connections between philosophical terms]
-</div>
-
 ## Scientific Terms
 
 ### Complexity
@@ -101,7 +97,7 @@ Thinking about thinking, or awareness of awareness. A form of self-reference cen
 The subjective, experiential qualities of consciousness (the "redness" of red). Process thinking sees qualia as aspects of conscious process, not properties of things.
 
 <div class="try-this">
-<strong>Glossary Practice:</strong>
+🧪 <strong>Glossary Practice:</strong>
 Choose three related terms. Rather than memorizing definitions, explore how they connect and flow into each other as concepts.
 </div>
 
@@ -148,7 +144,7 @@ Economic system based on continuous flows of materials and energy, eliminating w
 The capacity of a system to absorb disturbance and reorganize while maintaining function. A process property, not a fixed state.
 
 <div class="key-insight">
-<strong>Living Language:</strong>
+💡 <strong>Living Language:</strong>
 This glossary is itself a process—terms evolve, meanings shift, new concepts emerge. Use it as a starting point, not a final authority.
 </div>
 
@@ -174,7 +170,7 @@ A comprehensive conception of the universe and humanity's relation to it. Proces
 4. **For Development**: Suggest new terms or better definitions
 
 <div class="try-this">
-<strong>Integration Exercise:</strong>
+🧪 <strong>Integration Exercise:</strong>
 After reading this glossary, try explaining Processism using only the most essential terms. Which concepts are truly fundamental?
 </div>
 

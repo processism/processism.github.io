@@ -9,22 +9,18 @@ navigation: |
   *Previous: [Complementarity](complementarity) | Next: [Scale-Invariance](scale-invariance)*
 ---
 
-# Self-Reference
+# Self-Reference 🔄
 
 ## The Pattern of Self-Action
 
 What happens when something acts upon itself? This question leads us to one of reality's most profound patterns: **Self-Reference**—the ability of systems to point back to, act upon, and modify themselves.
-
-<div class="diagram-container">
-[SVG: Circular arrow that loops back on itself, with examples of self-referential systems around it]
-</div>
 
 ## The Strange Loop
 
 Self-reference creates what Douglas Hofstadter called "strange loops"—situations where moving through a system brings you back to where you started, but transformed.
 
 <div class="key-insight">
-<strong>The Paradox:</strong> How can something be both the actor and the acted-upon? Both the observer and the observed? Both the cause and the effect? This paradox is central to understanding consciousness, life, and complex systems.
+💡 <strong>The Paradox:</strong> How can something be both the actor and the acted-upon? Both the observer and the observed? Both the cause and the effect? This paradox is central to understanding consciousness, life, and complex systems.
 </div>
 
 ## How Self-Reference Shows Up
@@ -42,7 +38,7 @@ Self-reference creates what Douglas Hofstadter called "strange loops"—situatio
 - **Evolution**: Life evolves the capacity to evolve
 
 <div class="try-this">
-<strong>Try This:</strong> Consider how your immune system must recognize "self" to function. It literally creates a model of what you are in order to protect what you are. This is self-reference in action.
+🧪 <strong>Try This:</strong> Consider how your immune system must recognize "self" to function. It literally creates a model of what you are in order to protect what you are. This is self-reference in action.
 </div>
 
 ### In Consciousness
@@ -72,14 +68,10 @@ Self-reference enables:
 3. **Self-Replication**: Systems that copy themselves
 4. **Self-Awareness**: Systems that model themselves
 
-<div class="diagram-container">
-[SVG: Spiral showing how self-reference creates increasing complexity]
-</div>
-
 ## Levels of Self-Reference
 
 <div class="key-insight">
-Self-reference occurs at different levels:
+💡 Self-reference occurs at different levels:
 
 1. **Simple Feedback**: Output affects input (thermostat)
 2. **Self-Monitoring**: System observes its own state
@@ -107,7 +99,7 @@ Understanding self-reference helps us:
 - **Navigate Paradoxes**: Working with circular causation
 
 <div class="try-this">
-<strong>Experience It:</strong> Right now, you're using your mind to understand how minds work. You're employing consciousness to study consciousness. Feel that strange loop? That's self-reference in its most immediate form.
+🧪 <strong>Experience It:</strong> Right now, you're using your mind to understand how minds work. You're employing consciousness to study consciousness. Feel that strange loop? That's self-reference in its most immediate form.
 </div>
 
 ## Common Misunderstandings
