@@ -1,0 +1,191 @@
+/* Custom CSS for Processism Site */
+
+/* Navigation hints at top of pages */
+.page-navigation {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f5f6fa;
+  border-radius: 4px;
+  font-style: italic;
+  color: #5c5962;
+}
+
+.page-navigation p {
+  margin-bottom: 0;
+}
+
+.page-navigation a {
+  color: #27262b;
+  font-weight: 600;
+}
+
+/* Navigation at bottom of pages */
+.page-navigation-bottom {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eeebee;
+}
+
+/* Enhanced typography */
+.main-content {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.main-content h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.main-content h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+}
+
+.main-content h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+/* Better blockquotes */
+blockquote {
+  border-left: 4px solid #7253ed;
+  padding-left: 1rem;
+  color: #5c5962;
+  font-style: italic;
+}
+
+/* SVG diagrams container */
+.diagram-container {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.diagram-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pattern colors */
+.complementarity {
+  color: #0e7c7b;
+}
+
+.self-reference {
+  color: #d4145a;
+}
+
+.scale-invariance {
+  color: #7253ed;
+}
+
+/* Callout boxes */
+.key-insight {
+  background-color: #f5f6fa;
+  border-left: 4px solid #7253ed;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+}
+
+.try-this {
+  background-color: #fff8e5;
+  border-left: 4px solid #fdb44b;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Better lists */
+.main-content ul, .main-content ol {
+  margin-left: 2rem;
+}
+
+.main-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer quote */
+.main-content > hr:last-of-type + p {
+  text-align: center;
+  font-style: italic;
+  color: #5c5962;
+  margin-top: 3rem;
+}
+
+/* Responsive design */
+@media (max-width: 800px) {
+  .main-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .main-content h2 {
+    font-size: 1.4rem;
+  }
+  
+  .page-navigation {
+    font-size: 0.9rem;
+  }
+}
+
+/* Search customization */
+.search-input-wrap {
+  border-radius: 4px;
+}
+
+.search-results {
+  border-radius: 4px;
+}
+
+/* Site nav customization */
+.site-nav {
+  padding-top: 2rem;
+}
+
+.site-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Table of contents */
+.page-content .toc {
+  background-color: #f5f6fa;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Code blocks */
+.highlight {
+  border-radius: 4px;
+}
+
+/* Better link styling */
+a {
+  color: #7253ed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Site map styling for index page */
+.site-map h3 {
+  margin-top: 2.5rem;
+  color: #27262b;
+}
+
+.site-map ol {
+  list-style-type: decimal;
+  margin-left: 2rem;
+}
+
+.site-map li {
+  margin-bottom: 0.5rem;
+}
+
+.site-map a {
+  font-weight: 600;
+}

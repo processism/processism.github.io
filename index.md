@@ -1,48 +1,102 @@
 ---
-layout: simple
-title: A Quest for Fundamental Patterns
-description: An exploration of recurring patterns across human knowledge
-permalink: /
+layout: default
+title: Processism - A Methodology for Pattern Discovery
 nav_order: 1
+description: Discover fundamental patterns that appear across all domains of human knowledge
+permalink: /
 ---
 
-# A Quest for Fundamental Patterns
+# Processism: A Journey into Pattern Discovery
 
-## An Invitation to Explore
+## Is This For You?
 
-What if the most profound patterns in reality are hiding in plain sight, woven through every domain of human knowledge?
+Are you curious about:
+- Why certain patterns appear everywhere in nature and human experience?
+- How reality might be more like a river than a collection of rocks?
+- Why traditional approaches often hit the same walls?
+- What connects quantum physics, consciousness, and social change?
 
-This site presents an exploration—not a doctrine or theory, but a methodological journey that led to unexpected discoveries. It's an invitation to examine what emerges when we systematically search for patterns that appear across physics, biology, cognition, and social systems.
+If yes, you've found the right place. Processism offers a new lens for seeing patterns that hide in plain sight.
 
 ## What You'll Find Here
 
-We began with a simple question: If there are fundamental patterns underlying reality, shouldn't they appear consistently across different domains of knowledge?
+Processism emerged from a systematic search for patterns across all domains of human knowledge. What we discovered surprised us: three fundamental patterns that appear everywhere, from physics to psychology, from biology to business.
 
-To explore this, we developed a methodology that:
-- Extracts patterns from diverse fields of human understanding
-- Identifies which patterns appear repeatedly across domains
-- Examines what these recurring patterns might tell us
+This isn't another philosophical system claiming to have all the answers. It's a methodology—a way of seeing—that reveals connections and possibilities you might not have noticed before.
 
-The results surprised us. Three specific patterns emerged with remarkable consistency. But rather than present these as cosmic truths, we invite you to follow the methodology yourself and see what you discover.
+## Start Your Journey
 
-## Why This Matters
+### 🚀 Quick Start (5 minutes)
+Begin with [Simple Explanation](simple-explanation) for the fastest overview.
 
-Many of our deepest questions—about consciousness, free will, the nature of reality itself—remain unresolved. Traditional approaches often get stuck in domain-specific thinking or philosophical deadends.
+### 📚 Complete Journey (2-3 hours)
+Start with [What is Processism?](what-is-processism) and follow the linear path.
 
-This exploration offers a different path: looking for the patterns that transcend individual domains. It's an approach born from intellectual humility—acknowledging that we might find new perspectives by examining what we already know in a different way.
+### 🎯 Jump to Your Interest
+Use the complete site map below to find exactly what interests you.
 
-## Your Journey Begins Here
+## Complete Site Map
 
-This site is structured as a journey:
+<div class="site-map">
 
-1. We'll start by examining the limitations of current approaches
-2. Explore a novel methodology for pattern discovery
-3. See what patterns actually emerge when we apply it
-4. Test these patterns against persistent puzzles
-5. Consider what it all might mean
+### Core Journey
+{: .text-purple-300 }
 
-At each step, we present what we found without insisting on what it means. You're invited to bring your own critical thinking, skepticism, and curiosity.
+1. [What is Processism?](what-is-processism) - Introduction to the framework
+2. [Simple Explanation](simple-explanation) - Accessible overview with everyday examples
+3. [The Observer Paradox](observer-paradox) - Our fundamental challenge
+4. [Our Methodology](methodology) - How we discovered these patterns
+5. [Complementarity](complementarity) - First pattern: apparent opposites that require each other
+6. [Self-Reference](self-reference) - Second pattern: processes that act on themselves
+7. [Scale-Invariance](scale-invariance) - Third pattern: patterns that repeat across scales
+8. [How Patterns Interact](patterns-interact) - The three patterns as aspects of unity
+9. [Entity vs Process](entity-vs-process) - Comparing two ways of seeing
+
+### Applications Across Domains
+{: .text-blue-300 }
+
+10. [Physics Applications](physics-applications) - Quantum phenomena and physical reality
+11. [Biology Applications](biology-applications) - Life, evolution, and living systems
+12. [Consciousness Explained](consciousness-explained) - Mind, awareness, and subjective experience
+13. [Social Systems](social-systems) - Cultures, institutions, and human groups
+14. [Technology & Information](technology-information) - Digital age and information systems
+
+### Practical Applications
+{: .text-green-300 }
+
+15. [Personal Development](personal-development) - Individual growth and transformation
+16. [Organizational Change](organizational-change) - Business and institutional applications
+17. [Healthcare Perspectives](healthcare-perspectives) - Health as dynamic process
+18. [Education Transformation](education-transformation) - Learning as pattern recognition
+19. [Environmental Solutions](environmental-solutions) - Ecological and sustainability applications
+
+### Deeper Explorations
+{: .text-red-300 }
+
+20. [Philosophical Implications](philosophical-implications) - What this means for philosophy
+21. [Metaphysical Questions](metaphysical-questions) - Exploring ultimate reality
+22. [Objections & Responses](objections-responses) - Addressing common criticisms
+23. [Frequently Asked Questions](frequently-asked-questions) - Quick answers to common queries
+24. [Historical Perspectives](historical-perspectives) - Similar insights throughout history
+25. [Mathematical Formalization](mathematical-formalization) - Towards formal representation
+26. [Future Directions](future-directions) - Where this might lead
+
+### Resources & Community
+{: .text-yellow-300 }
+
+27. [Contribute](contribute) - Join the exploration
+28. [Resources](resources) - Further reading and tools
+29. [Glossary](glossary) - Key terms defined
+
+</div>
+
+## About This Project
+
+Processism began on May 9, 2025, as an exploration of recurring patterns across domains of human knowledge. It offers a methodology for pattern discovery, not a doctrine or belief system.
+
+**Contact**: [processism@pm.me](mailto:processism@pm.me)  
+**Repository**: [GitHub](https://github.com/processism/processism.github.io)
 
 ---
 
-[Next: The Limitations We Face →](problem.html)
+*"Reality might indeed be describing itself through you."*

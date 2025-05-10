@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% seo %}
+  
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  
+  {% if site.ga_tracking != nil %}
+    {% include analytics.html %}
+  {% endif %}
+  
+  {% if site.search_enabled != false %}
+    <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+  {% endif %}
+  <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  {% include head_custom.html %}
+</head>
+<body>
+  <div id="site-nav" class="site-nav">
+    {% include nav.html %}
+  </div>
+  <div class="main" id="top">
+    <div class="main-content-wrap">
+      <div class="main-content">
+        {% unless page.url == "/" %}
+          {% if page.navigation %}
+            <div class="page-navigation">
+              {{ page.navigation | markdownify }}
+            </div>
+          {% endif %}
+        {% endunless %}
+        
+        {% if page.title %}
+          <h1 class="page-title">{{ page.title }}</h1>
+        {% endif %}
+        
+        <div id="main-content" class="main-content" role="main">
+          {{ content }}
+          
+          {% if page.has_toc != false %}
+            {% include toc.html %}
+          {% endif %}
+        </div>
+        
+        {% unless page.url == "/" %}
+          {% if page.navigation %}
+            <div class="page-navigation-bottom">
+              {{ page.navigation | markdownify }}
+            </div>
+          {% endif %}
+        {% endunless %}
+        
+        {% if site.footer_content != nil or site.last_edit_timestamp or site.gh_edit_link %}
+          <hr>
+          <footer>
+            {% if site.back_to_top %}
+              <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
+            {% endif %}
+            
+            {{ site.footer_content }}
+            
+            {% if site.last_edit_timestamp or site.gh_edit_link %}
+              <div class="d-flex mt-2">
+                {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
+                  <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                    Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
+                  </p>
+                {% endif %}
+                {% if site.gh_edit_link and site.gh_edit_link_text and site.gh_edit_repository and site.gh_edit_branch and site.gh_edit_view_mode %}
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}" id="edit-this-page">{{ site.gh_edit_link_text }}</a>
+                  </p>
+                {% endif %}
+              </div>
+            {% endif %}
+          </footer>
+        {% endif %}
+      </div>
+    </div>
+    
+    {% if site.search_enabled != false %}
+      {% if site.search.button %}
+        <a href="#" id="search-button" class="search-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-search"></use></svg>
+        </a>
+      {% endif %}
+      
+      <div class="search-overlay"></div>
+    {% endif %}
+  </div>
+</body>
+</html>
